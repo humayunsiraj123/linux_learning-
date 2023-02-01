@@ -1,0 +1,367 @@
+cp *[0-9].html copied/ 	task copy all the files with extension html with any no on end to folder 'copied' 
+
+mkdir dir1 dir2 dir3 dir4 ///makes 4 directoryls directory
+
+ [0-9][0-9][xyz]*[0-9].html    //anyfile begin with 2 digit and xyz and end on single digit with extension .html
+
+
+      1  man sudo_root
+    2  sudo adduser humayun sudo
+    3  ls
+    4  pwd
+    5  ls
+    6  cd ..
+    7  ls
+    8  touch README.txt
+    9  sudo touch README.txt
+   10  ls
+   11  cd ./test
+   12  cd /mnt/
+   13  cd c
+   14  ls
+   15  cd Downloads
+   16  ls
+   17  ls -al
+   18  cd Users
+   19  cd ..
+   20  ls
+   21  cd Users
+   22  ls
+   23  cd 'Humayun Siraj'
+   24  ls
+   25  cd Downloads
+   26  ls
+   27  cd linux_assigment
+   28  cd linux_assignment.zip
+   29  lsls
+   30  ls
+   31  cd linux_assignment
+   32  ls
+   33  cd linux
+   34  ls
+   35  touch task1.sh
+   36  ls
+   37  cd..
+   38  cd ..
+   39  ./linux
+   40  cd ./linux
+   41  ls -S
+   42  pwd
+   43  ls
+   44  *g
+   45  touch hello.v
+   46  ls
+   47  cp hello.v /my
+   48  mkdir my
+   49  cp hello.v /my
+   50  ls
+   51  cp hello.v my/
+   52  ls
+   53  cd my
+   54  ls
+   55  ls -al
+   56  hello.v
+   57  nano hello.v
+   58  ls
+   59  hello.v
+   60  touch nano new.sh
+   61  ls
+   62  nano new.sh
+   63  ls
+   64  new,sh
+   65  new.sh
+   66  ls
+   67  file new.sh
+   68  ls
+   69  nano new.sh
+   70  ls
+   71  file new.sh
+   72  ls
+   73  touch hello.html
+   74  touch hello1.html
+   75  touch hello2.html
+   76  ls
+   77  mkdir hello
+   78  mkdir my_folder
+   79  cp *h my_folder/
+   80  ls
+   81  my_folder
+   82  cd my_folder
+   83  ls
+   84  cd ..
+   85  ls
+   86  cp *h my_folder
+   87  ls
+   88  my_folder\
+   89  ls
+   90  my_folder
+   91  cd my_folder
+   92  ls
+   93  cd ..
+   94  ls
+   95  cp h* my_folder/
+   96  ls
+   97  cd my_folder/
+   98  ls
+   99  ls
+  100  touch data12345.txt data123456.txt
+  101  touch data123457.txt data123213.txt  touch data1233218.txt
+  102  ls
+  103  mkdir fdata
+  104  ls
+  105  mv data??? fdata/
+  106  ls
+  107  cp hello.html hellox.html
+  108  ls
+  109  nano hellox
+  110  ls
+  111  file hello.html
+  112  nano hello.html
+  113  cp hellox.html hello.html
+  114  ls
+  115  nano hello.html
+  116  nano hello.txt
+  117  nano hellox.htm;
+  118  nano hellox.html
+  119  cp hellox.html hello.html
+  120  nano hello.html
+  121  ls
+  122  cd fdata
+  123  ls
+  124  cd ..
+  125  mv h*.html hello/
+  126  mkdir hello
+  127  mv h*.html hello/
+  128  ls
+  129  cd hello
+  130  ls
+  131  mkdir hello_folder
+  132  ls
+  133  mv h*.html hello_folder
+  134  ls
+  135  cd ..
+  136  ls
+  137  cd hello
+  138  ls
+  139  cd hello_folder
+  140  ls
+  141  mkdir mv-with-no-wildcard
+  142  ls
+  143  cp *[0-9].html mv-with-no-wildcard/
+  144  ls
+  145  cd mv-with-no-wildcard/
+  146  ls
+  147  cd..
+  148  ls
+  149  ..cd
+  150  cd ..
+  151  ls
+  152  cd mv-with-no-wildcard/
+  153  cp   ./hello_folder/h*.html /mv-with-no-wildcard/
+  154  cp   ./hello_folder/h*.html /mv-with-no-wilcard/
+  155  ls
+  156  cp -r hello.html helloworld/
+  157  ls
+  158  hello_world
+  159  ls
+  160  cd hello_world
+  161  ls
+  162  cd helloworld
+  163  ls
+  164  cp -r . hellocopied/
+  165  cp -r .* hellocopied/
+  166  ls
+  167  cd hellocopied
+  168  ls
+  169  cp -r hellocopied hellocopied2
+  170  ls
+  171  hellocopied2/
+  172  cd hellocopied2
+  173  ls
+  174  cd ..
+  175  ls
+  176  cd hellocopied
+  177  ls
+  178  cd..
+  179  cd ..
+  180  ls
+  181  hello.html
+  182  nano hello.html
+  183  ls
+  184  nano hello1
+  185  ls
+  186  mv hello.html hello1.html
+  187  ls
+  188  nano hello1.html
+  189  ls
+  190  nano hello1.html
+  191  ls
+  192  nano hello1
+  193  ls
+  194  nano hello1.html
+  195  ls
+  196  mkdir to-move-all-files
+  197  ls
+  198  mv h* to-move-all-files/
+  199  ls
+  200  cd mv-with-no-wildcard/
+  201  ls
+  202  ls -al
+  203  ls
+  204  cd
+  205  cd /mnt/c/Users/Humayun\ Siraj/
+  206  ls
+  207  mkdir
+  208  mkdir playground
+  209  ls
+  210  cd playground
+  211*
+  212  mkdir dir1 dir2 dir3
+  213  cp /my/my_folder/hello/hello_folder/mv-with-no-wildcard/hello.html .
+  214  cp /my/my_folder/hello/hello_folder/mv-with-no-wildcard/hello.html
+  215  cp /my/my_folder/hello/hello_folder/mv-with-no-wildcard/hello.html  /
+  216  cp ./my/my_folder/hello/hello_folder/mv-with-no-wildcard/hello.html
+  217* cp ./my/my_folder/hello/hello_folder/mv-with-no-wildcard/hello.html
+  218  cd /mnt/c/Users/Humayun\ Siraj/
+  219  cd my/my_folder/
+  220  ls
+  221  type cp
+  222  type type
+  223  type mkdir
+  224  type bin
+  225  man mkdir
+  226  mkdir --h
+  227  mkdir --help
+  228  man cp
+  229  man 5 cp
+  230  man 2 cp
+  231  man 1 cp
+  232  history
+  233  which mkdir
+  234  whatis mkdir
+  235  what is ls
+  236  whatis ls
+  237  pwd
+  238  ls
+  239  cd hello
+  240  ls
+  241  type test
+  242  type fox
+  243  ls
+  244  cd
+  245  cd /mnt/c/Humayun Siraj
+  246  cd /mnt/c/
+  247  cd Humayun Siraj
+  248  cd Humayun-Siraj
+  249  cd Humayun\Siraj
+  250  ls
+  251  cd Users
+  252  ls
+  253  cd 'Humayun Siraj'/
+  254  ls
+  255  cd my/
+  256  ls
+  257  cd hello
+  258  ls
+  259  cd my_folder
+  260  cd my_folder/
+  261  ls
+  262  cd..
+  263  cd ./my/my_folder/
+  264  ls
+  265  cd ..
+  266  ls
+  267  cd my_folder
+  268  ls
+  269  alias foo=' rm -r data123213.txt ; cd fdata/ ; ls '
+  270  type foo
+  271  foo
+  272  ls
+  273  cd..
+  274  cd ..
+  275  unalias foo
+  276  ls
+  277  echo d*
+  278  ls
+  279  cp hello.v /Users/'Humayun Siraj'/my/
+  280  cp hello.v /mnt/c/Users/Humayun\ Siraj/
+  281  cd..
+  282  cd /mnt/c/Users/Humayun\ Siraj/
+  283  ls
+  284  cd /mnt/c/Users/Humayun\ Siraj/my
+  285  ls
+  286  mv /mnt/c/Users/Humayun\ Siraj/my/my_folder/new.sh /mnt/c/Users/Humayun\ Siraj/
+  287  cd /mnt/c/Users/Humayun\ Siraj/
+  288  ls
+  289  mkdir playground
+  290  ls
+  291  sudo mkdir playground
+  292  ls
+  293  cd playground
+  294  ls
+  295  cp /mnt/c/Users/Humayun\ Siraj/my/h* .
+  296  cp /mnt/c/Users/Humayun\ Siraj/my/h* /
+  297  cp /mnt/c/Users/Humayun\ Siraj/my/h* playground/
+  298  cp -r /mnt/c/Users/Humayun\ Siraj/my/h* copied
+  299  cp -r /mnt/c/Users/Humayun\ Siraj/my/h*
+  300  cp -r /mnt/c/Users/Humayun\ Siraj/my/h* copied
+  301  cp -r /mnt/c/Users/Humayun\ Siraj/my/h* copied/
+  302  mkdir copied
+  303  cp -r /mnt/c/Users/Humayun\ Siraj/my/h* copied/
+  304  ls
+  305  cp -v /mnt/c/Users/Humayun\ Siraj/my/h* copied/
+  306  cp -i /mnt/c/Users/Humayun\ Siraj/my/h* copied/
+  307  ls
+  308  cp -i /mnt/c/Users/Humayun\ Siraj/my/h* copied/
+  309  ls
+  310  mv dir1 dir2
+  311  ls
+  312  mv dir2 renamed
+  313  ls
+  314  renamed
+  315  cd renamed
+  316  ls
+  317  cd..
+  318  cd ..
+  319  ls
+  320  mv hello.v .
+  321  mv copied .
+  322  cp hello.html .
+  323  ls
+  324  mv ranamed dir3
+  325  mv renamed dir3
+  326  ls
+  327  cd dir3
+  328  ls
+  329  cd
+  330  cd /mnt/c/Users/Humayun\ Siraj/playground/dir3
+  331  ls
+  332  cd renamed
+  333  ls
+  334  cd dir1
+  335  ls
+  336  touch nihao.txt
+  337  nano nihao
+  338  ls
+  339  echi nihao
+  340  echo nihao
+  341  ls
+  342  rm nihao
+  343  ls
+  344  echo nihao.txt
+  345  pwd
+  346  ls
+  347  log
+  348  type log
+  349  whatis log
+  350  command log
+  351  history
+
+
+///creating our own command 
+
+using alias
+alias mycommand='ls; cd hello/; cp hello2.html hello/ ;ls ; mkdir helloxd ;cd helloxd'
+mycommand 
+it will first ls then change direcotry  to hello and copy cp hello2.html to hello 
+then display Ls then will create helloxd directory and then will change directory to helloxd
