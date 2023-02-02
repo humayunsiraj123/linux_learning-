@@ -1,0 +1,1157 @@
+cp *[0-9].html copied/ 	task copy all the files with extension html with any no on end to folder 'copied' 
+
+mkdir dir1 dir2 dir3 dir4 ///makes 4 directoryls directory
+
+ [0-9][0-9][xyz]*[0-9].html    //anyfile begin with 2 digit and xyz and end on single digit with extension .html
+
+
+      1  man sudo_root
+    2  sudo adduser humayun sudo
+    3  ls
+    4  pwd
+    5  ls
+    6  cd ..
+    7  ls
+    8  touch README.txt
+    9  sudo touch README.txt
+   10  ls
+   11  cd ./test
+   12  cd /mnt/
+   13  cd c
+   14  ls
+   15  cd Downloads
+   16  ls
+   17  ls -al
+   18  cd Users
+   19  cd ..
+   20  ls
+   21  cd Users
+   22  ls
+   23  cd 'Humayun Siraj'
+   24  ls
+   25  cd Downloads
+   26  ls
+   27  cd linux_assigment
+   28  cd linux_assignment.zip
+   29  lsls
+   30  ls
+   31  cd linux_assignment
+   32  ls
+   33  cd linux
+   34  ls
+   35  touch task1.sh
+   36  ls
+   37  cd..
+   38  cd ..
+   39  ./linux
+   40  cd ./linux
+   41  ls -S
+   42  pwd
+   43  ls
+   44  *g
+   45  touch hello.v
+   46  ls
+   47  cp hello.v /my
+   48  mkdir my
+   49  cp hello.v /my
+   50  ls
+   51  cp hello.v my/
+   52  ls
+   53  cd my
+   54  ls
+   55  ls -al
+   56  hello.v
+   57  nano hello.v
+   58  ls
+   59  hello.v
+   60  touch nano new.sh
+   61  ls
+   62  nano new.sh
+   63  ls
+   64  new,sh
+   65  new.sh
+   66  ls
+   67  file new.sh
+   68  ls
+   69  nano new.sh
+   70  ls
+   71  file new.sh
+   72  ls
+   73  touch hello.html
+   74  touch hello1.html
+   75  touch hello2.html
+   76  ls
+   77  mkdir hello
+   78  mkdir my_folder
+   79  cp *h my_folder/
+   80  ls
+   81  my_folder
+   82  cd my_folder
+   83  ls
+   84  cd ..
+   85  ls
+   86  cp *h my_folder
+   87  ls
+   88  my_folder\
+   89  ls
+   90  my_folder
+   91  cd my_folder
+   92  ls
+   93  cd ..
+   94  ls
+   95  cp h* my_folder/
+   96  ls
+   97  cd my_folder/
+   98  ls
+   99  ls
+  100  touch data12345.txt data123456.txt
+  101  touch data123457.txt data123213.txt  touch data1233218.txt
+  102  ls
+  103  mkdir fdata
+  104  ls
+  105  mv data??? fdata/
+  106  ls
+  107  cp hello.html hellox.html
+  108  ls
+  109  nano hellox
+  110  ls
+  111  file hello.html
+  112  nano hello.html
+  113  cp hellox.html hello.html
+  114  ls
+  115  nano hello.html
+  116  nano hello.txt
+  117  nano hellox.htm;
+  118  nano hellox.html
+  119  cp hellox.html hello.html
+  120  nano hello.html
+  121  ls
+  122  cd fdata
+  123  ls
+  124  cd ..
+  125  mv h*.html hello/
+  126  mkdir hello
+  127  mv h*.html hello/
+  128  ls
+  129  cd hello
+  130  ls
+  131  mkdir hello_folder
+  132  ls
+  133  mv h*.html hello_folder
+  134  ls
+  135  cd ..
+  136  ls
+  137  cd hello
+  138  ls
+  139  cd hello_folder
+  140  ls
+  141  mkdir mv-with-no-wildcard
+  142  ls
+  143  cp *[0-9].html mv-with-no-wildcard/
+  144  ls
+  145  cd mv-with-no-wildcard/
+  146  ls
+  147  cd..
+  148  ls
+  149  ..cd
+  150  cd ..
+  151  ls
+  152  cd mv-with-no-wildcard/
+  153  cp   ./hello_folder/h*.html /mv-with-no-wildcard/
+  154  cp   ./hello_folder/h*.html /mv-with-no-wilcard/
+  155  ls
+  156  cp -r hello.html helloworld/
+  157  ls
+  158  hello_world
+  159  ls
+  160  cd hello_world
+  161  ls
+  162  cd helloworld
+  163  ls
+  164  cp -r . hellocopied/
+  165  cp -r .* hellocopied/
+  166  ls
+  167  cd hellocopied
+  168  ls
+  169  cp -r hellocopied hellocopied2
+  170  ls
+  171  hellocopied2/
+  172  cd hellocopied2
+  173  ls
+  174  cd ..
+  175  ls
+  176  cd hellocopied
+  177  ls
+  178  cd..
+  179  cd ..
+  180  ls
+  181  hello.html
+  182  nano hello.html
+  183  ls
+  184  nano hello1
+  185  ls
+  186  mv hello.html hello1.html
+  187  ls
+  188  nano hello1.html
+  189  ls
+  190  nano hello1.html
+  191  ls
+  192  nano hello1
+  193  ls
+  194  nano hello1.html
+  195  ls
+  196  mkdir to-move-all-files
+  197  ls
+  198  mv h* to-move-all-files/
+  199  ls
+  200  cd mv-with-no-wildcard/
+  201  ls
+  202  ls -al
+  203  ls
+  204  cd
+  205  cd /mnt/c/Users/Humayun\ Siraj/
+  206  ls
+  207  mkdir
+  208  mkdir playground
+  209  ls
+  210  cd playground
+  211*
+  212  mkdir dir1 dir2 dir3
+  213  cp /my/my_folder/hello/hello_folder/mv-with-no-wildcard/hello.html .
+  214  cp /my/my_folder/hello/hello_folder/mv-with-no-wildcard/hello.html
+  215  cp /my/my_folder/hello/hello_folder/mv-with-no-wildcard/hello.html  /
+  216  cp ./my/my_folder/hello/hello_folder/mv-with-no-wildcard/hello.html
+  217* cp ./my/my_folder/hello/hello_folder/mv-with-no-wildcard/hello.html
+  218  cd /mnt/c/Users/Humayun\ Siraj/
+  219  cd my/my_folder/
+  220  ls
+  221  type cp
+  222  type type
+  223  type mkdir
+  224  type bin
+  225  man mkdir
+  226  mkdir --h
+  227  mkdir --help
+  228  man cp
+  229  man 5 cp
+  230  man 2 cp
+  231  man 1 cp
+  232  history
+  233  which mkdir
+  234  whatis mkdir
+  235  what is ls
+  236  whatis ls
+  237  pwd
+  238  ls
+  239  cd hello
+  240  ls
+  241  type test
+  242  type fox
+  243  ls
+  244  cd
+  245  cd /mnt/c/Humayun Siraj
+  246  cd /mnt/c/
+  247  cd Humayun Siraj
+  248  cd Humayun-Siraj
+  249  cd Humayun\Siraj
+  250  ls
+  251  cd Users
+  252  ls
+  253  cd 'Humayun Siraj'/
+  254  ls
+  255  cd my/
+  256  ls
+  257  cd hello
+  258  ls
+  259  cd my_folder
+  260  cd my_folder/
+  261  ls
+  262  cd..
+  263  cd ./my/my_folder/
+  264  ls
+  265  cd ..
+  266  ls
+  267  cd my_folder
+  268  ls
+  269  alias foo=' rm -r data123213.txt ; cd fdata/ ; ls '
+  270  type foo
+  271  foo
+  272  ls
+  273  cd..
+  274  cd ..
+  275  unalias foo
+  276  ls
+  277  echo d*
+  278  ls
+  279  cp hello.v /Users/'Humayun Siraj'/my/
+  280  cp hello.v /mnt/c/Users/Humayun\ Siraj/
+  281  cd..
+  282  cd /mnt/c/Users/Humayun\ Siraj/
+  283  ls
+  284  cd /mnt/c/Users/Humayun\ Siraj/my
+  285  ls
+  286  mv /mnt/c/Users/Humayun\ Siraj/my/my_folder/new.sh /mnt/c/Users/Humayun\ Siraj/
+  287  cd /mnt/c/Users/Humayun\ Siraj/
+  288  ls
+  289  mkdir playground
+  290  ls
+  291  sudo mkdir playground
+  292  ls
+  293  cd playground
+  294  ls
+  295  cp /mnt/c/Users/Humayun\ Siraj/my/h* .
+  296  cp /mnt/c/Users/Humayun\ Siraj/my/h* /
+  297  cp /mnt/c/Users/Humayun\ Siraj/my/h* playground/
+  298  cp -r /mnt/c/Users/Humayun\ Siraj/my/h* copied
+  299  cp -r /mnt/c/Users/Humayun\ Siraj/my/h*
+  300  cp -r /mnt/c/Users/Humayun\ Siraj/my/h* copied
+  301  cp -r /mnt/c/Users/Humayun\ Siraj/my/h* copied/
+  302  mkdir copied
+  303  cp -r /mnt/c/Users/Humayun\ Siraj/my/h* copied/
+  304  ls
+  305  cp -v /mnt/c/Users/Humayun\ Siraj/my/h* copied/
+  306  cp -i /mnt/c/Users/Humayun\ Siraj/my/h* copied/
+  307  ls
+  308  cp -i /mnt/c/Users/Humayun\ Siraj/my/h* copied/
+  309  ls
+  310  mv dir1 dir2
+  311  ls
+  312  mv dir2 renamed
+  313  ls
+  314  renamed
+  315  cd renamed
+  316  ls
+  317  cd..
+  318  cd ..
+  319  ls
+  320  mv hello.v .
+  321  mv copied .
+  322  cp hello.html .
+  323  ls
+  324  mv ranamed dir3
+  325  mv renamed dir3
+  326  ls
+  327  cd dir3
+  328  ls
+  329  cd
+  330  cd /mnt/c/Users/Humayun\ Siraj/playground/dir3
+  331  ls
+  332  cd renamed
+  333  ls
+  334  cd dir1
+  335  ls
+  336  touch nihao.txt
+  337  nano nihao
+  338  ls
+  339  echi nihao
+  340  echo nihao
+  341  ls
+  342  rm nihao
+  343  ls
+  344  echo nihao.txt
+  345  pwd
+  346  ls
+  347  log
+  348  type log
+  349  whatis log
+  350  command log
+  351  history
+
+
+///creating our own command 
+
+using alias
+alias mycommand='ls; cd hello/; cp hello2.html hello/ ;ls ; mkdir helloxd ;cd helloxd'
+mycommand 
+it will first ls then change direcotry  to hello and copy cp hello2.html to hello 
+then display Ls then will create helloxd directory and then will change directory to helloxd
+\
+\
+to creat ls to other files  we 
+ls -l <path> /mnt/c/users/humayn/> new.txt  //////it will make ls of humayn in new.txt
+ in current working directory
+
+cat to dispaly text ,concatenate text
+e.g 
+cat ls-output.txt ls-error.txt >ls-combine.txt it will concatenate string from ls-output and ls-erro frile
+and save it into ls-combbine file
+
+
+
+  1  man sudo_root
+    2  sudo adduser humayun sudo
+    3  ls
+    4  pwd
+    5  ls
+    6  cd ..
+    7  ls
+    8  touch README.txt
+    9  sudo touch README.txt
+   10  ls
+   11  cd ./test
+   12  cd /mnt/
+   13  cd c
+   14  ls
+   15  cd Downloads
+   16  ls
+   17  ls -al
+   18  cd Users
+   19  cd ..
+   20  ls
+   21  cd Users
+   22  ls
+   23  cd 'Humayun Siraj'
+   24  ls
+   25  cd Downloads
+   26  ls
+   27  cd linux_assigment
+   28  cd linux_assignment.zip
+   29  lsls
+   30  ls
+   31  cd linux_assignment
+   32  ls
+   33  cd linux
+   34  ls
+   35  touch task1.sh
+   36  ls
+   37  cd..
+   38  cd ..
+   39  ./linux
+   40  cd ./linux
+   41  ls -S
+   42  pwd
+   43  ls
+   44  *g
+   45  touch hello.v
+   46  ls
+   47  cp hello.v /my
+   48  mkdir my
+   49  cp hello.v /my
+   50  ls
+   51  cp hello.v my/
+   52  ls
+   53  cd my
+   54  ls
+   55  ls -al
+   56  hello.v
+   57  nano hello.v
+   58  ls
+   59  hello.v
+   60  touch nano new.sh
+   61  ls
+   62  nano new.sh
+   63  ls
+   64  new,sh
+   65  new.sh
+   66  ls
+   67  file new.sh
+   68  ls
+   69  nano new.sh
+   70  ls
+   71  file new.sh
+   72  ls
+   73  touch hello.html
+   74  touch hello1.html
+   75  touch hello2.html
+   76  ls
+   77  mkdir hello
+   78  mkdir my_folder
+   79  cp *h my_folder/
+   80  ls
+   81  my_folder
+   82  cd my_folder
+   83  ls
+   84  cd ..
+   85  ls
+   86  cp *h my_folder
+   87  ls
+   88  my_folder\
+   89  ls
+   90  my_folder
+   91  cd my_folder
+   92  ls
+   93  cd ..
+   94  ls
+   95  cp h* my_folder/
+   96  ls
+   97  cd my_folder/
+   98  ls
+   99  ls
+  100  touch data12345.txt data123456.txt
+  101  touch data123457.txt data123213.txt  touch data1233218.txt
+  102  ls
+  103  mkdir fdata
+  104  ls
+  105  mv data??? fdata/
+  106  ls
+  107  cp hello.html hellox.html
+  108  ls
+  109  nano hellox
+  110  ls
+  111  file hello.html
+  112  nano hello.html
+  113  cp hellox.html hello.html
+  114  ls
+  115  nano hello.html
+  116  nano hello.txt
+  117  nano hellox.htm;
+  118  nano hellox.html
+  119  cp hellox.html hello.html
+  120  nano hello.html
+  121  ls
+  122  cd fdata
+  123  ls
+  124  cd ..
+  125  mv h*.html hello/
+  126  mkdir hello
+  127  mv h*.html hello/
+  128  ls
+  129  cd hello
+  130  ls
+  131  mkdir hello_folder
+  132  ls
+  133  mv h*.html hello_folder
+  134  ls
+  135  cd ..
+  136  ls
+  137  cd hello
+  138  ls
+  139  cd hello_folder
+  140  ls
+  141  mkdir mv-with-no-wildcard
+  142  ls
+  143  cp *[0-9].html mv-with-no-wildcard/
+  144  ls
+  145  cd mv-with-no-wildcard/
+  146  ls
+  147  cd..
+  148  ls
+  149  ..cd
+  150  cd ..
+  151  ls
+  152  cd mv-with-no-wildcard/
+  153  cp   ./hello_folder/h*.html /mv-with-no-wildcard/
+  154  cp   ./hello_folder/h*.html /mv-with-no-wilcard/
+  155  ls
+  156  cp -r hello.html helloworld/
+  157  ls
+  158  hello_world
+  159  ls
+  160  cd hello_world
+  161  ls
+  162  cd helloworld
+  163  ls
+  164  cp -r . hellocopied/
+  165  cp -r .* hellocopied/
+  166  ls
+  167  cd hellocopied
+  168  ls
+  169  cp -r hellocopied hellocopied2
+  170  ls
+  171  hellocopied2/
+  172  cd hellocopied2
+  173  ls
+  174  cd ..
+  175  ls
+  176  cd hellocopied
+  177  ls
+  178  cd..
+  179  cd ..
+  180  ls
+  181  hello.html
+  182  nano hello.html
+  183  ls
+  184  nano hello1
+  185  ls
+  186  mv hello.html hello1.html
+  187  ls
+  188  nano hello1.html
+  189  ls
+  190  nano hello1.html
+  191  ls
+  192  nano hello1
+  193  ls
+  194  nano hello1.html
+  195  ls
+  196  mkdir to-move-all-files
+  197  ls
+  198  mv h* to-move-all-files/
+  199  ls
+  200  cd mv-with-no-wildcard/
+  201  ls
+  202  ls -al
+  203  ls
+  204  cd
+  205  cd /mnt/c/Users/Humayun\ Siraj/
+  206  ls
+  207  mkdir
+  208  mkdir playground
+  209  ls
+  210  cd playground
+  211  mkdir dir1 dir2 dir3
+  212  cp /my/my_folder/hello/hello_folder/mv-with-no-wildcard/hello.html .
+  213  cp /my/my_folder/hello/hello_folder/mv-with-no-wildcard/hello.html
+  214  cp /my/my_folder/hello/hello_folder/mv-with-no-wildcard/hello.html  /
+  215  cp ./my/my_folder/hello/hello_folder/mv-with-no-wildcard/hello.html
+  216  cp ./my/my_folder/hello/hello_folder/mv-with-no-wildcard/hello.html
+  217  cd /mnt/c/Users/Humayun\ Siraj/
+  218  cd my/my_folder/
+  219  ls
+  220  type cp
+  221  type type
+  222  type mkdir
+  223  type bin
+  224  man mkdir
+  225  mkdir --h
+  226  mkdir --help
+  227  man cp
+  228  man 5 cp
+  229  man 2 cp
+  230  man 1 cp
+  231  history
+  232  which mkdir
+  233  whatis mkdir
+  234  what is ls
+  235  whatis ls
+  236  pwd
+  237  ls
+  238  cd hello
+  239  ls
+  240  type test
+  241  type fox
+  242  ls
+  243  cd
+  244  cd /mnt/c/Humayun Siraj
+  245  cd /mnt/c/
+  246  cd Humayun Siraj
+  247  cd Humayun-Siraj
+  248  cd Humayun\Siraj
+  249  ls
+  250  cd Users
+  251  ls
+  252  cd 'Humayun Siraj'/
+  253  ls
+  254  cd my/
+  255  ls
+  256  cd hello
+  257  ls
+  258  cd my_folder
+  259  cd my_folder/
+  260  ls
+  261  cd..
+  262  cd ./my/my_folder/
+  263  ls
+  264  cd ..
+  265  ls
+  266  cd my_folder
+  267  ls
+  268  alias foo=' rm -r data123213.txt ; cd fdata/ ; ls '
+  269  type foo
+  270  foo
+  271  ls
+  272  cd..
+  273  cd ..
+  274  unalias foo
+  275  ls
+  276  echo d*
+  277  ls
+  278  cp hello.v /Users/'Humayun Siraj'/my/
+  279  cp hello.v /mnt/c/Users/Humayun\ Siraj/
+  280  cd..
+  281  cd /mnt/c/Users/Humayun\ Siraj/
+  282  ls
+  283  cd /mnt/c/Users/Humayun\ Siraj/my
+  284  ls
+  285  mv /mnt/c/Users/Humayun\ Siraj/my/my_folder/new.sh /mnt/c/Users/Humayun\ Siraj/
+  286  cd /mnt/c/Users/Humayun\ Siraj/
+  287  ls
+  288  mkdir playground
+  289  ls
+  290  sudo mkdir playground
+  291  ls
+  292  cd playground
+  293  ls
+  294  cp /mnt/c/Users/Humayun\ Siraj/my/h* .
+  295  cp /mnt/c/Users/Humayun\ Siraj/my/h* /
+  296  cp /mnt/c/Users/Humayun\ Siraj/my/h* playground/
+  297  cp -r /mnt/c/Users/Humayun\ Siraj/my/h* copied
+  298  cp -r /mnt/c/Users/Humayun\ Siraj/my/h*
+  299  cp -r /mnt/c/Users/Humayun\ Siraj/my/h* copied
+  300  cp -r /mnt/c/Users/Humayun\ Siraj/my/h* copied/
+  301  mkdir copied
+  302  cp -r /mnt/c/Users/Humayun\ Siraj/my/h* copied/
+  303  ls
+  304  cp -v /mnt/c/Users/Humayun\ Siraj/my/h* copied/
+  305  cp -i /mnt/c/Users/Humayun\ Siraj/my/h* copied/
+  306  ls
+  307  cp -i /mnt/c/Users/Humayun\ Siraj/my/h* copied/
+  308  ls
+  309  mv dir1 dir2
+  310  ls
+  311  mv dir2 renamed
+  312  ls
+  313  renamed
+  314  cd renamed
+  315  ls
+  316  cd..
+  317  cd ..
+  318  ls
+  319  mv hello.v .
+  320  mv copied .
+  321  cp hello.html .
+  322  ls
+  323  mv ranamed dir3
+  324  mv renamed dir3
+  325  ls
+  326  cd dir3
+  327  ls
+  328  cd
+  329  cd /mnt/c/Users/Humayun\ Siraj/playground/dir3
+  330  ls
+  331  cd renamed
+  332  ls
+  333  cd dir1
+  334  ls
+  335  touch nihao.txt
+  336  nano nihao
+  337  ls
+  338  echi nihao
+  339  echo nihao
+  340  ls
+  341  rm nihao
+  342  ls
+  343  echo nihao.txt
+  344  pwd
+  345  ls
+  346  log
+  347  type log
+  348  whatis log
+  349  command log
+  350  history
+  351  ls
+  352  ls ls-output.txt
+  353  ls
+  354  cd ..
+  355  ls
+  356  cd..
+  357  cd ..
+  358  ls
+  359  cd ..
+  360  ls
+  361  ls -l hello2.html
+  362  ls
+  363  nano hello2.html
+  364  ls
+  365  ls -l hello1.html
+  366  ls
+  367  cd dir3
+  368  ls
+  369  touch new.txt
+  370  ls
+  371  ls -l new.txt
+  372  ls
+  373  nano new.txt
+  374  ls -l /mnt/c/Users/Humayun\ Siraj/> new.txt
+  375  ls
+  376  nano new.txt
+  377  echo 'redirecting and error report to one files
+  378  echo 'redirecting and error report to one files'
+  379  echo "redirecting and error report to one files"
+  380  ls -l /mnt/c/Users/Humayun\ Siraj/ >ls-output.txt 2>&1
+  381  ls
+  382  nano ls-output.txt
+  383  ls
+  384  cat new.txt
+  385  ls
+  386  cat ls-output.txt
+  387  ls /mnt/c/Users/Humayun\ Siraj/my/> ls-out.txt
+  388  ls
+  389  cat ls-out.txt
+  390  cat ls-out.txt ls-output.txt >combine-ls.txt
+  391  ls
+  392  cat combine-ls.txt
+  393  cat ls
+  394  ls
+  395  cat combine-ls.txt
+  396  ls
+  397  cat < combine-ls.txt
+  398  cat hello < combine-ls.txt
+  399  ls
+  400  hostory
+  401  history
+  402  ls
+  403  ls
+  404  cd /mnt/c/
+  405  ls
+  406  cd Users/Humayun\ Siraj/
+  407  ls
+  408  file task1.h
+  409  cd Downloads/
+  410  ls
+  411  cd linux_assignment/
+  412  ls
+  413  cd linux
+  414  ls
+  415  chmod -x task1.h
+  416  chmod -x task1.sh
+  417  ls
+  418  echo task1.sh
+  419  task1.sh
+  420  cat <input.txt
+  421  cat >input.txt
+  422  ls
+  423  cat input.txt
+  424  cat <input.txt
+  425  ls
+  426  ls -l
+  427  ls -l ./ |les
+  428  ls -l ./ |less
+  429  less
+  430  docs less
+  431  less docs
+  432  ls
+  433  cat <greet.txt |less greet.txt
+  434  cat >greet.txt |less greet.txt
+  435  ls
+  436  cat >greet.txt
+  437  cat <new.txt |less greet.txt
+  438  less new.txt
+  439  cat >new.txt
+  440  ls
+  441  less new.txt
+  442  cat new.txt
+  443  cat>new.txt
+  444  less new.txt
+  445  ls -l >>new.txt
+  446  ls
+  447  cat new.txt
+  448  ls
+  449  ls -l >ls.txt
+  450  ls -l 2>ls2.txt
+  451  ls -l > ls3.txt 2>&1
+  452  ls
+  453  cat ls3
+  454  cat las3.txt
+  455  cat ls3.txt
+  456  ls 2
+  457  ls -l 2>
+  458  ls
+  459  ls -l |sort
+  460  ls -l|sort|less
+  461  ls
+  462  touch ls2.txt
+  463  ls
+  464  touch ls.txt
+  465  ls
+  466  ls -l|sort|unique|less
+  467  ls -l|sort|uniq|less
+  468  ls -l|sort|uniq
+  469  less task1.sh
+  470  ls -l|sort|uniq -d|less
+  471  wc ls2
+  472  wc ls2.txt
+  473  wc greet.txt
+  474  echo greet.txt
+  475  cat greet.txt
+  476  ls wc
+  477  ls / |w
+  478  ls
+  479  ls|sort|wc -1
+  480  ls|sort|wc -l
+  481  ls
+  482  ls -l
+  483  ls |sort |wc
+  484  touch hells.txt less.txt lsovol.txt bigsolsman.txt lslo.txt
+  485  ls
+  486  ls -l |sort |uniq |grep ls
+  487  ls -l |sort |uniq |grep ls|wc -l
+  488  ls -l |sort |uniq |grep ls|wc
+  489  ls -l |sort |uniq |grep ls|wc -al
+  490  ls -l |sort |uniq |grep ls|wc -a
+  491  ls -l |sort |uniq |grep ls|wc -x
+  492  head -n 4
+  493  ls
+  494  cat ls
+  495  cat ls.txt'
+  496  asdfksd
+  497  dsfopj
+  498  ls
+  499  cat input.txt
+  500  cat> input.txt
+  501  ls
+  502  head -n 5 input.txt
+  503  tail -n 3 input.txt
+  504  tail -n 3 input.txt|wc
+  505  echo this is cat'
+  506  echo this is cat
+  507  echo *
+  508  echo ./
+  509  echo ./*/
+  510  echo ./*/.
+  511  echo [[:lower:]]*
+  512  echo *[[:lower:]]
+  513  echo *[[:upper:]]
+  514  echo [[:upper:]]*
+  515  echo ~
+  516  echo $((5**2))
+  517  echo $(((5*3)/8 +4))
+  518  echo ten multiply by five is $((10*5))
+  519  echo the remainder of 5 divide by 2 is $((5%2))
+  520  echo {a-z}
+  521  echo {a..z}
+  522  echo {z..a}
+  523  echo count_{0..9}
+  524  ls
+  525  touch data.txt
+  526  ls
+  527  echo data
+  528  echo data.txt
+  529  data
+  530  cd data
+  531  mkdirdata
+  532  mkdir data
+  533  cd datra
+  534  cd data
+  535  ls
+  536  mkdir {2018..2022}-0{1-9} {2018..2022}-0{10-20}
+  537  ls
+  538  mkdir {2018..2022}-0{1..9} {2018..2022}-0{10..20}
+  539  ls
+  540  ls -l
+  541  ls |sort|uniq|wc -l |grep 2022
+  542  ls
+  543  ls |sort|uniq|wc -l |grep 2022
+  544  ls |sort|uniq|wc
+  545  ls |sort|uniq|wc -l
+  546  ls |sort|uniq|wc -s
+  547  grep 2022
+  548  ls
+  549  rm -r data
+  550  cd..
+  551  cd  ..
+  552  ls
+  553  rm -f data
+  554  rm -r data
+  555  ls
+  556  printenv|les
+  557  printenc|less
+  558  printenv|less
+  559  ls
+  560  cd test
+  561  ;ls
+  562  ls
+  563  cp -p *.txt *.log /copied_files
+  564  mkdir copied_files
+  565  ls
+  566  cp abc/*.txt *.log /copied_files
+  567  cp abc/*.txt *.log /copied_files/
+  568  cp abc/*.txt *.log copied_files/
+  569  cp abc/*.txt copied_files/
+  570  ls
+  571  cd copied_files/
+  572  ls
+  573  cp -p abc/*.txt copied_files/abc/
+  574  cd ..
+  575  cp -p abc/*.txt copied_files/abc/
+  576  cp -r abc/*.txt copied_files/abc/
+  577  ls
+  578  cp -p test/.*txt copied_files
+  579  cp -r abc/*.txt copied_files/abc/
+  580  cp -r -p abc/*.txt copied_files/abc
+  581  cd copied_files/
+  582  ls
+  583  rm .*txt
+  584  rm /.*txt
+  585  rm *.txt
+  586  ls
+  587  cd ..
+  588  ls
+  589  cp -p test/*/*.txt copied_files/
+  590  cp -p */*.txt copied_files/
+  591  ls
+  592  cd copied_files
+  593  ls
+  594  cp -r -p */*.txt copied_files/
+  595  cp -p */*.txt copied_files/
+  596  cp -r -p */*.txt copied_files/
+  597  cd ..
+  598  ls
+  599  wc abc/
+  600  wc abc/*
+  601  ls -l ./ |less
+  602  cat >readme
+  603  rm readme
+  604  ls
+  605  cat "Helloworld" readme.txt<|ls |wc-l
+  606  cat "Helloworld" readme.txt<|ls | wc =l
+  607  cat <"Helloworld" readme.txls |wc -l
+  608  cat <readme.txt "hellowold" |wc -l
+  609  cat >readme.txt "hellowold" |wc -l
+  610  cat >readme.txt
+  611  ls
+  612  cat helloworlld >readme.txt
+  613  cat helloworlld >>readme.txt
+  614  cat  >>readme.txt hellowolrd
+  615  cat  >>readme.txt \ hellowolrd
+  616  cat  >>readme.txt
+  617  cat readme.txt
+  618  cat >>readme.txt
+  619  ls
+  620  cat readme.txt
+  621  ls
+  622  readme.txt
+  623  cat readme.txt
+  624  wc readme.txt
+  625  ls /bin /usr/bin | sort | uniq | wc -l
+  626  ls /bin /usr/bin | sort | uniq | wc >>readme.txt
+  627  cat readme.txt
+  628  ls
+  629  ls | wc >>readme.txt
+  630  cat readme.txt
+  631  wc -l >>readme.txt
+  632  ls
+  633  cat readme.txt
+  634  ls -l readme.txt
+  635  ls -l |wc | less
+  636  ls
+  637  ls |tee ls.txt|wc -l>>ls.txt
+  638  ls
+  639  cat ls.txt
+  640  ls|tee ls.txt
+  641  tee ls.txt
+  642  ls
+  643  cat ls.txt
+  644  vcxzvknknl
+  645  my_folderls
+  646  ls
+  647  history -l
+  648  history |les
+  649  history |less
+  650  ls
+  651  abc
+  652  cd abc
+  653  ls
+  654  grep [1-9]
+  655  grep [1-9].txt
+  656  ls
+  657  script learning.txt
+  658  ls
+  659  cd /mnt/c/Users/Humayun\ Siraj/
+  660  ls
+  661  alias
+  662  ls
+  663  text="this is some"
+  664  echo $text
+  665  foo=$text"Text"
+  666  echo $foo
+  667  foo=$text " Text"
+  668  foo=$text" Text"
+  669  $foo
+  670  echo $foo
+  671  vim
+  672  ls
+  673  cat hell.txt
+  674  p
+  675  command m
+  676  m
+  677  ping
+  678  ftp
+  679  wget
+  680  ssh
+  681  ipconfig
+  682  ifconfig
+  683  ifconig
+  684  ip
+  685  ping linuxcommand.org
+  686  traceroute google.com
+  687  traceroute slashdot.org
+  688  supd apt install traceroute
+  689  sudo apt install traceroute
+  690  traceroute slahsdot.org
+  691  sudp apt install inetutils-traceroute
+  692  sud0 apt install inetutils-traceroute
+  693  sudo apt install inetutils-traceroute
+  694  newstat -ie
+  695  netstat -ie
+  696  sudp apt install net-tools
+  697  sudo apt install net-tools
+  698  netstat -r
+  699  netstat -ie
+  700  ftp
+  701  ftp fileserver
+  702  ftp --help
+  703  wget https://linuxcommand.org/index.php
+  704  ls
+  705  cat index.php
+  706  wget https://file:///C:/Users/Humayun%20Siraj/Downloads/linux_assignment/linux/docs/linux_self_assessment_tasks.pdf
+  707  wget ftp file:///C:/Users/Humayun%20Siraj/Downloads/linux_assignment/linux/docs/linux_self_assessment_tasks.pdf
+  708  ssh
+  709  sudo apt-get install OpenSSH-server
+  710  ls
+  711  sudo apt-get install OpenSSH-server
+  712  deb http://deb.debian.org/debian bullseye main
+  713  sudo deb http://deb.debian.org/debian bullseye main
+  714  ssh remote-sys
+  715  sys Humayun\Siraj@remote-sys
+  716  ssh Humayun\Siraj@remote-sys
+  717  USER
+  718  $User
+  719  $USER
+  720  id
+  721  ssh humayun@remote-sys
+  722  ssh remote-sys free
+  723  ls locate /my
+  724  ls
+  725  locate /my
+  726  sudo apt install plocate
+  727  sudo apt install OpenSSH-server
+  728  ftp server
+  729  ssh remote-sys
+  730  locate
+  731  locate /txt
+  732  locate my/zip
+  733  ls -l
+  734  ls
+  735  localt txt
+  736  locate txt
+  737  plocate txt
+  738  plocate he
+  739  locate he
+  740  sudo apt uninstall plocate
+  741  sudo yum remove plocate
+  742  ls
+  743  sudo yum remove plocate
+  744  yun
+  745  yum
+  746  apt --installed
+  747  dpkg -1
+  748  dpkg -l
+  749  sudo apt remove plocate
+  750  sudo dpkg -r plocate
+  751  sudo apt-get remove plocate
+  752  history -l
+  753  hisory
+  754  history
+  755  history --help
+  756  ls
+  757  cd /mnt/c/Users/Humayun\ Siraj/
+  758  ls
+  759  locate hello
+  760  locate hello.v
+  761  locate zip
+  762  locate /my
+  763  man locate
+  764  locate -c my
+  765  locate -b my
+  766  man locate
+  767  locate -w my
+  768  locate -c my
+  769  locate -c hello
+  770  locate -c world
+  771  locate -c txt
+  772  find ~
+  773  find ~|wc
+  774  history
+
+
+
