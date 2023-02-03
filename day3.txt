@@ -1,0 +1,541 @@
+    1  history -l
+    2  hsitory
+    3  history
+    4  1
+    5  history
+    6  ls
+    7  history
+    8  history --help
+    9  hsiory -a 
+   10  hsitory -a
+   11  history -a
+   12  ls
+   13  history
+   14  strings -w "$disk" | grep -C 100 "$cmd"
+   15  strings -w "$c" | grep -C 800 "$cmd"
+   16  cd /mnt/c/Users/Humayun\ Siraj/my/
+   17  ls
+   18  mv hello.html hello.v
+   19  ls
+   20  cat hello.v
+   21  nano hello.v
+   22  cp -r  *[1-9].* ~/newfolder/
+   23  cp -R *[1-9].* /hello
+   24  cp -R *[1-9].* /hello/
+   25  cp -R *[1-9].* /hello
+   26  ls
+   27  cd hello
+   28  ls
+   29  cd ..
+   30  cp -R *[1-9].* /hello/
+   31  cp -R *[1-9].* hello/
+   32  ls
+   33  cd hello
+   34  ls
+   35  cat lhello1.html hello2.html>hello3.txt
+   36  ls
+   37  \ls
+   38  hello3.txt
+   39  cat * >>hello3.txt
+   40  ls
+   41  nano hello3.txt
+   42  cat hello1.html
+   43  cat >hello1.html
+   44  ls
+   45  cat hello1.html
+   46  ls
+   47  find hello
+   48  find ~ -type d|wc 
+   49  find ~-type c
+   50  find ~ -type f
+   51  find ~ -type b
+   52  find ~ -type c
+   53  find ~ -type l
+   54  find ~ -type ld
+   55  find ~ -type d
+   56  find ~ -type f
+   57  find ~ -type l
+   58  find empty
+   59  find -empty
+   60  find -mmin 1
+   61  ls
+   62  cat>hello1.html 
+   63  ls
+   64  find -mmin 1
+   65  type -newer 
+   66  type -newer hello1
+   67  type -newer hello1.html
+   68  find -newer 
+   69  find -newer hello1.html
+   70  ls
+   71  find  -perm 777
+   72  find -size 1
+   73  find -size 3
+   74  find -pattern hel
+   75  find -name hel
+   76  find -name hello
+   77  echo searching file with name  and delet it 
+   78  find ~ -type f -name "*.html" -delete
+   79  ls
+   80  find  -type f -name "*.html" -delete
+   81  ls
+   82  find  -type f -name "*.txt" -print
+   83  echo filw with bad permisison or directory with bad permissin
+   84  find ~ \(-type f -not -perm 0600\) -or \(-type d -not -perm 0700\)
+   85  ls
+   86  touch hello.txt hello1.txt hello.html hello.exe file.txtfile.html
+   87  ls
+   88  find ~ -print -and -type f -and -hello.* 
+   89  find ~ -print -and -type f -and -name '*.txt'
+   90  find ./ -print -and -type f -and -name '*.txt'
+   91  find ./ -type f "hel*" -ok ls -l '{}' ';'
+   92  find  -type f "hel*" -ok ls -l '{}' ';'
+   93  find  ../ -type f "hel*" -ok ls -l '{}' ';'
+   94  find  ../..  -type f "hel*" -ok ls -l '{}' ';'
+   95  ls
+   96  find   -type f "hel*" -ok ls -l '{}' ';'
+   97  find ~-type f -name 'hel*' -exec ls -l '{}'  
+   98  find ~-type f -name 'hel*' -exec ls -l '{}'';'
+   99  find ~ -type f -name 'hel*' -exec ls -l '{}'';'
+  100  find  -type f -name 'hel*' -exec ls -l '{}'';'
+  101  find ~ -type f -name 'hell*' -print |xargs ls-l
+  102  find ~ -type f -name 'hell*' -print |xargs ls -l
+  103  find ~ -type f -name 'hell*' -print |xargs ls 
+  104  ls
+  105  mkdir -p ./dir-{00{1..9},0{10..99},100}
+  106  ls
+  107  touch -p ./hello-{00{1..9},0{10..99},100}.txt
+  108  touch  ./hello-{00{1..9},0{10..99},100}.txt
+  109  ls
+  110  touch  ./hello{00{1..9},0{10..99},100}.txt
+  111  ls
+  112  touch ./dir-001/file{00{1..9},0{10..99},100}.html
+  113  ls
+  114  cd dir-001
+  115  ls
+  116  cd..
+  117  cd ..
+  118  ls
+  119  rm ./hel*.txt 
+  120  ls
+  121  mv -r ./di* ./DIR/
+  122  mv -p  ./di* ./DIR/
+  123  mv   ./di* ./DIR/
+  124  mv   ./di* ./DIR
+  125  mv   ./di* DIR
+  126  mv   di* DIR
+  127  lsls
+  128  ls
+  129  mkdir DIR
+  130  mv dir* DIR
+  131  ls
+  132  vim script1.sh
+  133  ls
+  134  ls -l script1.sh 
+  135*  
+  136  cat script1.sh 
+  137  echo script1.sh 
+  138  ./script1.sh 
+  139  bash script1.sh 
+  140  touch script1.sh 
+  141  ls
+  142  nano script1.sh 
+  143  ls
+  144  bash script1.sh 
+  145  nano script1.sh 
+  146  ls
+  147  bash script1.sh 
+  148  nano script1.sh 
+  149  bash script1.sh 
+  150  nano script1.sh 
+  151  bash script1.sh 
+  152  nano script1.sh 
+  153  bash script1.sh 
+  154  nano script1.sh 
+  155  bash script1.sh 
+  156  ps tree
+  157  pstree
+  158  ls
+  159  touch ./../../test1.txt/./test.txt/../
+  160  touch ./../../test1/./test/../
+  161  mkdir -p  ./../../test1/./test/../
+  162  ls
+  163  pstree
+  164  ptree
+  165  tree
+  166  tee
+  167  netstate -ie
+  168  netstat 
+  169  netstat -ie
+  170  pin linuxcommand.org
+  171  ping linuxcommand.org
+  172  ftp fileserver
+  173  ls
+  174  ssh remote-sys
+  175  ls
+  176  ..
+  177  tree
+  178  dir
+  179  ls
+  180  locate hello
+  181  locate ./ hello
+  182  locate hel/
+  183  locate hel
+  184  find ~
+  185  find ~ |wc -l
+  186  ls
+  187  find ~ |wc 
+  188  find ~ -type d |wc -l
+  189  find ~ -type d |wc 
+  190  find ~ -type d|wc> direct.txt
+  191  cat direct.txt
+  192  find ~ -nouser|wc 
+  193  find ~
+  194  find ~ -type f -perm chmod575 |ls -l|wc > perm.txt
+  195  find ~ -type f -perm 0600 |ls -l|wc > perm.txt
+  196  nano perm.txt
+  197  find ~ -type f |ls -l >filex.txt |wc >>filex.txt
+  198  nano filex.txt
+  199  find ~ -type f |ls  >filex.txt |wc  >>filex.txt
+  200  nano filex.txt
+  201  find ~ -type f |ls  >filex.txt |wc  >filex.txt
+  202  nano filex.txt
+  203  find ~ -type f |wc  >filex.txt|ls >>filex.txt
+  204  nano filex.txt
+  205  ls
+  206  find ~ -type f *.html |wc  >filex.txt|ls >>htmlfile.txt
+  207  find ~ -type f -name *.html |wc  >filex.txt|ls >>htmlfile.txt
+  208* find ~ -type f -name ./*.html |wc  >filex.txt|ls >>htmlfile.tx
+  209  ls
+  210  find ~ -type f -name *.html |wc  >filex.txt|ls >>htmlfile.txt
+  211  find ~ -type f -name '*.html' |wc  >filex.txt|ls >>htmlfile.txt
+  212  ls
+  213  cat htmlfile.txt
+  214  find ~ -type f -name '*.html' |wc  >filex.txt|ls >>htmlfilex.txt
+  215  ls
+  216  cat htmlfilex.txt 
+  217  find ./ -perm 777>perm1.txt
+  218  find ./ -perm 777 >perm1.txt
+  219  find . -type f -name "h*" |wc >hellols.txt 
+  220  nano hellols.txt
+  221  find . -type f -name "h*" |wc >hellols.txt |ls >>hellols.txt 
+  222  nano hellols.txt 
+  223  ls
+  224  cat hellols.txt 
+  225  find . -type f -name "h*" |wc >hellols.txt |ls >>hellols.txt |wc >>hellols.txt 
+  226  cat hellols.txt 
+  227  ls
+  228  cat htmlfile.txt
+  229  ls
+  230  cat htmlfile.txt
+  231  cat hellols.txt 
+  232  find . -type f -name "h*" |wc >hellols.txt |ls >>hellols.txt |wc| >>hellols.txt 
+  233* 
+  234  cat hellols.txt 
+  235  cat hellols.txt |wc >> hellols.txt
+  236  cat hellols.txt 
+  237  find . -type f -name "h*" |wc >hellols.txt |ls >>hellols.txt | cat hellols.txt |wc >>hellols.txt 
+  238  cat hellols.txt 
+  239  find . -type f -name "h*" |wc >hellols.txt |ls >>hellols.txt | cat hellols.txt wc 
+  240  find . -type f -name "h*" |wc >hellols.txt |ls >>hellols.txt | cat hellols.txt wc -l 
+  241* find . -type f -name "h*" |wc >hellols.txt |l 
+  242  find . -type f -name "h*" |wc >hellols.txt |ls >>hellols.txt | cat hellols.txt 
+  243  find . \(-type f -perm 0600 -exec chmod 0600 '{}'\) -or find . \(-type f -name 'h*' \)-or find . \(-type d  \) |wc >result.txt|  ls -l >result.txt
+  244  find . \(-type f -perm 0600 -exec chmod 0600 '{}'';'\) -or find . \(-type f -name 'h*' \)-or find . \(-type d  \) |wc >result.txt|  ls -l >result.txt
+  245  find . \(-type f -not -perm 0600 -exec chmod 0600 '{}' ';'\) -or  \(-type f -name 'h*' \)-or \(-type d  \) |wc >result.txt|  ls -l >result.txt
+  246  find . -type f -name "h*" |wc >hellols.txt |ls >>hellols.txt wc>>hellols.txt 
+  247  find . -type f -name "h*" |wc >hellols.txt |ls >>hellols.txt| wc>>hellols.txt 
+  248  cat hellols.txt 
+  249  ls
+  250  ls hellols.txt 
+  251  cat hellols.txt 
+  252  gzip hellols.txt 
+  253  cat hellols.txt.gz 
+  254  gunzip hellols.txt.gz
+  255  ls
+  256  find . -type f "h*" > count.txt 
+  257  find ./ -type f "h*" > count.txt 
+  258  find ../ -type f "h*" > count.txt 
+  259  find ../.. -type f "h*" > count.txt 
+  260  find -type f "h*" > count.txt 
+  261  find ~ -type f "h*" > count.txt 
+  262  find ./ -type f -name "h*" > count.txt 
+  263  cat count.txt 
+  264  find ./ -type f -name "h*" > count.txt |wc count.txt >>count.txt 
+  265  ls
+  266  cat count.txt 
+  267  echo "Regix learning"
+  268  ls
+  269  ls |grep he
+  270  grep he
+  271  ls |grep z
+  272  ls gre 0
+  273  ls grep o
+  274  ls| grep o
+  275  ls
+  276  rm file.txtfile.html 
+  277  ls
+  278  bash script1.sh 
+  279  nano script1.sh 
+  280  bash script1.sh 
+  281  nano script1.sh 
+  282  ls
+  283  bash script1.sh 
+  284  nano script1.sh 
+  285  ls
+  286  bash script1.sh 
+  287  nano script1.sh 
+  288  bash script1.sh 
+  289  nano script1.sh 
+  290  bash script1.sh 
+  291  nano script1.sh 
+  292  bash script1.sh 
+  293  nano script1.sh 
+  294  ls
+  295  bash script1.sh 
+  296  nano script1.sh 
+  297  ls
+  298  perm.txt
+  299  cat perm.txt
+  300  ls -l |grep e
+  301  ls -l |grep -v e
+  302  ls -l |grep -c H
+  303  ls -l |grep -c -i h
+  304  ls -l |grep -c -i h>>result.txt
+  305  ls
+  306  cat result.txt 
+  307  grep -l -i h
+  308  ls -l |grep -l -i h
+  309  dsd
+  310  sl
+  311  ls
+  312  gzip touch {a..z}{0..9}.txt
+  313  gzip touch {a..z}{0..9}
+  314  touch {a..z}{0..9}.txt
+  315  ls
+  316  gzip {a..z}{0.9}.txt
+  317  gzip -f {a..z}{0.9}.txt
+  318  gzip -f {a..z}{0..9}.txt
+  319  ls
+  320  ls -l
+  321  ls
+  322  gunzip {a..z}{0..9}.txt.gz
+  323  ls
+  324  mv -r -p {a..z}{0..9}.txt /az09/
+  325  mv  -p {a..z}{0..9}.txt /az09/
+  326  mv  {a..z}{0..9}.txt /az09/
+  327  mv  {a..z}{0..9}.txt /az09
+  328  mv  {a..z}{0..9}.txt az09
+  329  mv  {a..z}{0..9}.txt . az09
+  330  mv  {a..z}{0..9}.txt ./ az09/
+  331  mkdir az09 |mv {a..z}{0..9}.txt az09/
+  332  mkdir az09 |mv {a..z}{0..9}.txt az09
+  333  ls
+  334  az09
+  335  cd az09|ls 
+  336  ls|cd az09/
+  337  cd az09
+  338  ls
+  339  cd..
+  340  cd ..
+  341  ls
+  342  cat >data.txt
+  343  cp -r data.txt ./data2.txt
+  344  ls
+  345  cp -r data.txt ./data3.txt ./data4.txt
+  346  cp -r data.txt ./data3.txt data4.txt
+  347  cp -r data.txt data3.txt data4.txt
+  348  cp -r data.txt data4.txt 
+  349  ls
+  350  nano data2.txt data3.txt data4.txt
+  351  ls
+  352  grep data d*
+  353  grep data *
+  354  grep d*
+  355  grep d *
+  356  grep -w data
+  357  grep -w data *
+  358  grep -w data */
+  359  grep -w data ./
+  360  grep -w data da*
+  361  grep -i 'data' *
+  362  grep -i 'data' */
+  363  grep -i data d*.txt
+  364  grep -x "hello world" *
+  365  grep -x 'hello world'
+  366  grep -x 'hello world' *
+  367  grep -x 'hello world' /
+  368  grep -x 'hello world' *.txt 
+  369  grep -x "hello world" *.txt 
+  370  ls
+  371  grep -c data *
+  372  ls
+  373  cat data4.txt 
+  374  cat data3.txt
+  375  grep -C 2 bash *
+  376  grep  -m 3 '[^a-z]' d*
+  377  ls
+  378  nano data3.txt
+  379  grep [:punct:] data3.txt
+  380  grep [[:punct:]] data3.txt
+  381  locale
+  382  echo "923162725716" |grep  '^{92}[0-9][0-9][0-9]*" 
+echo "923162725716" |grep  '^{92}[0-9][0-9][0-9]*@' 
+
+echo "923162725716" |grep  '^{92}[0-9][0-9][0-9]*" 
+echo "923162725716" |grep  '^{92}[0-9][0-9][0-9]*@' 
+
+
+  383  echo "923162725716" |grep  '^{92}[0-9][0-9][0-9]*@'
+  384  echo "923162" |grep  '^{92}[0-9][0-9][0-9][0-9]@'
+  385  echo "923162" |grep  -E '^{92}[0-9][0-9][0-9][0-9]@'
+  386  echo "923162" |grep  -E '^{92}[0-9][0-9][0-9][0-9]$'
+  387  echo "923162" |grep   '^{92}[0-9][0-9][0-9][0-9]$'
+  388  echo "This works." | grep -E '[[:upper:]][[:upper:][
+:lower:] ]*\.'
+  389  echo "This works." | grep -E '[[:upper:]][[:upper:][
+:lower:] ]*\.'
+  390  echo "This works." | grep -E '[[:upper:]][[:upper:][
+:lower:] ]*\.'
+  391  echo "923162" |grep   '^[92][0-9][0-9][0-9][0-9]$'
+  392  echo ([0-9]{3}-[0-9][0-9]{4})
+  393  echo "[0-9]{3}-[0-9][0-9]{4}"
+  394  echo [0-9]{3}-[0-9][0-9]{4}
+  395  cat <<END >> test-file
+This is a simple text file that contains
+multiple strings as well as some telephone numbers
+(555) 555-1234 (567) 666-2345
+and email plus web addresses
+john@doe.com
+https://google.com
+ftp://mywebserver.com
+END
+
+  396  ls test-file
+  397  test-file
+  398  cat test-file
+  399  echo <<ok>> Text-data
+hello world
+it me humayun 
+i am working as fpga design engineer 
+at prestigous organization Digitek engineering
+its a daugther from of Hitek.sys
+(444) 444-1234 (423) 4234_4234
+above is my no
+my email address is
+humayun.siraj@digitekeng.com
+https://google.com
+ftp://mywebserver.som
+ftp: //mywebserver.com
+ok
+
+  400  ls
+  401  Text-data
+  402  cat Text-data
+  403  echo <<ok>> Text-file
+hello world
+it me humayun 
+i am working as fpga design engineer 
+at prestigous organization Digitek engineering
+its a daugther from of Hitek.sys
+(444) 444-1234 (423) 4234_4234
+above is my no
+my email address is
+humayun.siraj@digitekeng.com
+https://google.com
+ftp://mywebserver.som
+ftp: //mywebserver.com
+ok
+
+  404  cat Text-file
+  405  echo <<ok>> test-file
+hello world
+it me humayun 
+i am working as fpga design engineer 
+at prestigous organization Digitek engineering
+its a daugther from of Hitek.sys
+(444) 444-1234 (423) 4234_4234
+above is my no
+my email address is
+humayun.siraj@digitekeng.com
+https://google.com
+ftp://mywebserver.som
+ftp: //mywebserver.com
+ok
+
+  406  ls
+  407  cat test-file
+  408  rm test-file
+  409  ls
+  410  echo <<ok>> test-file
+hello world
+it me humayun 
+i am working as fpga design engineer 
+at prestigous organization Digitek engineering
+its a daugther from of Hitek.sys
+(444) 444-1234 (423) 4234_4234
+above is my no
+my email address is
+humayun.siraj@digitekeng.com
+https://google.com
+ftp://mywebserver.som
+ftp: //mywebserver.com
+ok
+
+  411  ls 
+  412  cat test-file 
+  413  echo <<ok >> test-file
+hello world
+it me humayun 
+i am working as fpga design engineer 
+at prestigous organization Digitek engineering
+its a daugther from of Hitek.sys
+(444) 444-1234 (423) 4234_4234
+above is my no
+my email address is
+humayun.siraj@digitekeng.com
+https://google.com
+ftp://mywebserver.som
+ftp: //mywebserver.com
+ok
+
+  414  ls
+  415  cat test-file
+  416  cat  <<ok >> Text-file
+hello world
+it me humayun 
+i am working as fpga design engineer 
+at prestigous organization Digitek engineering
+its a daugther from of Hitek.sys
+(444) 444-1234 (423) 4234_4234
+above is my no
+my email address is
+humayun.siraj@digitekeng.com
+https://google.com
+ftp://mywebserver.som
+ftp: //mywebserver.com
+ok
+
+  417  ls cat Text-file 
+  418  cat Text-
+  419  cat Text-file 
+  420  ls
+  421  grep Text-file 
+  422  grep "email" Text-file 
+  423  ls
+  424  grep -n digitek
+  425  grep -n digitek Text-file 
+  426  ls |grep ".html"
+  427  grep '^[a-zA-Z0-9]\+.[a-zA-Z0-9]\+@[a-zA-Z0-9]\+\.[a-z]\{2,\}' Text-file 
+  428  echo "fetching url hhtps http or ftp general code"
+  429* egrep '^(https|http|ftp):[\/]{2}([a-zA-Z0-9\-\.]+\.[a-z]\{2,\})' Text-file 
+  430  egrep '^(https|http|ftp):[\/]{2}([a-zA-Z0-9\-\.]+\.[a-z]\{2,\})' Text-file 
+  431  egrep '^(https|http|ftp):[\/]{2}([a-zA-Z0-9\-\.]+\.[a-z]\{2,4})' Text-file 
+  432  grep '^(https|http|ftp):[\/]{2}([a-zA-Z0-9\-\.]+\.[a-z]\{2,\})' Text-file 
+  433  cat Text-file 
+  434  grep -E '^(https|http|ftp):[\/]{2}([a-zA-Z0-9]\+.[a-z]\{2,\})' Text-file 
+  435  grep  '^(https|http|ftp):[\/]{2}([a-zA-Z0-9]\+.[a-z]\{2,\})' Text-file 
+  436  history
+  437  history >day.txt
+  438  cat day.txt
+  439  history >day3.txt
