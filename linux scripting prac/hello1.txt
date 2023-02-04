@@ -1,0 +1,7 @@
+it me 
+hi 
+learnig bash scripting
+it day 4
+using cat function
+hello1
+its about bash scriptiung 
