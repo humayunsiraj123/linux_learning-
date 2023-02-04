@@ -1,0 +1,346 @@
+    1  ls
+    2  cd
+    3  pwd
+    4  humayun
+    5  cd humayun
+    6  man sudo_root
+    7  sudo apt-get update
+    8  ls
+    9  ls -al
+   10  ls /mnt/
+   11  cd /mnt/c
+   12  ls
+   13  pwd
+   14  cd Users
+   15  ls
+   16  cd desktop.ini
+   17  cd humay
+   18  ls
+   19  touch hello.cpp
+   20  test hell.cpp
+   21  mkdir linux
+   22  cd linux
+   23  nano linux.txt
+   24  LS
+   25  ls
+   26  nano linux.txt
+   27  man sudo_root
+   28  sudo_root
+   29  man sudo_root
+   30  ls
+   31  cd..
+   32  cd ..
+   33  pwd
+   34  cd
+   35  pwd
+   36  cd humayun
+   37  cd home
+   38  cd /home
+   39  ls
+   40  cd humayun
+   41  ls
+   42  ls
+   43  pwd
+   44  cd ..
+   45  cd humayun
+   46  ls
+   47  dir
+   48  pwd
+   49  ls -a
+   50  bash
+   51  ls
+   52  vim
+   53  ls
+   54  cat >hello.txt
+   55  ls
+   56  cat hello.txt 
+   57  grep  '(https|http|ftp):[\/]{2}+[a-z]+\.[a-z]{2,\}' ./hello.txt 
+   58  grep  '(https|http|ftp):([\/]{2}+[a-z]+\.[a-z]\{2,\})' /hello.txt 
+   59  grep  '(https|http|ftp):([\/]{2}+[a-z]+\.[a-z]\{2,\})' hello.txt 
+   60  ls
+   61  grep  '^(https|http|ftp):[\/]{2}([a-z]\+.[a-z]\{2,\})' hello.txt 
+   62  grep -n digitek
+   63  grep -n digitek hello.txt 
+   64  grep '^[a-zA-Z0-9]\+.[a-zA-Z0-9]\+@[a-zA-Z0-9]\+.[a-z]\{2,\}" ./hello.txt
+
+
+x
+
+
+
+zcc
+x
+
+   65  grep '^[a-zA-Z0-9]\+.[a-zA-Z0-9]\+@[a-zA-Z0-9]\+.[a-z]\{2,\}' hello.txt 
+   66  egrep '^[a-zA-Z0-9]\+.[a-zA-Z0-9]\+@[a-zA-Z0-9]\+.[a-z]\{2,\}' hello.txt 
+   67  grep '^[a-zA-Z0-9]\+.[a-zA-Z0-9]\+@[a-zA-Z0-9]\+.[a-z]\{2,\}' hello.txt 
+   68  grep '^(https|http|ftp):[\/]{2}([a-z]\+.[a-z]\{2,\})' hello.txt 
+   69  grep '^(https|http|ftp):[\/]{2}([a-z\-\.]\+.[a-z]\{2,\})' hello.txt 
+   70  grep '^(https|http|ftp):[\/]{2}([a-z\-\.]+\.[a-z]\{2,\})' hello.txt 
+   71  grep '^(https|http|ftp):[\/]{2}([a-z\-\.]+\.[a-z]\{2,4})' hello.txt 
+   72  grep '^(https|http|ftp):[\/]{2}([a-z\-\.]+\.[a-z]\{2,\})' hello.txt 
+   73  grep '^(https|http|ftp):[\/]{2}([a-z\-\.]+\.[a-z]{2,4})' hello.txt 
+   74  grep '^(https|http|ftp):[\/]{2}([a-z]+\.[a-z]{2,4})' hello.txt 
+   75  grep '^(https|http|ftp):[\/]{2}([a-z]+\.[a-z]{2,\})' hello.txt 
+   76  egrep '^(https|http|ftp):[\/]{2}([a-z]+\.[a-z]{2,\})' hello.txt 
+   77  egrep '^(https|http|ftp):[\/]{2}([a-z\-]+\.[a-z]{2,\})' hello.txt 
+   78  egrep '^(https|http|ftp):[\/]{2}([a-z\-\.]+\.[a-z]\{2,\})' hello.txt 
+   79  grep '^(https|http|ftp):[\/]{2}([a-z]+\.[a-z]\{2,\})' hello.txt 
+   80  cat hello.txt 
+   81  grep '^(https|http|ftp):[\/]{2}([a-z]\+.[a-z]\{2,\})' hello.txt 
+   82  ls
+   83  nano script.sh
+   84  ./script.sh
+   85  ls
+   86  ls -l
+   87  sudo chmod 777 script.sh 
+   88  ls
+   89  ls -l script.sh 
+   90  ./script.sh 
+   91  nano script.sh 
+   92  ./script.sh 
+   93  nano script.sh 
+   94  ./script.sh 
+   95  nano script.sh 
+   96  ./script.sh 
+   97  cat <<END>> hello1.txt
+it me 
+hi 
+learnig bash scripting
+it day 4
+using cat function
+hello1
+its about bash scriptiung 
+END
+
+   98  cat hello1.txt 
+   99  echo  comminting stuff in script
+  100  ls
+  101  nano script.sh 
+  102  ./script.sh 
+  103  nano script.sh 
+  104  ./script.sh 
+  105  nano 1script.sh 
+  106  ./1script.sh 
+  107  chmod 777 1script.sh 
+  108  ls
+  109  ls -l
+  110  ls
+  111  ./1script.sh 
+  112  nano 1script.sh 
+  113  ./1script.sh 
+  114  nano 1script.sh 
+  115  ./1script.sh 
+  116  nano 1script.sh 
+  117  ./1script.sh 
+  118  nano 1script.sh 
+  119  ./1script.sh 
+  120  nano 1script.sh 
+  121  ./1script
+  122  ./1script.sh
+  123  nano 1script.sh 
+  124  ./1script.sh
+  125  nano 1script.sh 
+  126  ls
+  127  nano 1script.sh 
+  128  ./1script.sh
+  129  nano 1script.sh 
+  130  ./1script.sh
+  131  nano 1script.sh 
+  132  ./1script.sh
+  133  ln -s script.sh  link1
+  134  ls
+  135  cat link1 
+  136  cat script.sh 
+  137  nano 1script.sh 
+  138  ./1script.sh
+  139  nano 1script.sh 
+  140  ./1script.sh
+  141  nano 1script.sh 
+  142  ./1script.sh
+  143  nano 1script.sh 
+  144  ./1script.sh
+  145  ls -l >data.txt
+  146  ls
+  147  cat data.txt 
+  148  nano 1script.sh 
+  149  cat data.txt 
+  150  nano 1script.sh 
+  151  chmod -x *.txt
+  152  ls
+  153  cat data.txt 
+  154  ls
+  155  ls -l >> data.txt 
+  156  ls
+  157  cat data.txt 
+  158  chmod 777 *.txt
+  159  cat data.txt 
+  160  ln -s 1script.sh  link2
+  161  ln -s 1script.sh  link3
+  162  ls
+  163  cat link3
+  164  nano 1script.sh 
+  165  ./1script.sh 
+  166  ls
+  167  cat link4
+  168  nano 1script.sh
+  169  cat link4
+  170  ls
+  171  ls -l
+  172  ls
+  173  ls -l
+  174  chmod -w link2
+  175  ls -l
+  176  ls
+  177  "hello" >>link2
+  178  ls
+  179  1script.sh>>script2.sh
+  180  cat 1script.sh >>script2.sh
+  181  ls
+  182  chmod -x script2.h
+  183  chmod -s script2.sh
+  184  ls
+  185  chmod +x script2.sh
+  186  ls
+  187  cat script2.sh 
+  188  ls
+  189  nano script2.sh 
+  190  ./script2.sh 
+  191  nano script2.sh
+  192  ./script2.sh 
+  193  nano script2.sh
+  194  ./script2.sh 
+  195  nano script2.sh
+  196  ./script2.sh 
+  197  nano script2.sh
+  198  ./script2.sh 
+  199  nano script2.sh
+  200  ./script2.sh 
+  201  nano script2.sh
+  202  ./script2.sh 
+  203  nano script2.sh
+  204  ./script2.sh 
+  205  nano script2.sh
+  206  ./script2.sh 
+  207  nano script2.sh
+  208  ./script2.sh 
+  209  nano script2.sh
+  210  ./script2.sh 
+  211  nano script2.sh
+  212  ./script2.sh 
+  213  nano script2.sh
+  214  ./script2.sh 
+  215  nano script2.sh
+  216  ./script2.sh 
+  217  nano script2.sh
+  218  ./script2.sh 
+  219  nano script2.sh
+  220  ./script2.sh 
+  221  nano script2.sh
+  222  ./script2.sh 
+  223  nano script2.sh
+  224  ./script2.sh 
+  225  cat script2.sh>>script3.sh
+  226  chmod +x script3.sh 
+  227  ls
+  228  ./script3.sh
+  229  ls
+  230  nano script3.sh
+  231  ./script3.sh
+  232  nano script3.sh
+  233  ./script3.sh
+  234  nano script3.sh
+  235  ./script3.sh
+  236  nano script3.sh
+  237  ./script3.sh
+  238  chmod +x script4.sh
+  239  cat script3.sh >>IF.sh
+  240  chmod +x IF.sh 
+  241  ls
+  242  nano IF.sh 
+  243  ./IF.sh 
+  244  nano IF.sh 
+  245  ./IF.sh 
+  246  nano IF.sh 
+  247  ./IF.sh 
+  248  nano IF.sh 
+  249  ./IF.sh 
+  250  ls
+  251  nano IF.sh 
+  252  ls
+  253  ./IF.sh 
+  254  nano IF.sh 
+  255  ./IF.sh 
+  256  nano IF.sh 
+  257  ./IF.sh 
+  258  nano IF.sh 
+  259  ./IF.sh 
+  260  nano IF.sh 
+  261  ./IF.sh 
+  262  nano IF.sh 
+  263  ./IF.sh 
+  264  nano IF.sh 
+  265  ./IF.sh 
+  266  nano IF.sh 
+  267  ./IF.sh 
+  268  nano IF.sh 
+  269  ./IF.sh 
+  270  3
+  271  ./IF.sh 
+  272  nano IF.sh 
+  273  ./IF.sh 
+  274  nano IF.sh 
+  275  vim IF.sh
+  276  ./IF.sh 
+  277  vim IF.sh
+  278  ./IF.sh 
+  279  vim IF.sh
+  280  ./IF.sh 
+  281  vim IF.sh
+  282  ./IF.sh 
+  283  vim IF.sh
+  284  ./IF.sh 
+  285  vim IF.sh
+  286  ./IF.sh 
+  287  vim IF.sh
+  288  ls
+  289  vim IF.sh
+  290  ls
+  291  ./IF.sh 
+  292  vim IF.sh
+  293  ./IF.sh 
+  294  vim IF.sh
+  295  ./IF.sh 
+  296  vim IF.sh
+  297  ./IF.sh 
+  298  ls
+  299  vim IF.sh
+  300  ./IF.sh 
+  301  vim IF.sh
+  302  ./IF.sh 
+  303  vim IF.sh
+  304  dir
+  305  pwd
+  306  rm +
+  307  rm =
+  308  ls
+  309  fir
+  310  dir
+  311  ls
+  312  dir
+  313  vim IF.sh
+  314  ls
+  315  vim IF.sh
+  316  history
+  317  ls
+  318  find . type -f -empty
+  319  find . -type -f -empty
+  320  find . -type -f 
+  321  find . -type f -empty
+  322  cat *.sh>combine_scripts
+  323  cat combine_scripts 
+  324  cat combine_scripts>combine_scripts.sh
+  325  ls
+  326  chmod 777 combine_scripts.sh
+  327  ls
+  328  history>day4.txt

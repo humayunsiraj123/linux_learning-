@@ -1,0 +1,22 @@
+total 0
+-rwxrwxrwx 1 humayun humayun 313 Feb  4 23:58 1script.sh
+-rw-r--r-- 1 humayun humayun  39 Feb  4 23:32 New.txt
+-rw-r--r-- 1 humayun humayun   0 Feb  5 00:00 data.txt
+-rw-r--r-- 1 humayun humayun 115 Feb  4 22:47 hello.txt
+-rw-r--r-- 1 humayun humayun  96 Feb  4 23:28 hello1.txt
+-rw-r--r-- 1 humayun humayun   0 Feb  4 23:45 home.txt
+-rw-r--r-- 1 humayun humayun  30 Feb  4 23:58 homex.txt
+lrwxrwxrwx 1 humayun humayun   9 Feb  4 23:52 link1 -> script.sh
+-rw-r--r-- 1 humayun humayun  46 Feb  4 23:58 link2
+-rwxrwxrwx 1 humayun humayun 298 Feb  4 23:32 script.sh
+total 1
+-rwxrwxrwx 1 humayun humayun 314 Feb  5 00:01 1script.sh
+-rw-r--r-- 1 humayun humayun  39 Feb  4 23:32 New.txt
+-rw-r--r-- 1 humayun humayun 571 Feb  5 00:00 data.txt
+-rw-r--r-- 1 humayun humayun 115 Feb  4 22:47 hello.txt
+-rw-r--r-- 1 humayun humayun  96 Feb  4 23:28 hello1.txt
+-rw-r--r-- 1 humayun humayun   0 Feb  4 23:45 home.txt
+-rw-r--r-- 1 humayun humayun  30 Feb  4 23:58 homex.txt
+lrwxrwxrwx 1 humayun humayun   9 Feb  4 23:52 link1 -> script.sh
+-rw-r--r-- 1 humayun humayun  46 Feb  4 23:58 link2
+-rwxrwxrwx 1 humayun humayun 298 Feb  4 23:32 script.sh
