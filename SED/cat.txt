@@ -1,0 +1,7 @@
+ID NAME Salary Country
+1 Ali	10000 pak
+2 khan 4325432 pak
+3 Ahmed 30000 india
+5 Ali 	10000 pak
+3 zain  20000 pak 
+4 khan  23000  ind

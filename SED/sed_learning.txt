@@ -1,0 +1,311 @@
+    1  cd /mnt/c
+    2  ls
+    3  ls -al
+    4  pwd
+    5  mkdir NEW
+    6  cd NEW
+    7  touch hello.txt
+    8  touch world.txt
+    9  mk dir helloworld
+   10  mkdir helloworld
+   11  mv hello.txt helloworld/  
+   12  mv world.txt helloworld/
+   13  ls
+   14  cd helloworld
+   15  ls
+   16  cp hello.txt world.txt NEW
+   17  cp hello.txt world.txt 
+   18  cp hello.txt world.txt helloworld
+   19  cp hello.txt world.txt helloworld/
+   20  cp hello.txt world.txt /helloworld
+   21  cp *.txt /helloworld
+   22  mkdir hellowolrd2
+   23  cp *.txt helloworld2/
+   24  ls
+   25  mv *.txt helloworld2/
+   26  mkdir new
+   27  mv *.txt new
+   28  ls
+   29  cd new
+   30  ls
+   31  cp *.txt hellowolrd2
+   32  cp *.txt hellowolrd2/
+   33  mv *.txt hellowolrd2/
+   34  ls
+   35  cd ..
+   36  ls
+   37  cd hellowolrd2
+   38  ls
+   39  cd..
+   40  cd ..
+   41  ls
+   42  new
+   43  cd new
+   44  ls
+   45  cp *.txt hellowolrd2/
+   46  ls
+   47  cd ..
+   48  ls
+   49  cd ..
+   50  cd
+   51  ls
+   52  pwd
+   53  /mnt/ c
+   54  cd /mnt/ c
+   55  cd /mnt/c
+   56  ls
+   57  cd NEW
+   58  ls
+   59  cp *.txt /NEW/helloworld/new /NEW/helloworld/hellowolrd2
+   60  mkdir new1
+   61  ls
+   62  cp _R /new /new1
+   63  ls
+   64  cd new1
+   65  ls
+   66  cp _R /new /new1/
+   67  cp -R /new /new1/
+   68  ls
+   69  cd..
+   70  cd ..
+   71  ls
+   72  cp -R /new /new1/
+   73  ls
+   74  cd helloworld
+   75  ls
+   76  cp -R /new /NEW/new1/
+   77  cls
+   78  ls
+   79  cd new
+   80  ls
+   81  cp *.txt /my
+   82  cp *.txt /helloworld/new/
+   83  cp *.txt /helloworld/new
+   84  mv *.txt /helloworld/new hellowolrd2
+   85  mv *.txt /hellowolrd2/
+   86  mv *.txt /hellowolrd2
+   87  ls
+   88  cd..
+   89  cdc..
+   90  cd ..
+   91  cd /c/NEW
+   92  */c/NEW
+   93  cd ~/c/NEW?
+   94  cd ..
+   95  cd..
+   96  cd ..
+   97  ls
+   98  cd linux_assignment/
+   99  ls
+  100  cd linux_assignment/
+  101  ls
+  102  cd linux/
+  103  ls
+  104  cd
+  105  cd ~
+  106  cd /mnt/c/linux_assignment/linux_assignment/linux/
+  107  ls
+  108  cd docs
+  109  ls
+  110  echo William\ E.\ Shotts\,\ Jr.\ -\ The\ Linux¬\ Command\ Line-lulu.com\ \(2009\).pdf 
+  111  ls -l
+  112  cat 'William E. Shotts, Jr. - The Linux¬ Command Line-lulu.com (2009).pdf' linux_self_assessment_tasks.pdf >new.pdf
+  113  ls
+  114  cd ../..
+  115  ls
+  116  mkdir scripts|cd ./|ls 
+  117  ls
+  118  mkdir scripts|cd ./scripts|ls 
+  119  mkdir scripts|cd scripts|ls 
+  120  ls
+  121  scripts
+  122  cd scripts/
+  123  ls
+  124  touch hello.txt
+  125  vi hello.txt
+  126  ls
+  127  ls -l
+  128  ls
+  129  vi script
+  130  ls -l
+  131  ./script
+  132  ls
+  133  chmod u-x script
+  134  ls
+  135  sudo chmod u-x script
+  136  ls
+  137  ls-l
+  138  ls -l
+  139  vi greet.sh
+  140  ls -ltr
+  141  ./greet.sh
+  142  ls
+  143  vi me.sh
+  144  ls
+  145  me.sh
+  146  ./me.sh
+  147  echo me.sh
+  148  file me.sh
+  149  cat me.sh
+  150  vi vote.sh
+  151  ls
+  152  ./vote.sh
+  153  vi vote.sh
+  154  ls
+  155  vote.sh
+  156  ./vote.sh 
+  157  vi vote.sh 
+  158  ls
+  159  vi vote.sh
+  160  ./vote.sh
+  161  vi vote.sh 
+  162  ./vote.sh
+  163  vi vote.sh 
+  164  ./vote.sh 
+  165  vi table2.sh
+  166  ls
+  167  ./table2.sh
+  168  vi table2.sh
+  169  ./table2.sh
+  170  vi table2.sh 
+  171  history
+  172  cat history>scripting.txt
+  173  history>scriting.txt
+  174  ls
+  175  cat scripting.txt 
+  176  ls
+  177  history
+  178* 
+  179  cdls
+  180  ls
+  181  l
+  182  ls
+  183  cd /mnt/c/Users/humay/
+  184  ls
+  185  cd linux/
+  186  ls
+  187  cat linux.txt 
+  188  ls
+  189  cd ..
+  190  cd git_work/
+  191  ls
+  192  grep -f hello.txt ../
+  193  ls
+  194  cd ..
+  195  ls
+  196  cd test
+  197  ls
+  198  cd ..
+  199  cd git-directory/
+  200  ls
+  201  cd  test/
+  202  ls
+  203  .. 
+  204  cd ..
+  205  ls
+  206  cat data
+  207  cat data.txt
+  208  cat data.txt>
+  209  cat> cat.txt
+  210  cat cat.txt 
+  211  ls
+  212  mv -r ./cat.txt SED/
+  213  mv  ./cat.txt SED/
+  214  mv  cat.txt SED/
+  215  mkdir SED
+  216  ls
+  217  mv cat.txt SED/
+  218  CD SEd
+  219  cd SED/
+  220  ls
+  221  cat cat.txt 
+  222  sed
+  223  sed -n '3p' cat.txt 
+  224  sed -n '$' cat.txt 
+  225  sed -n '$p' cat.txt 
+  226  sed -n '2,4p' cat.txt 
+  227  sed  -n "3,4p" cat.txt 
+  228  cat cat.txt 
+  229  sed  -n "1,4p" cat.txt 
+  230  sed -n  '/50000/p' cat.txt 
+  231  ls
+  232  esed -n '2p' '4p' cat.txt 
+  233  sed -n -e '2p' -e '4p' cat.txt 
+  234  sed -n -e '/Aus/p' -e '/pak/p' cat.txt 
+  235  sed -n '2~4p'  cat.txt 
+  236  sed -n '2~3p'  cat.txt 
+  237  sed  's/aiman/ali/g' cat.txt 
+  238  sed  's/india/Us/g' cat.txt 
+  239  echo "insert change in content and save in file"
+  240  echo "insert change in content and"
+  241  echo "insert change in content and and saving"
+  242  sed -i 's/pak/Us/g' cat.txt 
+  243  cat cat.txt 
+  244  sed -i '2 s/Us/pak/g' cat.txt 
+  245  cat cat.txt 
+  246  cat>> cat.txt
+  247  cat cat.txt 
+  248  sed -n '2 s/pak/us/g' cat.txt 
+  249  cat cat.txt 
+  250  sed -i '/Ali/ s/pak/us/g' cat.txt 
+  251  cat cat.txt 
+  252  sed -i '/Ali/ s/50000/10000/g' cat.txt 
+  253  cat cat.txt 
+  254  sed -i '/Ali/  2 s/pak/us/g' cat.txt 
+  255  sed -i '/Ali/2 s/pak/us/g' cat.txt 
+  256  sed -i '/Ali/ 2s/pak/us/g' cat.txt 
+  257  sed -i '2/Ali/ s/pak/us/g' cat.txt 
+  258  sed -i '/Ali/ s/pak/us/g' cat.txt 
+  259  cat cat.txt 
+  260  cat cat.txt
+  261  sed '4,5d' cat.txt 
+  262  sed '2,5d' cat.txt 
+  263  cat >>cat.txt 
+  264  cat cat.txt 
+  265  sed i'7,9d' cat.txt 
+  266  sed -i '7,9d' cat.txt 
+  267  cat cat.txt 
+  268  sed -i '/43443/' cat.txt 
+  269  sed -i '/43443/d' cat.txt 
+  270  cat cat.txt 
+  271  cat>> cat.txt 
+  272  catcat.txt 
+  273  cat cat.txt 
+  274  sed -i '/^$/d' cat.txt 
+  275  cat cat.txt 
+  276  sed -i 's/us/pak/g' cat.txt 
+  277  sed  '/pak/ w paki.txt' cat.txt 
+  278  ls
+  279  cat paki.txt 
+  280  sed '3 a  its kahn saab ' cat.txt 
+  281  sed '3 c ...........' cat.txt 
+  282  cat cat.txt 
+  283  sed -i '3 c ...........' cat.txt 
+  284  cat cat.txt 
+  285  sed -i '4 i 2 khan 4325432 pak' cat.txt 
+  286  cat cat.txt 
+  287  sed -i '3d' cat.txt 
+  288  cat
+  289  cat cat.txt 
+  290* sed -n 'l 10'
+  291  ls
+  292  cat externalfile 
+  293  cat>> externalfile 
+  294  ls
+  295  sed '3 r externalfile' cat.txt 
+  296  cat cat.txt 
+  297  ls
+  298  sed '$ e date' cat.txt 
+  299  sed -n '$ e date' cat.txt 
+  300  sed  '$$ e date' cat.txt 
+  301  sed  '$ e date' cat.txt 
+  302  sed  's/^&/e date' cat.txt 
+  303  sed  '& / /e date' cat.txt 
+  304  sed  '$e date' cat.txt 
+  305  sed  '$ e pwd' cat.txt 
+  306  sed  '$ e ls -l' cat.txt 
+  307  sed  '$ e ls ' cat.txt 
+  308  cat >name.txt
+  309  ls
+  310  cat name.txt 
+  311  history>>sed_learning.txt

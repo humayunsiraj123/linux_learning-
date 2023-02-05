@@ -1,0 +1,4 @@
+1 Ali	10000 pak
+2 khan 	50000  Apak
+5 Ali 	10000 pak
+3 zain  20000 pak 
