@@ -1,0 +1,1000 @@
+  822  type -newer hello1.html
+  823  find -newer 
+  824  find -newer hello1.html
+  825  ls
+  826  find  -perm 777
+  827  find -size 1
+  828  find -size 3
+  829  find -pattern hel
+  830  find -name hel
+  831  find -name hello
+  832  echo searching file with name  and delet it 
+  833  find ~ -type f -name "*.html" -delete
+  834  ls
+  835  find  -type f -name "*.html" -delete
+  836  ls
+  837  find  -type f -name "*.txt" -print
+  838  echo filw with bad permisison or directory with bad permissin
+  839  find ~ \(-type f -not -perm 0600\) -or \(-type d -not -perm 0700\)
+  840  ls
+  841  touch hello.txt hello1.txt hello.html hello.exe file.txtfile.html
+  842  ls
+  843  find ~ -print -and -type f -and -hello.* 
+  844  find ~ -print -and -type f -and -name '*.txt'
+  845  find ./ -print -and -type f -and -name '*.txt'
+  846  find ./ -type f "hel*" -ok ls -l '{}' ';'
+  847  find  -type f "hel*" -ok ls -l '{}' ';'
+  848  find  ../ -type f "hel*" -ok ls -l '{}' ';'
+  849  find  ../..  -type f "hel*" -ok ls -l '{}' ';'
+  850  ls
+  851  find   -type f "hel*" -ok ls -l '{}' ';'
+  852  find ~-type f -name 'hel*' -exec ls -l '{}'  
+  853  find ~-type f -name 'hel*' -exec ls -l '{}'';'
+  854  find ~ -type f -name 'hel*' -exec ls -l '{}'';'
+  855  find  -type f -name 'hel*' -exec ls -l '{}'';'
+  856  find ~ -type f -name 'hell*' -print |xargs ls-l
+  857  find ~ -type f -name 'hell*' -print |xargs ls -l
+  858  find ~ -type f -name 'hell*' -print |xargs ls 
+  859  ls
+  860  mkdir -p ./dir-{00{1..9},0{10..99},100}
+  861  ls
+  862  touch -p ./hello-{00{1..9},0{10..99},100}.txt
+  863  touch  ./hello-{00{1..9},0{10..99},100}.txt
+  864  ls
+  865  touch  ./hello{00{1..9},0{10..99},100}.txt
+  866  ls
+  867  touch ./dir-001/file{00{1..9},0{10..99},100}.html
+  868  ls
+  869  cd dir-001
+  870  ls
+  871  cd..
+  872  cd ..
+  873  ls
+  874  rm ./hel*.txt 
+  875  ls
+  876  mv -r ./di* ./DIR/
+  877  mv -p  ./di* ./DIR/
+  878  mv   ./di* ./DIR/
+  879  mv   ./di* ./DIR
+  880  mv   ./di* DIR
+  881  mv   di* DIR
+  882  lsls
+  883  ls
+  884  mkdir DIR
+  885  mv dir* DIR
+  886  ls
+  887  vim script1.sh
+  888  ls
+  889  ls -l script1.sh 
+  890   
+  891  cat script1.sh 
+  892  echo script1.sh 
+  893  ./script1.sh 
+  894  bash script1.sh 
+  895  touch script1.sh 
+  896  ls
+  897  nano script1.sh 
+  898  ls
+  899  bash script1.sh 
+  900  nano script1.sh 
+  901  ls
+  902  bash script1.sh 
+  903  nano script1.sh 
+  904  bash script1.sh 
+  905  nano script1.sh 
+  906  bash script1.sh 
+  907  nano script1.sh 
+  908  bash script1.sh 
+  909  nano script1.sh 
+  910  bash script1.sh 
+  911  ps tree
+  912  pstree
+  913  ls
+  914  touch ./../../test1.txt/./test.txt/../
+  915  touch ./../../test1/./test/../
+  916  mkdir -p  ./../../test1/./test/../
+  917  ls
+  918  pstree
+  919  ptree
+  920  tree
+  921  tee
+  922  netstate -ie
+  923  netstat 
+  924  netstat -ie
+  925  pin linuxcommand.org
+  926  ping linuxcommand.org
+  927  ftp fileserver
+  928  ls
+  929  ssh remote-sys
+  930  ls
+  931  ..
+  932  tree
+  933  dir
+  934  ls
+  935  locate hello
+  936  locate ./ hello
+  937  locate hel/
+  938  locate hel
+  939  find ~
+  940  find ~ |wc -l
+  941  ls
+  942  find ~ |wc 
+  943  find ~ -type d |wc -l
+  944  find ~ -type d |wc 
+  945  find ~ -type d|wc> direct.txt
+  946  cat direct.txt
+  947  find ~ -nouser|wc 
+  948  find ~
+  949  find ~ -type f -perm chmod575 |ls -l|wc > perm.txt
+  950  find ~ -type f -perm 0600 |ls -l|wc > perm.txt
+  951  nano perm.txt
+  952  find ~ -type f |ls -l >filex.txt |wc >>filex.txt
+  953  nano filex.txt
+  954  find ~ -type f |ls  >filex.txt |wc  >>filex.txt
+  955  nano filex.txt
+  956  find ~ -type f |ls  >filex.txt |wc  >filex.txt
+  957  nano filex.txt
+  958  find ~ -type f |wc  >filex.txt|ls >>filex.txt
+  959  nano filex.txt
+  960  ls
+  961  find ~ -type f *.html |wc  >filex.txt|ls >>htmlfile.txt
+  962  find ~ -type f -name *.html |wc  >filex.txt|ls >>htmlfile.txt
+  963  find ~ -type f -name ./*.html |wc  >filex.txt|ls >>htmlfile.tx
+  964  ls
+  965  find ~ -type f -name *.html |wc  >filex.txt|ls >>htmlfile.txt
+  966  find ~ -type f -name '*.html' |wc  >filex.txt|ls >>htmlfile.txt
+  967  ls
+  968  cat htmlfile.txt
+  969  find ~ -type f -name '*.html' |wc  >filex.txt|ls >>htmlfilex.txt
+  970  ls
+  971  cat htmlfilex.txt 
+  972  find ./ -perm 777>perm1.txt
+  973  find ./ -perm 777 >perm1.txt
+  974  find . -type f -name "h*" |wc >hellols.txt 
+  975  nano hellols.txt
+  976  find . -type f -name "h*" |wc >hellols.txt |ls >>hellols.txt 
+  977  nano hellols.txt 
+  978  ls
+  979  cat hellols.txt 
+  980  find . -type f -name "h*" |wc >hellols.txt |ls >>hellols.txt |wc >>hellols.txt 
+  981  cat hellols.txt 
+  982  ls
+  983  cat htmlfile.txt
+  984  ls
+  985  cat htmlfile.txt
+  986  cat hellols.txt 
+  987  find . -type f -name "h*" |wc >hellols.txt |ls >>hellols.txt |wc| >>hellols.txt 
+  988  cat hellols.txt 
+  989  cat hellols.txt |wc >> hellols.txt
+  990  cat hellols.txt 
+  991  find . -type f -name "h*" |wc >hellols.txt |ls >>hellols.txt | cat hellols.txt |wc >>hellols.txt 
+  992  cat hellols.txt 
+  993  find . -type f -name "h*" |wc >hellols.txt |ls >>hellols.txt | cat hellols.txt wc 
+  994  find . -type f -name "h*" |wc >hellols.txt |ls >>hellols.txt | cat hellols.txt wc -l 
+  995  find . -type f -name "h*" |wc >hellols.txt |l 
+  996  find . -type f -name "h*" |wc >hellols.txt |ls >>hellols.txt | cat hellols.txt 
+  997  find . \(-type f -perm 0600 -exec chmod 0600 '{}'\) -or find . \(-type f -name 'h*' \)-or find . \(-type d  \) |wc >result.txt|  ls -l >result.txt
+  998  find . \(-type f -perm 0600 -exec chmod 0600 '{}'';'\) -or find . \(-type f -name 'h*' \)-or find . \(-type d  \) |wc >result.txt|  ls -l >result.txt
+  999  find . \(-type f -not -perm 0600 -exec chmod 0600 '{}' ';'\) -or  \(-type f -name 'h*' \)-or \(-type d  \) |wc >result.txt|  ls -l >result.txt
+ 1000  find . -type f -name "h*" |wc >hellols.txt |ls >>hellols.txt wc>>hellols.txt 
+ 1001  find . -type f -name "h*" |wc >hellols.txt |ls >>hellols.txt| wc>>hellols.txt 
+ 1002  cat hellols.txt 
+ 1003  ls
+ 1004  ls hellols.txt 
+ 1005  cat hellols.txt 
+ 1006  gzip hellols.txt 
+ 1007  cat hellols.txt.gz 
+ 1008  gunzip hellols.txt.gz
+ 1009  ls
+ 1010  find . -type f "h*" > count.txt 
+ 1011  find ./ -type f "h*" > count.txt 
+ 1012  find ../ -type f "h*" > count.txt 
+ 1013  find ../.. -type f "h*" > count.txt 
+ 1014  find -type f "h*" > count.txt 
+ 1015  find ~ -type f "h*" > count.txt 
+ 1016  find ./ -type f -name "h*" > count.txt 
+ 1017  cat count.txt 
+ 1018  find ./ -type f -name "h*" > count.txt |wc count.txt >>count.txt 
+ 1019  ls
+ 1020  cat count.txt 
+ 1021  echo "Regix learning"
+ 1022  ls
+ 1023  ls |grep he
+ 1024  grep he
+ 1025  ls |grep z
+ 1026  ls gre 0
+ 1027  ls grep o
+ 1028  ls| grep o
+ 1029  ls
+ 1030  rm file.txtfile.html 
+ 1031  ls
+ 1032  bash script1.sh 
+ 1033  nano script1.sh 
+ 1034  bash script1.sh 
+ 1035  nano script1.sh 
+ 1036  ls
+ 1037  bash script1.sh 
+ 1038  nano script1.sh 
+ 1039  ls
+ 1040  bash script1.sh 
+ 1041  nano script1.sh 
+ 1042  bash script1.sh 
+ 1043  nano script1.sh 
+ 1044  bash script1.sh 
+ 1045  nano script1.sh 
+ 1046  bash script1.sh 
+ 1047  nano script1.sh 
+ 1048  ls
+ 1049  bash script1.sh 
+ 1050  nano script1.sh 
+ 1051  ls
+ 1052  perm.txt
+ 1053  cat perm.txt
+ 1054  ls -l |grep e
+ 1055  ls -l |grep -v e
+ 1056  ls -l |grep -c H
+ 1057  ls -l |grep -c -i h
+ 1058  ls -l |grep -c -i h>>result.txt
+ 1059  ls
+ 1060  cat result.txt 
+ 1061  grep -l -i h
+ 1062  ls -l |grep -l -i h
+ 1063  dsd
+ 1064  sl
+ 1065  ls
+ 1066  gzip touch {a..z}{0..9}.txt
+ 1067  gzip touch {a..z}{0..9}
+ 1068  touch {a..z}{0..9}.txt
+ 1069  ls
+ 1070  gzip {a..z}{0.9}.txt
+ 1071  gzip -f {a..z}{0.9}.txt
+ 1072  gzip -f {a..z}{0..9}.txt
+ 1073  ls
+ 1074  ls -l
+ 1075  ls
+ 1076  gunzip {a..z}{0..9}.txt.gz
+ 1077  ls
+ 1078  mv -r -p {a..z}{0..9}.txt /az09/
+ 1079  mv  -p {a..z}{0..9}.txt /az09/
+ 1080  mv  {a..z}{0..9}.txt /az09/
+ 1081  mv  {a..z}{0..9}.txt /az09
+ 1082  mv  {a..z}{0..9}.txt az09
+ 1083  mv  {a..z}{0..9}.txt . az09
+ 1084  mv  {a..z}{0..9}.txt ./ az09/
+ 1085  mkdir az09 |mv {a..z}{0..9}.txt az09/
+ 1086  mkdir az09 |mv {a..z}{0..9}.txt az09
+ 1087  ls
+ 1088  az09
+ 1089  cd az09|ls 
+ 1090  ls|cd az09/
+ 1091  cd az09
+ 1092  ls
+ 1093  cd..
+ 1094  cd ..
+ 1095  ls
+ 1096  cat >data.txt
+ 1097  cp -r data.txt ./data2.txt
+ 1098  ls
+ 1099  cp -r data.txt ./data3.txt ./data4.txt
+ 1100  cp -r data.txt ./data3.txt data4.txt
+ 1101  cp -r data.txt data3.txt data4.txt
+ 1102  cp -r data.txt data4.txt 
+ 1103  ls
+ 1104  nano data2.txt data3.txt data4.txt
+ 1105  ls
+ 1106  grep data d*
+ 1107  grep data *
+ 1108  grep d*
+ 1109  grep d *
+ 1110  grep -w data
+ 1111  grep -w data *
+ 1112  grep -w data */
+ 1113  grep -w data ./
+ 1114  grep -w data da*
+ 1115  grep -i 'data' *
+ 1116  grep -i 'data' */
+ 1117  grep -i data d*.txt
+ 1118  grep -x "hello world" *
+ 1119  grep -x 'hello world'
+ 1120  grep -x 'hello world' *
+ 1121  grep -x 'hello world' /
+ 1122  grep -x 'hello world' *.txt 
+ 1123  grep -x "hello world" *.txt 
+ 1124  ls
+ 1125  grep -c data *
+ 1126  ls
+ 1127  cat data4.txt 
+ 1128  cat data3.txt
+ 1129  grep -C 2 bash *
+ 1130  grep  -m 3 '[^a-z]' d*
+ 1131  ls
+ 1132  nano data3.txt
+ 1133  grep [:punct:] data3.txt
+ 1134  grep [[:punct:]] data3.txt
+ 1135  locale
+ 1136  echo "923162725716" |grep  '^{92}[0-9][0-9][0-9]*" 
+ 1137  echo "923162725716" |grep  '^{92}[0-9][0-9][0-9]*@' 
+ 1138  echo "923162725716" |grep  '^{92}[0-9][0-9][0-9]*" 
+ 1139  echo "923162725716" |grep  '^{92}[0-9][0-9][0-9]*@' 
+ 1140  echo "923162725716" |grep  '^{92}[0-9][0-9][0-9]*@'
+ 1141  echo "923162" |grep  '^{92}[0-9][0-9][0-9][0-9]@'
+ 1142  echo "923162" |grep  -E '^{92}[0-9][0-9][0-9][0-9]@'
+ 1143  echo "923162" |grep  -E '^{92}[0-9][0-9][0-9][0-9]$'
+ 1144  echo "923162" |grep   '^{92}[0-9][0-9][0-9][0-9]$'
+ 1145  echo "This works." | grep -E '[[:upper:]][[:upper:][
+ 1146  :lower:] ]*\.'
+ 1147  echo "This works." | grep -E '[[:upper:]][[:upper:][
+ 1148  :lower:] ]*\.'
+ 1149  echo "This works." | grep -E '[[:upper:]][[:upper:][
+ 1150  :lower:] ]*\.'
+ 1151  echo "923162" |grep   '^[92][0-9][0-9][0-9][0-9]$'
+ 1152  echo ([0-9]{3}-[0-9][0-9]{4})
+ 1153  echo "[0-9]{3}-[0-9][0-9]{4}"
+ 1154  echo [0-9]{3}-[0-9][0-9]{4}
+ 1155  cat <<END >> test-file
+ 1156  This is a simple text file that contains
+ 1157  multiple strings as well as some telephone numbers
+ 1158  (555) 555-1234 (567) 666-2345
+ 1159  and email plus web addresses
+ 1160  john@doe.com
+ 1161  https://google.com
+ 1162  ftp://mywebserver.com
+ 1163  END
+ 1164  ls test-file
+ 1165  test-file
+ 1166  cat test-file
+ 1167  echo <<ok>> Text-data
+ 1168  hello world
+ 1169  it me humayun 
+ 1170  i am working as fpga design engineer 
+ 1171  at prestigous organization Digitek engineering
+ 1172  its a daugther from of Hitek.sys
+ 1173  (444) 444-1234 (423) 4234_4234
+ 1174  above is my no
+ 1175  my email address is
+ 1176  humayun.siraj@digitekeng.com
+ 1177  https://google.com
+ 1178  ftp://mywebserver.som
+ 1179  ftp: //mywebserver.com
+ 1180  ok
+ 1181  ls
+ 1182  Text-data
+ 1183  cat Text-data
+ 1184  echo <<ok>> Text-file
+ 1185  hello world
+ 1186  it me humayun 
+ 1187  i am working as fpga design engineer 
+ 1188  at prestigous organization Digitek engineering
+ 1189  its a daugther from of Hitek.sys
+ 1190  (444) 444-1234 (423) 4234_4234
+ 1191  above is my no
+ 1192  my email address is
+ 1193  humayun.siraj@digitekeng.com
+ 1194  https://google.com
+ 1195  ftp://mywebserver.som
+ 1196  ftp: //mywebserver.com
+ 1197  ok
+ 1198  cat Text-file
+ 1199  echo <<ok>> test-file
+ 1200  hello world
+ 1201  it me humayun 
+ 1202  i am working as fpga design engineer 
+ 1203  at prestigous organization Digitek engineering
+ 1204  its a daugther from of Hitek.sys
+ 1205  (444) 444-1234 (423) 4234_4234
+ 1206  above is my no
+ 1207  my email address is
+ 1208  humayun.siraj@digitekeng.com
+ 1209  https://google.com
+ 1210  ftp://mywebserver.som
+ 1211  ftp: //mywebserver.com
+ 1212  ok
+ 1213  ls
+ 1214  cat test-file
+ 1215  rm test-file
+ 1216  ls
+ 1217  echo <<ok>> test-file
+ 1218  hello world
+ 1219  it me humayun 
+ 1220  i am working as fpga design engineer 
+ 1221  at prestigous organization Digitek engineering
+ 1222  its a daugther from of Hitek.sys
+ 1223  (444) 444-1234 (423) 4234_4234
+ 1224  above is my no
+ 1225  my email address is
+ 1226  humayun.siraj@digitekeng.com
+ 1227  https://google.com
+ 1228  ftp://mywebserver.som
+ 1229  ftp: //mywebserver.com
+ 1230  ok
+ 1231  ls 
+ 1232  cat test-file 
+ 1233  echo <<ok >> test-file
+ 1234  hello world
+ 1235  it me humayun 
+ 1236  i am working as fpga design engineer 
+ 1237  at prestigous organization Digitek engineering
+ 1238  its a daugther from of Hitek.sys
+ 1239  (444) 444-1234 (423) 4234_4234
+ 1240  above is my no
+ 1241  my email address is
+ 1242  humayun.siraj@digitekeng.com
+ 1243  https://google.com
+ 1244  ftp://mywebserver.som
+ 1245  ftp: //mywebserver.com
+ 1246  ok
+ 1247  ls
+ 1248  cat test-file
+ 1249  cat  <<ok >> Text-file
+ 1250  hello world
+ 1251  it me humayun 
+ 1252  i am working as fpga design engineer 
+ 1253  at prestigous organization Digitek engineering
+ 1254  its a daugther from of Hitek.sys
+ 1255  (444) 444-1234 (423) 4234_4234
+ 1256  above is my no
+ 1257  my email address is
+ 1258  humayun.siraj@digitekeng.com
+ 1259  https://google.com
+ 1260  ftp://mywebserver.som
+ 1261  ftp: //mywebserver.com
+ 1262  ok
+ 1263  ls cat Text-file 
+ 1264  cat Text-
+ 1265  cat Text-file 
+ 1266  ls
+ 1267  grep Text-file 
+ 1268  grep "email" Text-file 
+ 1269  ls
+ 1270  grep -n digitek
+ 1271  grep -n digitek Text-file 
+ 1272  ls |grep ".html"
+ 1273  grep '^[a-zA-Z0-9]\+.[a-zA-Z0-9]\+@[a-zA-Z0-9]\+\.[a-z]\{2,\}' Text-file 
+ 1274  echo "fetching url hhtps http or ftp general code"
+ 1275  egrep '^(https|http|ftp):[\/]{2}([a-zA-Z0-9\-\.]+\.[a-z]\{2,\})' Text-file 
+ 1276  egrep '^(https|http|ftp):[\/]{2}([a-zA-Z0-9\-\.]+\.[a-z]\{2,\})' Text-file 
+ 1277  egrep '^(https|http|ftp):[\/]{2}([a-zA-Z0-9\-\.]+\.[a-z]\{2,4})' Text-file 
+ 1278  grep '^(https|http|ftp):[\/]{2}([a-zA-Z0-9\-\.]+\.[a-z]\{2,\})' Text-file 
+ 1279  cat Text-file 
+ 1280  grep -E '^(https|http|ftp):[\/]{2}([a-zA-Z0-9]\+.[a-z]\{2,\})' Text-file 
+ 1281  grep  '^(https|http|ftp):[\/]{2}([a-zA-Z0-9]\+.[a-z]\{2,\})' Text-file 
+ 1282  history
+ 1283  history >day.txt
+ 1284  cat day.txt
+ 1285  history >day3.txt
+ 1286  ls
+ 1287  egrep "^(https|http|ftp|ftp |):[\/]{2}([a-zA-Z0-9\-\.]+\.[a-zA-Z]{2,4})" Text-file 
+ 1288  egrep "^(https|http|ftp|ftp ):[\/]{2}([a-zA-Z0-9\-\.]+\.[a-zA-Z]{2,4})" Text-file 
+ 1289  egrep '^(https|http|ftp|ftp ):[\/]{2}([a-zA-Z0-9]+\.[a-z]{2,4})' Text-file 
+ 1290  ls
+ 1291  empty
+ 1292  file -empty type f 
+ 1293  find -type f -empty 
+ 1294  find -type f -empty /
+ 1295  find -type f -empty ./
+ 1296  find ./ -type f -empty 
+ 1297  find ./hello -type f -empty|mkdir  
+ 1298  find ../-type f -empty|>>empty.txt  
+ 1299  find ../ -type f -empty|>>empty.txt  
+ 1300  cat empty.txt 
+ 1301  find ../ -type f -empty
+ 1302  hsitory
+ 1303  historu
+ 1304  history
+ 1305  ls
+ 1306  pwd
+ 1307  cd /mnt/c/Users/Humayun\ Siraj/
+ 1308  ls
+ 1309  ./new.sh 
+ 1310  cd test1
+ 1311  ls
+ 1312  cd
+ 1313  cd /mnt/c/Users/Humayun\ Siraj/
+ 1314  cd test/
+ 1315  ls
+ 1316  cd ..
+ 1317  rm -r test1
+ 1318  rm -r ../test1
+ 1319  ls
+ 1320  cd ..
+ 1321  ls
+ 1322  cat >sed.txt
+ 1323  cat >>sed.txt
+ 1324  cat sed.txt 
+ 1325  sed -n '1 p /ID Name pay country/w' sed.txt 
+ 1326  sed '5  /ID Name pay country/' sed.txt 
+ 1327  sed -n '1 i   /ID Name pay country/' sed.txt 
+ 1328  cat  sed.txt 
+ 1329  sed -n '1p' sed.txt 
+ 1330  sed -n '1,4p' sed.txt 
+ 1331  sed -n  '/ind/p' sed.txt 
+ 1332  sed -n  '/pak/p' sed.txt 
+ 1333  sed -n -e '1p' -e '4p' sed.txt 
+ 1334  sed -n -e '/ind/' -e 'pak' sed.txt 
+ 1335  sed -n -e '/ind/' -e '/pak/' sed.txt 
+ 1336  sed -n -e '/ind/p' -e '/pak/p' sed.txt 
+ 1337  sed -n '2,+2p' sed.txt 
+ 1338  cat exp.txt
+ 1339  cat >exp.txt
+ 1340  sed -f exp.txt sed.txt 
+ 1341  nano exp.txt
+ 1342  sef -f exp.txt sed.txt 
+ 1343  sed -f exp.txt sed.txt 
+ 1344  cat sed.txt 
+ 1345  sed -n 'paul s/3231/4000/g' sed.txt 
+ 1346  sed -n '/khan/ s/3231/4000/g' sed.txt 
+ 1347  ls
+ 1348  cat sed.txt 
+ 1349  sed -i '/khan/ s/[[:digit:]][[:digit:]]/4000/g ' sed.txt 
+ 1350  cat sed.txt 
+ 1351  sed -i '/khan/ s/[[:digit:]]/4000/g ' sed.txt 
+ 1352  cat sed.txt 
+ 1353  sed -i '/khan/ s/[[:digit:]]/4000/g ' sed.txt 
+ 1354  cat sed.txt 
+ 1355  sed -i '2d' sed.txt 
+ 1356  cat sed.txt 
+ 1357  sed '/aus/d' sed.txt 
+ 1358  sed -n '1 /aus/ind/p' sed.txt 
+ 1359  sed -n ' /aus/ind/p' sed.txt 
+ 1360  cat sed.txt 
+ 1361  cat >>sed.txt
+ 1362  cat sed.txt
+ 1363  sed -i '/^$/d' sed.txt 
+ 1364  cat sed.txt 
+ 1365  sed -i '4,$d' sed.txt 
+ 1366  cat sed.txt 
+ 1367  sed -n '/ind/ w india.txt ' sed.txt 
+ 1368  cat india.txt
+ 1369  sed -n '/ind/ w india' sed.txt 
+ 1370  ls
+ 1371  india
+ 1372  cat india.txt\  
+ 1373  sed '1 ID Name  pay  country ' sed.txt 
+ 1374  sed -n '1  a Name  pay  country ' sed.txt 
+ 1375  sed  '1 a Id Name  pay  country ' sed.txt 
+ 1376  cat sed.txt 
+ 1377  sed  -i '1 a Id Name  pay  country ' sed.txt 
+ 1378  cat sed.txt 
+ 1379  sed  -i '1 i Id Name  pay  country ' sed.txt 
+ 1380  cat sed.txt 
+ 1381  sed -i '3 c 3 khan 4000  pak ' sed.txt 
+ 1382  cat sed.txt 
+ 1383  sed  -i '1 i 1 ahmed 5000 USA' sed.txt 
+ 1384  ca
+ 1385  cat sed.txt 
+ 1386  sed  -i '2 c 1 ahmed 5000 USA' sed.txt 
+ 1387  sed -i '2 Id Name  pay  country' sed.txt 
+ 1388  sed -i '2 c Id Name  pay  country' sed.txt 
+ 1389  cat sed.txt 
+ 1390  ls
+ 1391  cat sed.txt 
+ 1392  sed -i '1 i Id Name  pay  country' sed.txt 
+ 1393  ls
+ 1394  cat sed.txt 
+ 1395  sed -n '3d' sed.txt 
+ 1396  cat sed.txt 
+ 1397  sed -ni '3d' sed.txt 
+ 1398  cat sed.txt 
+ 1399  ls
+ 1400  cat sed.txt 
+ 1401  nano sed.txt
+ 1402  cat >>sed.txt
+ 1403  cat sed.txt 
+ 1404  ls
+ 1405  cat sed
+ 1406  cat sed.txt 
+ 1407  man sed
+ 1408  ls
+ 1409  cat sed.txt 
+ 1410  sed  '/ind/ w ind.txt' sed.txt 
+ 1411  cat ind.txt 
+ 1412  who
+ 1413  whoami
+ 1414  who is
+ 1415  cat /etc
+ 1416  cat /etc/passwd
+ 1417  w
+ 1418  ls
+ 1419  cat se
+ 1420  cat sed.txt 
+ 1421  ls
+ 1422  cd /mnt/e
+ 1423  ls
+ 1424  ls -l
+ 1425  file System\ Volume\ Information/
+ 1426  ls System\ Volume\ Information/
+ 1427  sudo ls System\ Volume\ Information/ 
+ 1428  ..
+ 1429  ls -h
+ 1430  cd System\ Volume\ Information/
+ 1431  ls
+ 1432  whoami
+ 1433  whatis SM2 
+ 1434  who
+ 1435  who /etc/passwd/
+ 1436  ls
+ 1437  who /etc/passwd
+ 1438  ls
+ 1439  cd ..
+ 1440  cd..
+ 1441  cd 
+ 1442  ls
+ 1443  who
+ 1444  whoami
+ 1445  ls
+ 1446* 
+ 1447  ls
+ 1448  ls -l
+ 1449  whoiam i
+ 1450  who ami
+ 1451  whoami
+ 1452  hostname
+ 1453  pwd
+ 1454  ls
+ 1455  cd /mnt/c.
+ 1456  cd /mnt/c/Users/
+ 1457  ls
+ 1458  cd Humayun\ Siraj/
+ 1459  ls
+ 1460  mv india india.txt
+ 1461  ls
+ 1462  mv india.txt 'india.txt '  
+ 1463  ls
+ 1464  ifcongif
+ 1465  ifconfig
+ 1466  ping
+ 1467  ping linuxcommand.org
+ 1468  ip addr
+ 1469  ftp servefile
+ 1470  history 
+ 1471  ls
+ 1472  cd Downloads/
+ 1473  ls
+ 1474  cd linux_assignment/
+ 1475  ls
+ 1476  cd linux
+ 1477  ls
+ 1478  vim 1task.sh
+ 1479  ls
+ 1480  bash 1task.sh 
+ 1481  vim 1task.sh
+ 1482  bash 1task.sh 
+ 1483  ls
+ 1484  pwd
+ 1485  ls
+ 1486  find -type f -empty |ls 
+ 1487  find -type f -empty 
+ 1488  rm 'find -type f-empty' ./ 
+ 1489  rm -f 'find -type f-empty' ./ 
+ 1490  rm -f 'find -type f-empty' 
+ 1491  ls
+ 1492  rm -f 'find -type f -empty' 
+ 1493  ls
+ 1494  rm -f find -type f -empty 
+ 1495  rm --help
+ 1496  ls
+ 1497  find . -type f -empty -print -delete
+ 1498  ls
+ 1499  echp $PATH
+ 1500  echo $PATH
+ 1501  echo ./ $path
+ 1502  echo ./ $PATH
+ 1503  ls
+ 1504  cd ..
+ 1505  ls
+ 1506  cd ..
+ 1507  ls
+ 1508  cd playground/
+ 1509  ls
+ 1510  find playground \(-type f -not -perm 0600 -exec chmod 0600  '{}' ';'\) -or \(-type d -not -perm 0600 -exec chmod '{}' ';'\) -print 
+ 1511  find playground \(-type f -not -perm 0600 -exec chmod 0600  '{}' ';'\) -or \(-type d -not -perm 0600 -exec chmod 0600'{}' ';'\) -print 
+ 1512  find playground \(-type f -not -perm 0600 -exec chmod 0600  '{}' ';'\) -or \(-type d -not -perm 0600 -exec chmod 0600'{}' ';'\) 
+ 1513  find playground \(-type f -not -perm 0600  chmod 0600  '{}' ';'\) -or \(-type d -not -perm 0600  chmod 0600'{}' ';'\) 
+ 1514  cd ls
+ 1515  ls
+ 1516  find  \(-type f -not -perm 0600  chmod 0600  '{}' ';'\) -or \(-type d -not -perm 0600  chmod 0600'{}' ';'\) 
+ 1517  find \(-type f -not -perm 0600  chmod 0600  '{}' ';'\) -or \(-type d -not -perm 0600  chmod 0600'{}' ';'\) 
+ 1518  ls
+ 1519  ls -al
+ 1520  find -type f -empty -print -delet
+ 1521  find -type f -empty -print -delete
+ 1522  ls -al
+ 1523  ls
+ 1524  #pwd
+ 1525  path
+ 1526  bash $PATH
+ 1527  echo $path |ls 
+ 1528  echo #PATH|ls
+ 1529  ls
+ 1530  echo #PATH |ls -l
+ 1531  ls
+ 1532  echo $path |ls
+ 1533  echo $path |ls -l
+ 1534  cd ..
+ 1535  ls
+ 1536  ./new.sh 
+ 1537  ls
+ 1538  cat sed.txt
+ 1539  ls
+ 1540  :syntax on
+ 1541  vim ~/bin/home
+ 1542  ls
+ 1543  ls -l
+ 1544  ln sed sed.txt
+ 1545  ln sed.txt sed
+ 1546  ls
+ 1547  ls -l
+ 1548  ln -l sed.txt sed
+ 1549  ln -s sed.txt sed
+ 1550  ln -s sed.txt sed1
+ 1551  ls
+ 1552  ls 
+ 1553  vim web.sh
+ 1554  ls
+ 1555  cat web.sh 
+ 1556  ls -l web.sh 
+ 1557  ./ web.sh 
+ 1558  ./web.sh 
+ 1559  vim web.sh 
+ 1560  ls
+ 1561  ./web.sh 
+ 1562  vim web.sh >web
+ 1563  cp we.sh web
+ 1564  cp -f web.sh web
+ 1565  ls
+ 1566  cat web
+ 1567  web>web.html
+ 1568  cat web>web.html
+ 1569  ls
+ 1570  chrome web.html 
+ 1571  firefox web.html 
+ 1572  supo apt install chrome
+ 1573  sudo apt install chrome
+ 1574  sudo apt-get install chrome
+ 1575  ls
+ 1576  chrome web.html 
+ 1577  edge web.html
+ 1578  "chrome" web.html
+ 1579  google-chrome web.html
+ 1580  whereis google-chrome
+ 1581  google-chrome web.html
+ 1582  google-chrome --help
+ 1583  google www.google.com
+ 1584  Chrome's.deb
+ 1585  start
+ 1586  start chrome web.html
+ 1587  ls
+ 1588  chmod 777 chrome
+ 1589  sudo start chrome web.hmtl
+ 1590  ls
+ 1591  cat web.s
+ 1592  cat web.sh
+ 1593  ./web.s
+ 1594  ./web.sh
+ 1595  vim web.sh
+ 1596  ./web.sh
+ 1597  vim web.sh
+ 1598  ./web.sh
+ 1599  vim web.sh
+ 1600  ./web.sh
+ 1601  vim web.sh
+ 1602  ls
+ 1603  ./web.sh
+ 1604  vim if.sh
+ 1605  ls
+ 1606  ./web.sh
+ 1607  yes
+ 1608  ./if.sh 
+ 1609  ls
+ 1610  vim if.sh
+ 1611  ./if.sh 
+ 1612  vim if.sh
+ 1613  ./if.sh 
+ 1614  man read
+ 1615  read man
+ 1616  man read
+ 1617  read-multiple > a b c d e f i 
+ 1618  45
+ 1619  45 43 54 53 24 54 42
+ 1620  read-multiple > a b c d e f i 
+ 1621  read-integer
+ 1622  read
+ 1623  read a s d f
+ 1624  echo $a
+ 1625  whoami
+ 1626  who
+ 1627  /etc/bin/pass
+ 1628  ./etc/bin/pass
+ 1629  echp $PATH
+ 1630  echo $PATH
+ 1631  cat /etc/passwd
+ 1632  ls
+ 1633  vim user.sh
+ 1634  ls
+ 1635  user.sh
+ 1636  ./user.sh
+ 1637  vim user.sh
+ 1638  ./user.sh
+ 1639  vim user.sh
+ 1640  #USER
+ 1641  $USER
+ 1642  cat $USER
+ 1643  cat /etc/passwd
+ 1644  ./user.sh
+ 1645  vim user.sh
+ 1646* [A
+ 1647  ./user.sh
+ 1648  vim while.sh
+ 1649  ./while.sh
+ 1650  vim while.sh
+ 1651  ./while.sh
+ 1652  vim while.sh
+ 1653  ./while.sh
+ 1654  vim while.sh
+ 1655  ./while.sh
+ 1656  ls
+ 1657  cd Downloads/
+ 1658  ls
+ 1659  cd linux_assignment/
+ 1660  ls
+ 1661  cd linux/
+ 1662  ls
+ 1663  vim task.sh
+ 1664  ls
+ 1665  ls -l test
+ 1666  ls test >readme.txt |wc readme.txt
+ 1667  cat readme.txt 
+ 1668  wc >readme.txt
+ 1669  cat wc>readme.
+ 1670  wc readme.txt>>readme.txt
+ 1671  ls
+ 1672  cat readme.txt
+ 1673  ls
+ 1674  cat readme.txt
+ 1675  ls
+ 1676  ls test |wc >test.txt
+ 1677  cat test.txt
+ 1678  cd test
+ 1679  ls
+ 1680  ls test >text.txt |ls text.txt>>text.txt
+ 1681  cd ..
+ 1682  ls test >text.txt |ls text.txt>>text.txt
+ 1683  cat text.txt
+ 1684  ls test >text.txt |ls text.txt |wc >>text.txt
+ 1685  cat text.txt
+ 1686  cat text.txt 
+ 1687  ls -al
+ 1688  ls test
+ 1689  ls |wc >count.txt
+ 1690  cat count.txt 
+ 1691  ls
+ 1692  ls test >count.txt|wc ./ >>count.txt
+ 1693  ls test >count.txt|wc  >>count.txt
+ 1694  cat count.txt 
+ 1695  rm ./*txt 
+ 1696  ls
+ 1697  cd test
+ 1698  ls
+ 1699  rm ./*txt
+ 1700* 
+ 1701  ls -l ./ >data.txt
+ 1702  cat data.txt
+ 1703  ls -l ./*
+ 1704  ls
+ 1705  ls /* >all.txt
+ 1706  ls ./* >all.txt
+ 1707  cat all.txt
+ 1708  ls
+ 1709  vim new.sh
+ 1710  ls
+ 1711* ./new.sh
+ 1712  vim new.sh
+ 1713  ./new.sh 
+ 1714  result.txt
+ 1715  ls
+ 1716  vim new.sh
+ 1717  ./new.sh 
+ 1718  vim new.sh
+ 1719  ./new.sh 
+ 1720  pwd
+ 1721  echo $pwd
+ 1722  echo pwd
+ 1723  cat pwd
+ 1724  #dir
+ 1725  dir
+ 1726  echo $dir
+ 1727  echo #PATH
+ 1728  echo $PATH
+ 1729  $pwd
+ 1730  pwd
+ 1731  vim new.sh
+ 1732  ./new.sh 
+ 1733  vim new.sh
+ 1734  ./new.sh 
+ 1735  pwd
+ 1736  vim new.sh
+ 1737  ./new.sh 
+ 1738  vim new.sh
+ 1739  ./new.sh 
+ 1740  vim new.sh
+ 1741  ./new.sh 
+ 1742  vim new.sh
+ 1743  ./new.sh 
+ 1744  vim new.sh
+ 1745  ./new.sh 
+ 1746  vim new.sh
+ 1747  ./new.sh 
+ 1748  cd abc/
+ 1749  ls
+ 1750  vim new.sh
+ 1751  ls
+ 1752  cd ..
+ 1753  ls
+ 1754  cat testx.txt 
+ 1755  cat new.sh 
+ 1756  vim new.sh 
+ 1757  ./new.sh 
+ 1758  cat all.txt 
+ 1759  ls
+ 1760  rm *txt
+ 1761  ls
+ 1762  vim new.sh 
+ 1763  ./new.sh
+ 1764  vim new.sh 
+ 1765  ./new.sh
+ 1766  vim new.sh 
+ 1767  ./new.sh
+ 1768  vim new.sh 
+ 1769  ./new.sh
+ 1770  ../new.sh
+ 1771  vim new.sh 
+ 1772  ../new.sh
+ 1773  ./new.sh
+ 1774  vim new.sh 
+ 1775  ./new.sh
+ 1776  vim new.sh 
+ 1777  ./new.sh
+ 1778  vim new.sh 
+ 1779  ./new.sh
+ 1780  vim new.sh 
+ 1781  ./new.sh
+ 1782  vim new.sh 
+ 1783  ./new.sh
+ 1784  vim new.sh 
+ 1785  ./new.sh
+ 1786  vim new.sh 
+ 1787  ./new.sh
+ 1788  vim new.sh 
+ 1789  man for
+ 1790  vim new.sh 
+ 1791  man for
+ 1792  ./new.sh
+ 1793  vim new.sh 
+ 1794  ./new.sh
+ 1795  echo $dir
+ 1796  dir
+ 1797  vim new.sh 
+ 1798  ./new.sh
+ 1799  ls
+ 1800  vim new.sh 
+ 1801  ./new.sh
+ 1802  vim new.sh 
+ 1803  ./new.sh
+ 1804  vim new.sh 
+ 1805* 
+ 1806  ls
+ 1807  find -f .*sh >script.txt
+ 1808  find -type f .*sh >script.txt
+ 1809  find -type f '.*sh'  >script.txt
+ 1810  find -type f ./ '.*sh'  >script.txt
+ 1811  find -type f / '.*sh'  >script.txt
+ 1812  vim new.sh 
+ 1813  find -type f / '.*sh'  >script.txt
+ 1814  ./new.sh
+ 1815  vim new.sh 
+ 1816  ./new.sh
+ 1817  cat test.txt
+ 1818  cat testx.txt
+ 1819  ls
+ 1820  history
+ 1821  history>day4.txt
