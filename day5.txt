@@ -1,0 +1,1000 @@
+ 1755  ./new.sh 
+ 1756  cat all.txt 
+ 1757  ls
+ 1758  rm *txt
+ 1759  ls
+ 1760  vim new.sh 
+ 1761  ./new.sh
+ 1762  vim new.sh 
+ 1763  ./new.sh
+ 1764  vim new.sh 
+ 1765  ./new.sh
+ 1766  vim new.sh 
+ 1767  ./new.sh
+ 1768  ../new.sh
+ 1769  vim new.sh 
+ 1770  ../new.sh
+ 1771  ./new.sh
+ 1772  vim new.sh 
+ 1773  ./new.sh
+ 1774  vim new.sh 
+ 1775  ./new.sh
+ 1776  vim new.sh 
+ 1777  ./new.sh
+ 1778  vim new.sh 
+ 1779  ./new.sh
+ 1780  vim new.sh 
+ 1781  ./new.sh
+ 1782  vim new.sh 
+ 1783  ./new.sh
+ 1784  vim new.sh 
+ 1785  ./new.sh
+ 1786  vim new.sh 
+ 1787  man for
+ 1788  vim new.sh 
+ 1789  man for
+ 1790  ./new.sh
+ 1791  vim new.sh 
+ 1792  ./new.sh
+ 1793  echo $dir
+ 1794  dir
+ 1795  vim new.sh 
+ 1796  ./new.sh
+ 1797  ls
+ 1798  vim new.sh 
+ 1799  ./new.sh
+ 1800  vim new.sh 
+ 1801  ./new.sh
+ 1802  vim new.sh 
+ 1803  ls
+ 1804  find -f .*sh >script.txt
+ 1805  find -type f .*sh >script.txt
+ 1806  find -type f '.*sh'  >script.txt
+ 1807  find -type f ./ '.*sh'  >script.txt
+ 1808  find -type f / '.*sh'  >script.txt
+ 1809  vim new.sh 
+ 1810  find -type f / '.*sh'  >script.txt
+ 1811  ./new.sh
+ 1812  vim new.sh 
+ 1813  ./new.sh
+ 1814  cat test.txt
+ 1815  cat testx.txt
+ 1816  ls
+ 1817  history
+ 1818  history>day4.txt
+ 1819  ls
+ 1820  cat testx.txt 
+ 1821  rm testx.txt 
+ 1822  cat new.sh 
+ 1823  ls
+ 1824  ls ./
+ 1825  ls ./ 
+ 1826  ls
+ 1827  ls /*
+ 1828  ls
+ 1829  ls ./*
+ 1830  ls /* 
+ 1831  ls ./
+ 1832  ls .//
+ 1833  ./*
+ 1834  ls ./*
+ 1835  ls .
+ 1836  ls /*/ 
+ 1837  ls /*/ .txt
+ 1838  ls /*/ *.txt
+ 1839  ls ./*/ *.txt
+ 1840  ls
+ 1841  vim
+ 1842  vim new.sh 
+ 1843  ./new.sh 
+ 1844  ./new.sh 
+ 1845  vim new.sh 
+ 1846  cat testx.sh
+ 1847  cat testx.txt
+ 1848  vim new.sh 
+ 1849  cat testx.txt
+ 1850  vim new.sh 
+ 1851  cat testx.txt
+ 1852  ./new.sh 
+ 1853  ls ./*/ *.txt
+ 1854  vim new.sh 
+ 1855  ./new.sh 
+ 1856  vim new.sh 
+ 1857  ./new.sh 
+ 1858  vim new.sh 
+ 1859  ./new.sh 
+ 1860  vim new.sh 
+ 1861  ./new.sh 
+ 1862  vim new.sh 
+ 1863  ./new.sh 
+ 1864  vim new.sh 
+ 1865  ./new.sh 
+ 1866  history
+ 1867  ls
+ 1868  cd /mnt/c/Users/Humayun\ Siraj/
+ 1869  ls
+ 1870  /if.sh 
+ 1871  ./if.sh 
+ 1872  vim if.sh 
+ 1873  find -type f ".txt" |wc >txts.txt
+ 1874  find ./ -type f ".txt" |wc >txts.txt
+ 1875  find  -type f  ./ ".txt" |wc >txts.txt
+ 1876  find  ./ '*.txt'  -type f |wc >txts.txt
+ 1877  cat txts.txt 
+ 1878  find  ./ '*.txt'  -type f 
+ 1879  find  ./ '.txt'  -type f 
+ 1880  grep -c ".txt" 
+ 1881  grep -c ".txt" ./
+ 1882  grep -c  ./ ".txt" 
+ 1883  ls -al
+ 1884  ls ./*/*
+ 1885  ls
+ 1886  cd Downloads/
+ 1887  ls
+ 1888  cd linux_assignment/
+ 1889  ls
+ 1890  cd linux/
+ 1891  ls
+ 1892  ls ./
+ 1893  ls ./*
+ 1894  ls ./*/*
+ 1895  find ./* ".txt" >max.txt
+ 1896  find ./* ".txt" -type f >max.txt
+ 1897  find ./*/ ".txt" -type f >max.txt
+ 1898  find ./*/* ".txt" -type f >max.txt
+ 1899  find ./*/ "*.txt" -type f >max.txt
+ 1900  ls
+ 1901  cp -R ./*/*.txt docs
+ 1902  ls
+ 1903  cd docs/
+ 1904  ls
+ 1905  cp -R ./*.txt docs
+ 1906  cp -R ../*.txt docs
+ 1907  cp -R ../*.txt ../
+ 1908  cp -R ../*.txt ../..
+ 1909  cd ..
+ 1910  ls
+ 1911  cd linux/
+ 1912  ls
+ 1913  cp -Rv test/ test/next
+ 1914  ls
+ 1915  cd test
+ 1916  ls
+ 1917  cd next
+ 1918  ls
+ 1919  def .txt
+ 1920  ls
+ 1921  find ~ -type f "*.txt" -print
+ 1922  find ~ -type f -pattern "*.txt" -print
+ 1923  find ~ -type f -name "*.txt" -print
+ 1924  find ./ -type f -name "*.txt" -print
+ 1925  ls
+ 1926  abc  cd
+ 1927  cp -Rv test/ test/next/new
+ 1928  cp -Rv ../ test/next/new
+ 1929  cp -Rv ../ ../next/new
+ 1930  cp -Rv ../.txt ../next/new
+ 1931  cp -Rv ../*.txt ../next/new
+ 1932  ls
+ 1933  new 
+ 1934  cd new
+ 1935  ls
+ 1936  cd def
+ 1937  ls
+ 1938  cd ..
+ 1939  cd..
+ 1940  cd ..
+ 1941  ls
+ 1942  cd ..
+ 1943  ls
+ 1944  ./new.sh 
+ 1945  cat day4.txt 
+ 1946  find . -type f -name "h*" |wc >hellols.txt |ls >>hellols.txt| wc>>hellols.txt
+ 1947  ls
+ 1948  cat hellols.txt 
+ 1949  ls
+ 1950* find . -type f -name '*.txt' |ls >result.txt|wc result.txt >>result.txt 
+ 1951  ls
+ 1952  cat result.txt 
+ 1953  ls
+ 1954  cd /mnt/e/linux_assignment/
+ 1955  cd linux/
+ 1956  ls
+ 1957  cp -R ./*.txt /copied/
+ 1958  cp -R /*.txt /copied/
+ 1959  cp -Rv ./*/*.txt /copied/
+ 1960  ls
+ 1961  test
+ 1962  ls
+ 1963  cd test/
+ 1964  ls
+ 1965  cd ..
+ 1966  cp -R test/*/*.txt copied_files/
+ 1967  cp -Rv test/*/*.txt ./copied_files/
+ 1968  mk dir copied_files
+ 1969  mkdir copies_files
+ 1970  ls
+ 1971  cp -Rv test/*/*.txt ./copied_files/
+ 1972  cp -Rv test/*/*.txt copied_files/
+ 1973  ls
+ 1974  cp -Rv test/*/*.txt ./copied_files/
+ 1975  cp -Rv test/*/*.txt ./copied_files
+ 1976  cp -R ../*.txt docs
+ 1977  cp -R ./*.txt docs
+ 1978  tail -n 50 history
+ 1979  history|tail -n 100
+ 1980  ls
+ 1981  cp -Rv test/*/*.txt copies_files/
+ 1982  ls
+ 1983  cd copies_files/
+ 1984  ls
+ 1985  cp -Rv test/*.txt copies_files/*
+ 1986  cp -Rv test/*/*.txt copies_files/*
+ 1987  cd ..
+ 1988* cp -Rv test/*/*.txt copies_files/
+ 1989  cp -Rv test/*/*.txt copies_files/
+ 1990  ls
+ 1991  cd copies_files/
+ 1992  ls
+ 1993  find . -type f -name "h*" |wc >hellols.txt |ls >>hellols.txt| wc>>hellols.txtcd
+ 1994  cd /mnt/c/Users/Humayun Siraj/Downloads/linux_assignment/linux/test/next
+ 1995  cd /mnt/c/Users/Humayun Siraj/Downloads/linux_assignment/linux/test
+ 1996  cd /mnt/c/Users/Humayun\ Siraj/Downloads/linux_assignment/
+ 1997  ls
+ 1998  cd linux/
+ 1999  ls
+ 2000  cd test/
+ 2001  ls
+ 2002  cd next
+ 2003  ls
+ 2004  def 
+ 2005  cd def
+ 2006  ls
+ 2007  cd ..
+ 2008  ls
+ 2009  cp -R ./*.txt copied_files/DATA/
+ 2010  cp -R ./*.txt copied_files/DATA
+ 2011  cp -R ./*.txt copied_files/
+ 2012  ls
+ 2013  cd copied_files/
+ 2014  ls
+ 2015  find -type f / '.*sh'  >script.txt
+ 2016  cp -R ./*.txt copied_files/DATA
+ 2017  cp -Rv test/*/*.txt copies_files/
+ 2018  cd /mnt/c/Users/Humayun Siraj/Downloads/linux_assignment/linux/test/next
+ 2019* 
+ 2020  cd /mnt/c/Users/Humayun Siraj/Downloads/linux_assignment/linux/test/next
+ 2021  cd /mnt/c/Users/Humayun Siraj/Downloads/linux_assignment/linux/test/
+ 2022  cd ..
+ 2023  ls
+ 2024  la abc/
+ 2025  ./my.
+ 2026  cd abc
+ 2027  ls
+ 2028  ./my.sh 
+ 2029  ls
+ 2030  cd ..
+ 2031  ls
+ 2032  cd next
+ 2033  ks
+ 2034  ls
+ 2035  cp -Rv ../* new/next/
+ 2036  ls
+ 2037  cp -Rv ../* new/next/cd next
+ 2038  cd next
+ 2039  ls
+ 2040  cd new
+ 2041  ls
+ 2042  ls abc
+ 2043  ls
+ 2044  cd /mnt/e/linux_assignment/linux/
+ 2045  ls
+ 2046  ls copies_files/
+ 2047  rm -f copies_files/
+ 2048  rm -f copies_files/.
+ 2049  cd rm 
+ 2050  cd copies_files/
+ 2051  ls
+ 2052  rm -f
+ 2053  ls
+ 2054  rm -f *
+ 2055  ls
+ 2056  cd..
+ 2057  cd ..
+ 2058  ls
+ 2059  cp -Rv test/*/* copies_files/
+ 2060  cd copies_files
+ 2061  ls
+ 2062  cp -Rv test/*/* copies_files/*
+ 2063  cd ..
+ 2064  cp -Rv test/*/* copies_files/*
+ 2065  cd copies_files/
+ 2066  ls
+ 2067  cp -Rv test/* copies_files/*
+ 2068  cp -Rv ../test/* copies_files/*
+ 2069  cp -Rv ../test/* copies_files/*/
+ 2070  cd ..
+ 2071  ls
+ 2072  cd copies_files/
+ 2073  ls
+ 2074  rm -f *
+ 2075  ls
+ 2076  cd 
+ 2077  cd /mnt/e/linux_assignment/linux/
+ 2078  ls
+ 2079  cd copies_files/
+ 2080  ls
+ 2081  cd ..
+ 2082  cp -Rv test/* copies_files/ 
+ 2083  ls
+ 2084  cd copies_files/
+ 2085  ls
+ 2086  abc 
+ 2087  cd abc
+ 2088  ls
+ 2089  cd def 
+ 2090  cd ../def
+ 2091  ls
+ 2092  cd ..
+ 2093  ls
+ 2094  cd ..
+ 2095  ls
+ 2096  cd test
+ 2097  vim task1.sh
+ 2098  ./task1.sh 
+ 2099  ls
+ 2100  cat Readme.txt 
+ 2101  ./task1.sh 
+ 2102  cat Readme.txt 
+ 2103  ./task1.sh 
+ 2104  vim task1.sh
+ 2105  ./task1.sh 
+ 2106* 
+ 2107  cd abd
+ 2108  cd abc
+ 2109  ls
+ 2110  cd ..
+ 2111  ./task1.sh 
+ 2112  vim task1.sh
+ 2113  ./task1.sh 
+ 2114  ls
+ 2115  cat Readme.txt 
+ 2116  vim task1.sh
+ 2117  ./task1.sh 
+ 2118* ./
+ 2119  cd abc
+ 2120* 
+ 2121* ./
+ 2122  cat Readme.txt 
+ 2123  ls
+ 2124  cat Readme.txt 
+ 2125  vim task1.sh
+ 2126  ls
+ 2127  cat Readme.txt 
+ 2128  vim task1.sh
+ 2129  cat Readme.txt 
+ 2130  ./task1.sh 
+ 2131  ls
+ 2132  cat Read
+ 2133  cat Readme.txt 
+ 2134  vim task1.sh
+ 2135  ./task1.sh 
+ 2136  ls
+ 2137  cat Readme.txt
+ 2138  ./task1.sh 
+ 2139  vim task1.sh
+ 2140  cat Read.txt
+ 2141  vim task1.sh
+ 2142  ./task1.sh 
+ 2143  ls
+ 2144  cat Readme.txt
+ 2145  vim task1.sh
+ 2146* 
+ 2147  ./task1.sh 
+ 2148  vim task1.sh
+ 2149  ./task1.sh 
+ 2150  vim task1.sh
+ 2151  ./task1.sh 
+ 2152  ls
+ 2153  vim task1.sh
+ 2154  ./task1.sh 
+ 2155  ls
+ 2156  vim task1.sh
+ 2157  ./task1.sh 
+ 2158  ls
+ 2159  cat readx.txt 
+ 2160  vim task1.sh
+ 2161  ./task1.sh 
+ 2162  vim task1.sh
+ 2163  ./task1.sh 
+ 2164  ls
+ 2165  vim task1.sh
+ 2166  ./task1.sh 
+ 2167  vim task1.sh
+ 2168  ./task1.sh 
+ 2169  ;s
+ 2170  ls
+ 2171  vim task1.sh
+ 2172  ./task1.sh 
+ 2173  vim task1.sh
+ 2174  ./task1.sh 
+ 2175  vim task1.sh
+ 2176  ./task1.sh 
+ 2177  vim task1.sh
+ 2178  ./task1.sh 
+ 2179  cat Read.txt 
+ 2180  vim task1.sh
+ 2181  ./task1.sh 
+ 2182  cd abc
+ 2183  ls
+ 2184  cd ..
+ 2185  ls
+ 2186  vim task1.sh
+ 2187  ./task1.sh 
+ 2188  cd readx.txt
+ 2189  ls
+ 2190  ./task1.sh 
+ 2191  vim task1.sh
+ 2192  ./task1.sh 
+ 2193  ls
+ 2194  vim task1.sh
+ 2195  ./task1.sh 
+ 2196  vim task1.sh
+ 2197  ./task1.sh 
+ 2198  vim task1.sh
+ 2199  ./task1.sh 
+ 2200  ls
+ 2201  vim task1.sh
+ 2202  ./task1.sh 
+ 2203  vim task1.sh
+ 2204  ./task1.sh 
+ 2205  vim task1.sh
+ 2206  ./task1.sh 
+ 2207  ls
+ 2208  ./task1.sh 
+ 2209  vim task1.sh
+ 2210  ./task1.sh 
+ 2211  vim task1.sh
+ 2212  ./task1.sh 
+ 2213  ls
+ 2214  ./task1.sh 
+ 2215  vim task1.sh
+ 2216  ./task1.sh 
+ 2217  vim task1.sh
+ 2218  ./task1.sh 
+ 2219  vim task1.sh
+ 2220  ./task1.sh 
+ 2221  vim task1.sh
+ 2222  ./task1.sh 
+ 2223  ls -d
+ 2224  ls
+ 2225  vim task1.sh
+ 2226  ./task1.sh 
+ 2227  vim task1.sh
+ 2228  ./task1.sh 
+ 2229  ls
+ 2230  ./task1.sh 
+ 2231  vim task1.sh
+ 2232  ./task1.sh 
+ 2233  vim task1.sh
+ 2234  ls
+ 2235  cat readx.txt 
+ 2236  ls
+ 2237* 
+ 2238  ls
+ 2239  cd .
+ 2240  cd ..
+ 2241  ls
+ 2242  vim task1.sh
+ 2243  ./task1.sh 
+ 2244  vim task1.sh
+ 2245  ./task1.sh 
+ 2246  vim task1.sh
+ 2247  ./task1.sh 
+ 2248  vim task1.sh
+ 2249  ./task1.sh 
+ 2250  vim task1.sh
+ 2251  ./task1.sh 
+ 2252  vim task1.sh
+ 2253  ./task1.sh 
+ 2254  ls
+ 2255  cd abc
+ 2256  ls
+ 2257  cd ..
+ 2258  ls
+ 2259  cat Readme.txt 
+ 2260  ./task1.sh 
+ 2261  vim task1.sh
+ 2262* ./task1.sh
+ 2263  cat Readme.txt 
+ 2264  vim task1.sh
+ 2265  ./task1.sh 
+ 2266  cd abs
+ 2267  cd abc
+ 2268  ls
+ 2269  cat Readme.txt 
+ 2270  cd..
+ 2271  cd ..
+ 2272  cd def
+ 2273  ls
+ 2274  cd ..
+ 2275  ls
+ 2276  ./task1.sh 
+ 2277  vim task1.sh
+ 2278  ./task1.sh 
+ 2279  cd acd
+ 2280  cd 
+ 2281  cd /mnt/e/linux_assignment/linux/
+ 2282  cd 
+ 2283  cd /mnt/e/linux_assignment/linux/test
+ 2284  ls
+ 2285  cat Read.txt
+ 2286  cat Readme.txt 
+ 2287  vim task1.sh 
+ 2288  cat Readme.txt 
+ 2289  cd abc
+ 2290  ls
+ 2291  cat Readme.txt 
+ 2292  cd ..
+ 2293  cd def
+ 2294  ls
+ 2295  cd ..
+ 2296  ls
+ 2297  cd abc
+ 2298  ls
+ 2299  cat Readme.txt 
+ 2300  vim task1.sh 
+ 2301  cd ..
+ 2302  ls
+ 2303  vim task1.sh 
+ 2304  ./task1.sh 
+ 2305  vim task1.sh 
+ 2306  ./task1.sh 
+ 2307  vim task1.sh 
+ 2308  ./task1.sh 
+ 2309  vim task1.sh 
+ 2310  ./task1.sh 
+ 2311  vim task1.sh 
+ 2312  ./task1.sh 
+ 2313  ls
+ 2314  cd abc
+ 2315  ls
+ 2316  cat Readme.txt 
+ 2317  cd ..
+ 2318  vim task1.sh 
+ 2319  ./task1.sh 
+ 2320  ls
+ 2321  cd abc
+ 2322  ls
+ 2323  cat Readme.txt 
+ 2324  cd ..
+ 2325  vim task1.sh 
+ 2326  ./task1.sh 
+ 2327  vim task1.sh 
+ 2328  ./task1.sh 
+ 2329  ls
+ 2330  cd abc
+ 2331  ls
+ 2332  cat Readme.txt 
+ 2333  cd ..
+ 2334  ls
+ 2335  cd def
+ 2336  ls
+ 2337  cat Readme.txt 
+ 2338* vim task1.sh [A
+ 2339  cd ..
+ 2340  ls
+ 2341  vim task1.sh 
+ 2342  ./task1.sh 
+ 2343  vim task1.sh 
+ 2344  ./task1.sh 
+ 2345  vim task1.sh 
+ 2346  ./task1.sh 
+ 2347  cd ..
+ 2348  ls
+ 2349  cd test
+ 2350  cd abc
+ 2351  cat Readme.txt 
+ 2352  sed -n '1 c this directory constains follwoing files' Readme.txt 
+ 2353  cat Readme.txt 
+ 2354  sed -n '1 c this directory constains follwoing files' Readme.txt 
+ 2355  ls
+ 2356  cat Readme.txt 
+ 2357  sed  '1 c this directory constains follwoing files' Readme.txt 
+ 2358  cat Readme.txt 
+ 2359  sed -i '1 c this directory constains follwoing files' Readme.txt 
+ 2360  cat Readme.txt 
+ 2361  vim task1.sh 
+ 2362  cd ..
+ 2363  ls
+ 2364  cat Readme.txt 
+ 2365  ls
+ 2366  cd abc
+ 2367  ls
+ 2368  cat Readme.txt 
+ 2369  vim task1.sh
+ 2370  cd ..
+ 2371  ls
+ 2372  vim task1.sh 
+ 2373  ./task1.s
+ 2374  ./task1.sh
+ 2375  vim task1.sh 
+ 2376  ./task1.sh
+ 2377  cd abc
+ 2378  cat Readme.txt 
+ 2379  echo "heelo worlr" >newx.txt 
+ 2380  cat newx.txt 
+ 2381* 
+ 2382  vim task1.sh 
+ 2383  cd ..
+ 2384  vim task1.sh 
+ 2385  ls
+ 2386  ./task1.sh
+ 2387  ls
+ 2388  vim task1.sh 
+ 2389* 
+ 2390  vim task1.sh 
+ 2391  ./task1.sh
+ 2392  vim task1.sh 
+ 2393  ./task1.sh
+ 2394  vim task1.sh 
+ 2395  ./task1.sh
+ 2396  vim task1.sh 
+ 2397  ./task1.sh
+ 2398  vim task1.sh 
+ 2399  ls
+ 2400  ./task1.sh
+ 2401  vim task1.sh 
+ 2402  ./task1.sh
+ 2403  cd abd
+ 2404  cd abc
+ 2405  ls
+ 2406  cat newx.txt 
+ 2407  rm newx.txt 
+ 2408  ls
+ 2409  ./task1.sh
+ 2410  cd ..
+ 2411  ls
+ 2412  ./task1.sh
+ 2413  task2.sh
+ 2414  vim task2.sh
+ 2415  ls
+ 2416  ./task2.sh 
+ 2417  ls
+ 2418  ./task1.sh 
+ 2419  vim task1.sh 
+ 2420  ls
+ 2421  cp -R ../* copied_files/
+ 2422  cp -Rv ../* copied_files/
+ 2423  cp -Rv ../* ../copied_files/
+ 2424  mkdir ../copied_files
+ 2425  cp -Rv ../* ../copied_files/
+ 2426  ls
+ 2427  cd ..
+ 2428  copied
+ 2429  cd copied_files/
+ 2430  ls
+ 2431  cd copied_files/
+ 2432  ls
+ 2433  cd..
+ 2434  cd ..
+ 2435  ls
+ 2436  ls copies_files/*/
+ 2437  cd ls
+ 2438  cd
+ 2439  cd /mnt/e/linux_assignment//linux/\
+ 2440  cd /mnt/e/linux_assignment//linux/
+ 2441  ls
+ 2442  cd copied_files/
+ 2443  ls
+ 2444  test
+ 2445  cd test
+ 2446  ls
+ 2447  cd..
+ 2448  cd ..
+ 2449  cd..
+ 2450  ls
+ 2451  cd test
+ 2452  ls
+ 2453  cd ..
+ 2454  ls
+ 2455  rm -d ../copied_files
+ 2456  rm  ../copied_files
+ 2457  ls
+ 2458  cd ..
+ 2459  ls
+ 2460  cd linux/
+ 2461  ls
+ 2462  rm -d co*
+ 2463  rm -f co*
+ 2464  rm  co*
+ 2465  rm copied_files
+ 2466  rm -f copied_files
+ 2467  rm -f copied_files/
+ 2468  rom -f * copied_files/
+ 2469  rm -f * copied_files/
+ 2470  rm -rf copied_files/
+ 2471* rm -f 
+ 2472  rm -rf copies_files/
+ 2473  ls
+ 2474  cd test
+ 2475  ./task1.sh 
+ 2476  ./task2.sh
+ 2477  ls
+ 2478  cd ..
+ 2479  ls
+ 2480  cd test
+ 2481  ls
+ 2482* cp -Rrv test/*  ../copied_files/
+ 2483  cp -Rv ./*  ../copied_files/
+ 2484  ls
+ 2485  cd ..
+ 2486  ls
+ 2487  cd test
+ 2488  cp -rRv ./*  ../copied_files/
+ 2489  cp -rRv ./*  ../copied_files
+ 2490* 
+ 2491  cd ..
+ 2492  ls
+ 2493  mkdir copied_files
+ 2494  cd test
+ 2495  cp -rRv ./*  ../copied_files/
+ 2496  ls
+ 2497  cd ..
+ 2498  ls
+ 2499  copied_files
+ 2500  ls copied_files/
+ 2501  ls
+ 2502  test
+ 2503  ls
+ 2504  cd test 
+ 2505  vim task2.sh 
+ 2506  ls
+ 2507  vim task1.sh 
+ 2508  ./task1.sh 
+ 2509  vim task1.sh 
+ 2510  ls
+ 2511  ./task1.sh 
+ 2512  vim task1.sh 
+ 2513  ./task1.sh 
+ 2514  vim task2.sh 
+ 2515  vim task1.sh 
+ 2516  ./task1.sh 
+ 2517  vim task1.sh 
+ 2518  ./task1.sh 
+ 2519  vim task1.sh 
+ 2520  ./task1.sh 
+ 2521  vim task1.sh 
+ 2522  ./task1.sh 
+ 2523  ls
+ 2524  wc --help
+ 2525  wc 
+ 2526  ls |wc
+ 2527  ls
+ 2528  wc Readme.txt 
+ 2529  vim task1.sh 
+ 2530  ls
+ 2531  ./task1.sh 
+ 2532  ls
+ 2533  vim task1.sh 
+ 2534  ./task1.sh 
+ 2535  vim task1.sh 
+ 2536  ./task1.sh 
+ 2537  vim task1.sh 
+ 2538  ./task1.sh 
+ 2539  vim task1.sh 
+ 2540  ./task1.sh 
+ 2541  ls
+ 2542  vim task1.sh 
+ 2543  ./task1.sh 
+ 2544  vim task1.sh 
+ 2545* ls
+ 2546  vim task1.sh 
+ 2547  ./task1.sh 
+ 2548  vim task1.sh 
+ 2549  ./task1.sh 
+ 2550  cd 
+ 2551  cd /mnt/e/linux_assignment/linux/test/ 
+ 2552  cd abc
+ 2553  ls
+ 2554  cat Readme.txt 
+ 2555  cd ..
+ 2556  ls
+ 2557  cd def
+ 2558  ls
+ 2559  cat Readme.txt 
+ 2560  vim task1.sh 
+ 2561  cd ..
+ 2562  ls
+ 2563  vim task1.sh 
+ 2564  ./task1.sh 
+ 2565  vim task1.sh 
+ 2566  ./task1.sh 
+ 2567  vim task1.sh 
+ 2568  ./task1.sh 
+ 2569  vim task1.sh 
+ 2570  ./task1.sh 
+ 2571  vim task1.sh 
+ 2572  ./task1.sh 
+ 2573  vim task1.sh 
+ 2574  ./task1.sh 
+ 2575  cd abc
+ 2576  ls
+ 2577  cat Readme.txt 
+ 2578  vim task1.sh 
+ 2579  cd ..
+ 2580  ls
+ 2581  vim task1.sh 
+ 2582  ./task1.sh 
+ 2583  ls
+ 2584  cd abc
+ 2585  cat Readme.txt 
+ 2586  vim task1.sh 
+ 2587  vim task1.sh cd ..
+ 2588  ./task1.sh 
+ 2589  cd ..
+ 2590  ./task1.sh 
+ 2591  vim task1.sh 
+ 2592  ./task1.sh 
+ 2593  ls
+ 2594  cd abc
+ 2595  vim task1.sh 
+ 2596  cd abc
+ 2597  cat Readme.txt 
+ 2598  cd..
+ 2599  cd ..
+ 2600  ls
+ 2601  cd abc
+ 2602  cat Readme.txt 
+ 2603  cd..
+ 2604  cd ..
+ 2605  cd def
+ 2606  ls
+ 2607  cat Readme.txt 
+ 2608  cd ..
+ 2609  ls
+ 2610  vim task1.sh
+ 2611  ls
+ 2612  mkdir Scripts
+ 2613  cp task1.sh Scripts/
+ 2614  ls
+ 2615  ls Scripts/
+ 2616  .
+ 2617  vim task2.sh
+ 2618  vim task1.sh
+ 2619  ls
+ 2620  vim task
+ 2621  vim task2.sh
+ 2622  ./task2
+ 2623  ./task2.sh 
+ 2624  ls
+ 2625  vim task2.sh
+ 2626  ./task2.sh 
+ 2627  vim task2.sh
+ 2628  ./task2.sh 
+ 2629  vim task2.sh
+ 2630  ./task2.sh
+ 2631  ls
+ 2632  rm -rf copied_files
+ 2633  ls
+ 2634  cd ..
+ 2635  ls
+ 2636  cd copied_files/
+ 2637  ls
+ 2638  ..
+ 2639  cd..
+ 2640  pwd
+ 2641  ls
+ 2642  cd ..
+ 2643  test
+ 2644  cd .. 
+ 2645  cd linux/
+ 2646  cd test
+ 2647  ls
+ 2648  vim task2.sh 
+ 2649  ./task2.sh
+ 2650  ls
+ 2651  vim task2.sh 
+ 2652  ls
+ 2653  ./task2.sh
+ 2654  ls
+ 2655  ./task2.sh
+ 2656  vim task2.sh 
+ 2657  ls
+ 2658  vim task2.sh 
+ 2659  ./task2.sh
+ 2660  vim task2.sh 
+ 2661  ./task2.sh
+ 2662  vim task2.sh 
+ 2663  ./task2.sh
+ 2664  vim task2.sh 
+ 2665  ./task2.sh
+ 2666  vim task2.sh 
+ 2667  ./task2.sh
+ 2668  vim task2.sh 
+ 2669  ./task2.sh
+ 2670  vim task2.sh 
+ 2671  ./task2.sh
+ 2672  vim task2.sh 
+ 2673* vim task2.sh
+ 2674  ls
+ 2675  cd copied_files/
+ 2676  ls
+ 2677  cd abc
+ 2678  ls
+ 2679  cd ..
+ 2680  cd..
+ 2681  cd ..
+ 2682  ls
+ 2683  rm -f copied_files
+ 2684  rm -rf copied_files
+ 2685  ls
+ 2686  ./task2.sh
+ 2687  ls
+ 2688  cd copied_files/
+ 2689  ls
+ 2690  ./task2.sh
+ 2691  vim task2.sh 
+ 2692  cd ..
+ 2693  ls
+ 2694  rm -rf copied_files/
+ 2695  ls
+ 2696  vim task2.sh
+ 2697  ls
+ 2698  ./task2.sh
+ 2699  ls
+ 2700  cd copied_files/
+ 2701  ;s
+ 2702  ls
+ 2703  ls copied_files/
+ 2704  ls
+ 2705  cd copied_files/
+ 2706  ls
+ 2707  cd..
+ 2708  cd ..
+ 2709  ls
+ 2710  cd ..
+ 2711  ls
+ 2712  cd ..
+ 2713  ls
+ 2714  cd copied_files/
+ 2715  ls
+ 2716  cd ..
+ 2717  ls
+ 2718  rm -rf copied_files/
+ 2719  ls
+ 2720  cd test
+ 2721  ls
+ 2722  rm -rf copied_files/
+ 2723  ls
+ 2724  vim task2.sh
+ 2725  ls
+ 2726  ./task2.sh
+ 2727  ls
+ 2728  cd copied_files/
+ 2729  ls
+ 2730  ls copied_files/
+ 2731  ls
+ 2732  cd copied_files/
+ 2733  ls
+ 2734  sl
+ 2735  ls
+ 2736  cd..
+ 2737  cd ..
+ 2738  ls
+ 2739  rm -rf copied_files/
+ 2740  ls
+ 2741  cd ..
+ 2742  ls
+ 2743  rm -rf copied_files/
+ 2744  ls
+ 2745  cd ..
+ 2746  ls
+ 2747  test
+ 2748  ls
+ 2749  cd test
+ 2750  ls
+ 2751  cat task1.sh task.sh >task12.sh
+ 2752  cat task1.sh task2.sh >task12.sh
+ 2753  ls
+ 2754  history >>day5.txt
