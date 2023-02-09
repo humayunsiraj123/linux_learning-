@@ -22,10 +22,28 @@ if [ $choice -eq 1 ];then
 		#echo $i
 		if [ -f $i ];then
 		echo $i
-		#cat $i
-		for k in $i
-			printf   'the value is "%#x" ' $k 
+		while read p;
+		do
+			echo $p
+			if [ ${p:5:4} -eq 0000 ];then 
+				echo "first line"
+				sed -i "1 s/0000/0/22" $i
+			else 
+				sed -i  "2,$ s/${p:5:4}/$((16#${p:5:4}))/p" $i
+
+			fi	
+			#foo="$p"
+			#echo $foo
+			#echo $((16#${foo:5:4}))
+		done<$i
 		
+
+		#cat $i
+		#for k in $i
+			#do
+			#	echo "............"
+			#	echo "${k}" 
+			#done
 		fi
 	#echo "............."
 		#awk '{ print $2 }' $i
