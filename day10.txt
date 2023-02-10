@@ -1,0 +1,1000 @@
+ 1335  ls
+ 1336  cd abc
+ 1337  ls
+ 1338  cd ..
+ 1339  ls
+ 1340  cat Readme.txt 
+ 1341  ./task1.sh 
+ 1342  vim task1.sh
+ 1343  ./task1.sh
+ 1344  cat Readme.txt 
+ 1345  vim task1.sh
+ 1346  ./task1.sh 
+ 1347  cd abs
+ 1348  cd abc
+ 1349  ls
+ 1350  cat Readme.txt 
+ 1351  cd..
+ 1352  cd ..
+ 1353  cd def
+ 1354  ls
+ 1355  cd ..
+ 1356  ls
+ 1357  ./task1.sh 
+ 1358  vim task1.sh
+ 1359  ./task1.sh 
+ 1360  cd acd
+ 1361  cd 
+ 1362  cd /mnt/e/linux_assignment/linux/
+ 1363  cd 
+ 1364  cd /mnt/e/linux_assignment/linux/test
+ 1365  ls
+ 1366  cat Read.txt
+ 1367  cat Readme.txt 
+ 1368  vim task1.sh 
+ 1369  cat Readme.txt 
+ 1370  cd abc
+ 1371  ls
+ 1372  cat Readme.txt 
+ 1373  cd ..
+ 1374  cd def
+ 1375  ls
+ 1376  cd ..
+ 1377  ls
+ 1378  cd abc
+ 1379  ls
+ 1380  cat Readme.txt 
+ 1381  vim task1.sh 
+ 1382  cd ..
+ 1383  ls
+ 1384  vim task1.sh 
+ 1385  ./task1.sh 
+ 1386  vim task1.sh 
+ 1387  ./task1.sh 
+ 1388  vim task1.sh 
+ 1389  ./task1.sh 
+ 1390  vim task1.sh 
+ 1391  ./task1.sh 
+ 1392  vim task1.sh 
+ 1393  ./task1.sh 
+ 1394  ls
+ 1395  cd abc
+ 1396  ls
+ 1397  cat Readme.txt 
+ 1398  cd ..
+ 1399  vim task1.sh 
+ 1400  ./task1.sh 
+ 1401  ls
+ 1402  cd abc
+ 1403  ls
+ 1404  cat Readme.txt 
+ 1405  cd ..
+ 1406  vim task1.sh 
+ 1407  ./task1.sh 
+ 1408  vim task1.sh 
+ 1409  ./task1.sh 
+ 1410  ls
+ 1411  cd abc
+ 1412  ls
+ 1413  cat Readme.txt 
+ 1414  cd ..
+ 1415  ls
+ 1416  cd def
+ 1417  ls
+ 1418  cat Readme.txt 
+ 1419  vim task1.sh [A
+ 1420  cd ..
+ 1421  ls
+ 1422  vim task1.sh 
+ 1423  ./task1.sh 
+ 1424  vim task1.sh 
+ 1425  ./task1.sh 
+ 1426  vim task1.sh 
+ 1427  ./task1.sh 
+ 1428  cd ..
+ 1429  ls
+ 1430  cd test
+ 1431  cd abc
+ 1432  cat Readme.txt 
+ 1433  sed -n '1 c this directory constains follwoing files' Readme.txt 
+ 1434  cat Readme.txt 
+ 1435  sed -n '1 c this directory constains follwoing files' Readme.txt 
+ 1436  ls
+ 1437  cat Readme.txt 
+ 1438  sed  '1 c this directory constains follwoing files' Readme.txt 
+ 1439  cat Readme.txt 
+ 1440  sed -i '1 c this directory constains follwoing files' Readme.txt 
+ 1441  cat Readme.txt 
+ 1442  vim task1.sh 
+ 1443  cd ..
+ 1444  ls
+ 1445  cat Readme.txt 
+ 1446  ls
+ 1447  cd abc
+ 1448  ls
+ 1449  cat Readme.txt 
+ 1450  vim task1.sh
+ 1451  cd ..
+ 1452  ls
+ 1453  vim task1.sh 
+ 1454  ./task1.s
+ 1455  ./task1.sh
+ 1456  vim task1.sh 
+ 1457  ./task1.sh
+ 1458  cd abc
+ 1459  cat Readme.txt 
+ 1460  echo "heelo worlr" >newx.txt 
+ 1461  cat newx.txt 
+ 1462  vim task1.sh 
+ 1463  cd ..
+ 1464  vim task1.sh 
+ 1465  ls
+ 1466  ./task1.sh
+ 1467  ls
+ 1468  vim task1.sh 
+ 1469  vim task1.sh 
+ 1470  ./task1.sh
+ 1471  vim task1.sh 
+ 1472  ./task1.sh
+ 1473  vim task1.sh 
+ 1474  ./task1.sh
+ 1475  vim task1.sh 
+ 1476  ./task1.sh
+ 1477  vim task1.sh 
+ 1478  ls
+ 1479  ./task1.sh
+ 1480  vim task1.sh 
+ 1481  ./task1.sh
+ 1482  cd abd
+ 1483  cd abc
+ 1484  ls
+ 1485  cat newx.txt 
+ 1486  rm newx.txt 
+ 1487  ls
+ 1488  ./task1.sh
+ 1489  cd ..
+ 1490  ls
+ 1491  ./task1.sh
+ 1492  task2.sh
+ 1493  vim task2.sh
+ 1494  ls
+ 1495  ./task2.sh 
+ 1496  ls
+ 1497  ./task1.sh 
+ 1498  vim task1.sh 
+ 1499  ls
+ 1500  cp -R ../* copied_files/
+ 1501  cp -Rv ../* copied_files/
+ 1502  cp -Rv ../* ../copied_files/
+ 1503  mkdir ../copied_files
+ 1504  cp -Rv ../* ../copied_files/
+ 1505  ls
+ 1506  cd ..
+ 1507  copied
+ 1508  cd copied_files/
+ 1509  ls
+ 1510  cd copied_files/
+ 1511  ls
+ 1512  cd..
+ 1513  cd ..
+ 1514  ls
+ 1515  ls copies_files/*/
+ 1516  cd ls
+ 1517  cd
+ 1518  cd /mnt/e/linux_assignment//linux/\
+ 1519  cd /mnt/e/linux_assignment//linux/
+ 1520  ls
+ 1521  cd copied_files/
+ 1522  ls
+ 1523  test
+ 1524  cd test
+ 1525  ls
+ 1526  cd..
+ 1527  cd ..
+ 1528  cd..
+ 1529  ls
+ 1530  cd test
+ 1531  ls
+ 1532  cd ..
+ 1533  ls
+ 1534  rm -d ../copied_files
+ 1535  rm  ../copied_files
+ 1536  ls
+ 1537  cd ..
+ 1538  ls
+ 1539  cd linux/
+ 1540  ls
+ 1541  rm -d co*
+ 1542  rm -f co*
+ 1543  rm  co*
+ 1544  rm copied_files
+ 1545  rm -f copied_files
+ 1546  rm -f copied_files/
+ 1547  rom -f * copied_files/
+ 1548  rm -f * copied_files/
+ 1549  rm -rf copied_files/
+ 1550  rm -f 
+ 1551  rm -rf copies_files/
+ 1552  ls
+ 1553  cd test
+ 1554  ./task1.sh 
+ 1555  ./task2.sh
+ 1556  ls
+ 1557  cd ..
+ 1558  ls
+ 1559  cd test
+ 1560  ls
+ 1561  cp -Rrv test/*  ../copied_files/
+ 1562  cp -Rv ./*  ../copied_files/
+ 1563  ls
+ 1564  cd ..
+ 1565  ls
+ 1566  cd test
+ 1567  cp -rRv ./*  ../copied_files/
+ 1568  cp -rRv ./*  ../copied_files
+ 1569  cd ..
+ 1570  ls
+ 1571  mkdir copied_files
+ 1572  cd test
+ 1573  cp -rRv ./*  ../copied_files/
+ 1574  ls
+ 1575  cd ..
+ 1576  ls
+ 1577  copied_files
+ 1578  ls copied_files/
+ 1579  ls
+ 1580  test
+ 1581  ls
+ 1582  cd test 
+ 1583  vim task2.sh 
+ 1584  ls
+ 1585  vim task1.sh 
+ 1586  ./task1.sh 
+ 1587  vim task1.sh 
+ 1588  ls
+ 1589  ./task1.sh 
+ 1590  vim task1.sh 
+ 1591  ./task1.sh 
+ 1592  vim task2.sh 
+ 1593  vim task1.sh 
+ 1594  ./task1.sh 
+ 1595  vim task1.sh 
+ 1596  ./task1.sh 
+ 1597  vim task1.sh 
+ 1598  ./task1.sh 
+ 1599  vim task1.sh 
+ 1600  ./task1.sh 
+ 1601  ls
+ 1602  wc --help
+ 1603  wc 
+ 1604  ls |wc
+ 1605  ls
+ 1606  wc Readme.txt 
+ 1607  vim task1.sh 
+ 1608  ls
+ 1609  ./task1.sh 
+ 1610  ls
+ 1611  vim task1.sh 
+ 1612  ./task1.sh 
+ 1613  vim task1.sh 
+ 1614  ./task1.sh 
+ 1615  vim task1.sh 
+ 1616  ./task1.sh 
+ 1617  vim task1.sh 
+ 1618  ./task1.sh 
+ 1619  ls
+ 1620  vim task1.sh 
+ 1621  ./task1.sh 
+ 1622  vim task1.sh 
+ 1623  ls
+ 1624  vim task1.sh 
+ 1625  ./task1.sh 
+ 1626  vim task1.sh 
+ 1627  ./task1.sh 
+ 1628  cd 
+ 1629  cd /mnt/e/linux_assignment/linux/test/ 
+ 1630  cd abc
+ 1631  ls
+ 1632  cat Readme.txt 
+ 1633  cd ..
+ 1634  ls
+ 1635  cd def
+ 1636  ls
+ 1637  cat Readme.txt 
+ 1638  vim task1.sh 
+ 1639  cd ..
+ 1640  ls
+ 1641  vim task1.sh 
+ 1642  ./task1.sh 
+ 1643  vim task1.sh 
+ 1644  ./task1.sh 
+ 1645  vim task1.sh 
+ 1646  ./task1.sh 
+ 1647  vim task1.sh 
+ 1648  ./task1.sh 
+ 1649  vim task1.sh 
+ 1650  ./task1.sh 
+ 1651  vim task1.sh 
+ 1652  ./task1.sh 
+ 1653  cd abc
+ 1654  ls
+ 1655  cat Readme.txt 
+ 1656  vim task1.sh 
+ 1657  cd ..
+ 1658  ls
+ 1659  vim task1.sh 
+ 1660  ./task1.sh 
+ 1661  ls
+ 1662  cd abc
+ 1663  cat Readme.txt 
+ 1664  vim task1.sh 
+ 1665  vim task1.sh cd ..
+ 1666  ./task1.sh 
+ 1667  cd ..
+ 1668  ./task1.sh 
+ 1669  vim task1.sh 
+ 1670  ./task1.sh 
+ 1671  ls
+ 1672  cd abc
+ 1673  vim task1.sh 
+ 1674  cd abc
+ 1675  cat Readme.txt 
+ 1676  cd..
+ 1677  cd ..
+ 1678  ls
+ 1679  cd abc
+ 1680  cat Readme.txt 
+ 1681  cd..
+ 1682  cd ..
+ 1683  cd def
+ 1684  ls
+ 1685  cat Readme.txt 
+ 1686  cd ..
+ 1687  ls
+ 1688  vim task1.sh
+ 1689  ls
+ 1690  mkdir Scripts
+ 1691  cp task1.sh Scripts/
+ 1692  ls
+ 1693  ls Scripts/
+ 1694  .
+ 1695  vim task2.sh
+ 1696  vim task1.sh
+ 1697  ls
+ 1698  vim task
+ 1699  vim task2.sh
+ 1700  ./task2
+ 1701  ./task2.sh 
+ 1702  ls
+ 1703  vim task2.sh
+ 1704  ./task2.sh 
+ 1705  vim task2.sh
+ 1706  ./task2.sh 
+ 1707  vim task2.sh
+ 1708  ./task2.sh
+ 1709  ls
+ 1710  rm -rf copied_files
+ 1711  ls
+ 1712  cd ..
+ 1713  ls
+ 1714  cd copied_files/
+ 1715  ls
+ 1716  ..
+ 1717  cd..
+ 1718  pwd
+ 1719  ls
+ 1720  cd ..
+ 1721  test
+ 1722  cd .. 
+ 1723  cd linux/
+ 1724  cd test
+ 1725  ls
+ 1726  vim task2.sh 
+ 1727  ./task2.sh
+ 1728  ls
+ 1729  vim task2.sh 
+ 1730  ls
+ 1731  ./task2.sh
+ 1732  ls
+ 1733  ./task2.sh
+ 1734  vim task2.sh 
+ 1735  ls
+ 1736  vim task2.sh 
+ 1737  ./task2.sh
+ 1738  vim task2.sh 
+ 1739  ./task2.sh
+ 1740  vim task2.sh 
+ 1741  ./task2.sh
+ 1742  vim task2.sh 
+ 1743  ./task2.sh
+ 1744  vim task2.sh 
+ 1745  ./task2.sh
+ 1746  vim task2.sh 
+ 1747  ./task2.sh
+ 1748  vim task2.sh 
+ 1749  ./task2.sh
+ 1750  vim task2.sh 
+ 1751  vim task2.sh
+ 1752  ls
+ 1753  cd copied_files/
+ 1754  ls
+ 1755  cd abc
+ 1756  ls
+ 1757  cd ..
+ 1758  cd..
+ 1759  cd ..
+ 1760  ls
+ 1761  rm -f copied_files
+ 1762  rm -rf copied_files
+ 1763  ls
+ 1764  ./task2.sh
+ 1765  ls
+ 1766  cd copied_files/
+ 1767  ls
+ 1768  ./task2.sh
+ 1769  vim task2.sh 
+ 1770  cd ..
+ 1771  ls
+ 1772  rm -rf copied_files/
+ 1773  ls
+ 1774  vim task2.sh
+ 1775  ls
+ 1776  ./task2.sh
+ 1777  ls
+ 1778  cd copied_files/
+ 1779  ;s
+ 1780  ls
+ 1781  ls copied_files/
+ 1782  ls
+ 1783  cd copied_files/
+ 1784  ls
+ 1785  cd..
+ 1786  cd ..
+ 1787  ls
+ 1788  cd ..
+ 1789  ls
+ 1790  cd ..
+ 1791  ls
+ 1792  cd copied_files/
+ 1793  ls
+ 1794  cd ..
+ 1795  ls
+ 1796  rm -rf copied_files/
+ 1797  ls
+ 1798  cd test
+ 1799  ls
+ 1800  rm -rf copied_files/
+ 1801  ls
+ 1802  vim task2.sh
+ 1803  ls
+ 1804  ./task2.sh
+ 1805  ls
+ 1806  cd copied_files/
+ 1807  ls
+ 1808  ls copied_files/
+ 1809  ls
+ 1810  cd copied_files/
+ 1811  ls
+ 1812  sl
+ 1813  ls
+ 1814  cd..
+ 1815  cd ..
+ 1816  ls
+ 1817  rm -rf copied_files/
+ 1818  ls
+ 1819  cd ..
+ 1820  ls
+ 1821  rm -rf copied_files/
+ 1822  ls
+ 1823  cd ..
+ 1824  ls
+ 1825  test
+ 1826  ls
+ 1827  cd test
+ 1828  ls
+ 1829  cat task1.sh task.sh >task12.sh
+ 1830  ls
+ 1831  history >>day5.txt
+ 1832  ls
+ 1833  ./task2.sh
+ 1834  ls
+ 1835  cd copied_files/
+ 1836  ls
+ 1837  cd copied_files/
+ 1838  ls
+ 1839  cd ..
+ 1840  cd..
+ 1841  cd ..
+ 1842  ls
+ 1843  rm -rf copied_files/
+ 1844  ls
+ 1845  vim task2.sh
+ 1846  ls
+ 1847  ./task2.sh 
+ 1848  ls
+ 1849  cd copied_files/
+ 1850  ls
+ 1851  cd abc
+ 1852  ls
+ 1853  cd ..
+ 1854  ls
+ 1855  rm -rf copied_files/
+ 1856  ls
+ 1857  ./task2.sh
+ 1858  ls
+ 1859  rm -rf copied_files/
+ 1860  ls
+ 1861  ./task2.sh 
+ 1862  ls
+ 1863  rm -rf copied_files/
+ 1864  ls
+ 1865  vim task2.sh 
+ 1866  ls
+ 1867  ./task2.sh 
+ 1868  ls
+ 1869  ls
+ 1870  ./task2.sh 
+ 1871  vim task2.sh 
+ 1872  cd ..
+ 1873  ls
+ 1874  vim task2.sh
+ 1875  ls
+ 1876  cp --help
+ 1877  vim task2.sh
+ 1878  ls
+ 1879  cd ..
+ 1880  cd 
+ 1881  ls
+ 1882  cat result.txt 
+ 1883  cd /mnt/e/linux_assignment/linux/test/
+ 1884  ls
+ 1885  vim task3.sh
+ 1886  awk '{print $2 }' abc6.txt 
+ 1887  awk '{print NR '-' $2 }' abc6.txt 
+ 1888  awk '{print $2 }' abc6.txt 
+ 1889  awk '{print NR '-' $p }' abc6.txt 
+ 1890  awk '{print NR '-' $P }' abc6.txt 
+ 1891  awk '{ NR '-' $P }' abc6.txt 
+ 1892  awk '{ NR '-' $$ }' abc6.txt 
+ 1893  awk '{ NR '-' $^ }' abc6.txt 
+ 1894  awk '{ print NR '-' $^ }' abc6.txt 
+ 1895  awk '{ print NR '-' $N }' abc6.txt 
+ 1896  awk '{ print NR '-' $NF }' abc6.txt 
+ 1897  awk ls
+ 1898  cat abc6.txt 
+ 1899  ls
+ 1900  awk '{ print 2$ }' abc6.txt 
+ 1901  awk '{ print $2 }' abc6.txt 
+ 1902  awk '{ print $2 NR }' abc6.txt 
+ 1903  awk -v col=2 '{$col=$$(16#$col));print}' abc6.txt
+ 1904  awk -v col=2 '{$col=$((16#$col));print}' abc6.txt
+ 1905  awk -v col=2 '{$col= $((16#$col));print}' abc6.txt 
+ 1906  sed n -e's/!0000/0/p abc6.
+ 1907  sed n -e's/!0000/0/p' abc6.txt 
+ 1908  while read p; do $ sed 's\${p:5:4}\$((16#${p:5:4}))\1' abc6.txt ;done <abc6.txt 
+ 1909  while read p; do  sed -i 's\${p:5:4}\$((16#${p:5:4}))\1' abc6.txt ;done <abc6.txt 
+ 1910  while read p; do  sed -i 's\${p:5:4}\$((16#${p:5:4}))\1' abc6.txt ;done >abc6.txt 
+ 1911  while read p; do  sed -i 's\${p:5:4}\$((16#${p:5:4}))\1' abc6.txt ;done<abc6.txt 
+ 1912  ls
+ 1913  cat abc6.txt 
+ 1914  cat abc6.txt
+ 1915  ls
+ 1916  cp ./abc/abc6.txt ./
+ 1917  ls
+ 1918  cat abc6.txt 
+ 1919  while read p; do  sed -i 's\${p:5:4}\$((16#${p:5:4}))\1' abc6.txt ;done<abc6.txt 
+ 1920  cat abc6.txt 
+ 1921  while read p; do echo sed -i 's\${p:5:4}\$((16#${p:5:4}))\1' abc6.txt ;done<abc6.txt 
+ 1922  cat abc6.txt 
+ 1923  ls
+ 1924  task3
+ 1925  vim task3.sh 
+ 1926  cat abc6.txt 
+ 1927  ./task3.sh 
+ 1928  cat abc6.txt 
+ 1929  cd ..
+ 1930  cat ./test/abc6.txt
+ 1931  cd abc.txt
+ 1932  cd test
+ 1933  cd abc.txt
+ 1934  cd abc
+ 1935  cat abc6.txt 
+ 1936  cd ..
+ 1937  ls
+ 1938  cat ./abc/abc6.txt 
+ 1939  ls
+ 1940  cat abc/abc6.txt 
+ 1941  vim task3.sh 
+ 1942  cat abc/abc6.txt 
+ 1943  cd ..
+ 1944  ls
+ 1945  cd test
+ 1946  ls
+ 1947  ./task3.sh 
+ 1948  cat abc/abc6.txt 
+ 1949  cat abc/abc2.txt 
+ 1950  ./task3.sh 
+ 1951  vim task3.sh 
+ 1952  ./task3.sh
+ 1953  vim task3.sh 
+ 1954  ./task3.sh
+ 1955  vim task3.sh 
+ 1956  ./task3.sh
+ 1957  vim task3.sh 
+ 1958  ./task3.sh
+ 1959  vim task3.sh 
+ 1960  ./task3.sh
+ 1961  while read p; do  sed -i 's\${p:5:4}\$((16#${p:5:4}))\1' abc6.txt ;done<abc6.txt 
+ 1962  ls
+ 1963  cat abc6.txt 
+ 1964  while read p; do  sed -i 's\${p:5:4}\$((16#${p:5:4}))\' abc6.txt ;done<abc6.txt 
+ 1965  cat abc6.txt 
+ 1966  history
+ 1967  history -A
+ 1968  history -a
+ 1969  history
+ 1970  while read p; echo grep '[0-9a-fA-F]' abc6.txt ;done<abc6.txt 
+ 1971  while read p;do  echo grep '[0-9a-fA-F]' $p ;done<abc6.txt 
+ 1972  while read p;do grep '[0-9a-fA-F]' $p ;done<abc6.txt 
+ 1973  while read p; echo grep '[0-9a-fA-F]' abc6.txt|echo  ;done<abc6.txt 
+ 1974  while read p; do echo grep '[0-9a-fA-F]' abc6.txt|echo  ;done<abc6.txt 
+ 1975  cd /mnt/e/linux_assignment/linux/test/
+ 1976  ls
+ 1977  vim task4.sh 
+ 1978  ./task4.sh '
+ 1979  ./task4.sh 
+ 1980  vim task4.sh 
+ 1981  ./task4.sh 
+ 1982  wq
+ 1983  ./task4.sh 
+ 1984  vim task4.sh 
+ 1985  ./task4.sh 
+ 1986  vim task4.sh 
+ 1987  ./task4.sh 
+ 1988  vim task4.sh 
+ 1989  ./task4.sh 
+ 1990  vim task4.sh 
+ 1991  ./task4.sh 
+ 1992  vim task4.sh 
+ 1993  ./task4.sh 
+ 1994  vim task4.sh 
+ 1995  ./task4.sh 
+ 1996  vim task4.sh 
+ 1997  ./task4.sh 
+ 1998  vim task4.sh 
+ 1999  ./task4.sh 
+ 2000  vim task4.sh 
+ 2001  ./task4.sh 
+ 2002  vim task4.sh 
+ 2003  ./task4.sh 
+ 2004  vim task4.sh 
+ 2005  ./task4.sh 
+ 2006  vim task4.sh 
+ 2007  ./task4.sh 
+ 2008  vim task4.sh 
+ 2009  ./task4.sh 
+ 2010  ls
+ 2011  Wq
+ 2012  vim task4.sh 
+ 2013  Wq
+ 2014  ./task4.sh 
+ 2015  vim task1.sh 
+ 2016  ./task4.sh 
+ 2017  vim task4.sh 
+ 2018  ./task4.sh 
+ 2019  :wq
+ 2020* 
+ 2021  ls
+ 2022  awsk '{print  NR "\t" $0}
+ 2023  awsk '{print  NR "\t" $0}' test
+ 2024  awk '{print  NR "\t" $0}' test
+ 2025  awk '{print  NR "\t" $0}' abc6.txt 
+ 2026  awk '{ print $0}' SampleCSVFile_556kb\ \(1\).csv 
+ 2027  awk '{ print $3}' SampleCSVFile_556kb\ \(1\).csv 
+ 2028  awk '{print $0}' SampleCSVFile_556kb\ \(1\).csv 
+ 2029  awk -F, '{print $4}' SampleCSVFile_556kb\ \(1\).csv 
+ 2030  awk -F, '{print $2}' SampleCSVFile_556kb\ \(1\).csv 
+ 2031  awk -F, '{print $2}' abc6.txt 
+ 2032  awk -F, '{print $2}' abc5.txt 
+ 2033  awk -F '{print $2}' abc6.txt 
+ 2034  awk  '{print $2}' abc6.txt 
+ 2035  awk  '{print $2}' abc6.txt | $((16#$)) 
+ 2036  awk  '{print $2}' abc6.txt | printf "%d"
+ 2037  printf "%d" awk  '{print $2}' abc6.txt  
+ 2038*  awk '{print $2}' abc6.txt  
+ 2039  ls
+ 2040  cat abc6.txt 
+ 2041  awk '{print $1,3}' abc6.txt 
+ 2042  awk '{print $1,$3}' abc6.txt 
+ 2043  awk '{print $1,$2}' abc6.txt 
+ 2044  awk '{print $1-$3}' abc6.txt 
+ 2045  awk '{print NR}' abc6.txt 
+ 2046  awk '{print NR " " $2}' abc6.txt 
+ 2047  awk '{print NR "--" $2}' abc6.txt 
+ 2048  awk '{if($2=='00ff'){$s=="ffff"} print $p } abc6.txt 
+ 2049  awk '{if($2=='00ff'){$s=="ffff"} print $p}' abc6.txt 
+ 2050  awk '{if($2=='002f'){$s=="ffff"} print $p}' abc6.txt 
+ 2051  awk '{if($2=='002f'){$2="ffff"} print $p}' abc6.txt 
+ 2052  awk '{if($2=='002f'){$2="ffff"} print $0}' abc6.txt 
+ 2053  awk -i '{if($2=='002f'){$2=='ffff'}' abc6.txt
+ 2054  awk -i '{if($2=='002f'){$2='ffff'}' abc6.txt
+ 2055  awk -i '{if($2=='002f'){$2='ffff'}' abc5.txt
+ 2056  grep -v "0000" abc6.txt 
+ 2057  cat abc6.txt 
+ 2058  ls
+ 2059  grep -i "0000" abc6.txt 
+ 2060  grep -c "0000" abc6.txt 
+ 2061  grep -w  "002f" abc6.txt 
+ 2062  grep -w  "002" abc6.txt 
+ 2063  grep -w  "00" abc6.txt 
+ 2064  grep -w  "002" abc6.txt 
+ 2065  grep -w  "00f" abc6.txt 
+ 2066  grep   "00f" abc6.txt 
+ 2067  grep -n '004f'abc6.
+ 2068  grep -n '004f' abc6.txt 
+ 2069  grep  '004f' *txt >>4f.txt|cat 4f.txt
+ 2070  grep  '004f' *txt >>4f.txt
+ 2071  grep  '004f' *txt <<4f.txt|cat 4f.txt
+ 2072  cat 4f.txt 
+ 2073  grep -e '002f' -e '000' >>002f.txt
+ 2074  grep -e '002f' -e '000' *.txt>>002f.txt
+ 2075  cat 002f.txt 
+ 2076  grep -w  -e '004f' -e '000' *.txt>>002f.txt
+ 2077  cat 002f.txt 
+ 2078  grep -l "abc" *.txt
+ 2079  grep '00[0-9][1-9] abc6.txt >>000x.txt
+ 2080  grep '00[0-9][1-9]' abc6.txt >>000x.txt
+ 2081  cat 000x.txt 
+ 2082  grep -w '00[0-9][1-9]' abc6.txt >>000x.txt
+ 2083  cat 000x.txt 
+ 2084  egrep '00[1-9a-f][a-f]' abc6.txt 
+ 2085  awk '{print $2 "\t\t" $3}' abc6.txt 
+ 2086  awk '00[0-9a-f][1-9][a-f]' abc6.txt
+ 2087  awk '/00[0-9a-f][1-9a-f]/{printf %0}' abc6.txt
+ 2088  awk '/00[0-9a-f][1-9a-f]/{printf $0}' abc6.txt
+ 2089  awk '/00[0-9a-f][1-9a-f]/{printf %0}' abc6.txt
+ 2090  awk '/00[0-9a-f][1-9a-f]/{printf $0}' abc6.txt
+ 2091  ls
+ 2092  cat ks.txt 
+ 2093  rm ks.txt 
+ 2094  rm ks\[0\].txt 
+ 2095  ls
+ 2096  cat 1Readme.txt 
+ 2097  rm 1R
+ 2098  rm 1Readme.txt 
+ 2099  cat 1Readmex.txt 
+ 2100  rm 1Readmex.txt 
+ 2101  ls
+ 2102  cat Read.txt 
+ 2103  rm Read.txt 
+ 2104  ls
+ 2105  cat t1.sh 
+ 2106  cat res.txt 
+ 2107  cut -f2
+ 2108  cut -f2 abc5.txt 
+ 2109  cut -f2 abc6.txt 
+ 2110  ls ..
+ 2111  ls
+ 2112  rm Readme.txt 
+ 2113  rm sedaxoSYX 
+ 2114  ls
+ 2115  cat day9.txt 
+ 2116  ls
+ 2117  cd copied_files
+ 2118  ls
+ 2119  cd abc
+ 2120  ls
+ 2121  for i in ls:
+ 2122  for i in ls;do echo $i;done  
+ 2123  for i in $ls;do echo $i;done  
+ 2124  for i in $(ls) ;do echo $i;done  
+ 2125  for i in $(ls) ;name={$i,'abc',"Humayun"};echo name ;done  
+ 2126  for i in $(ls) ;name=${$i,'abc',"Humayun"};echo name ;done  
+ 2127* for i in $(ls) ; namex="${$i,/abc/,"Humayun"}";echo namex ;done  
+ 2128  for i in $(ls) ;name="${$i,'abc',"Humayun"};echo name ;done  
+ 2129  for i in $(ls) ;name="${$i,'abc',"Humayun"};echo $namex ;done  
+ 2130  for i in $(ls) ;do name="${$i,'abc',"Humayun"};echo $namex ;done  
+ 2131  for i in $(ls) ;do name="${$i,'abc',"Humayun"}";echo $namex ;done  
+ 2132  for i in $(ls) ;do name="${$i,/abc/,"Humayun"}";echo $namex ;done  
+ 2133  for i in $(ls) ;do echo $i;done  
+ 2134  #for i in $(ls) ;do name="${$i/abc',"Humayun"};echo $namex ;done  
+ 2135  #for i in $(ls) ;do name="${$i/#abc/Humayun}";echo $name ;done  
+ 2136  #for i in $(ls) ;do name="${i/#abc/Humayun}";echo $name ;done  
+ 2137  #for i in $(ls) ;do name="${$i/abc/Humayun}" ;echo $name ;done  
+ 2138  for i in $(ls) ;do name="${$i/abc/Humayun}" ;echo $name ;done  
+ 2139  for i in $(ls) ;do name=${$i/abc/Humayun} ;echo $name ;done  
+ 2140  for i in $(ls) ;do name=${$i/abc/Humayun} ;echo $name;echo $i ;done  
+ 2141  for i in $(ls) ;echo $i ;done  
+ 2142  for i in $(ls) ;do echo $i ;done  
+ 2143* for i in $(ls) ;do echo $i;name=${$i/abc/huma}';echo $name ;done  
+ 2144  for i in $(ls) ;do echo $i ;done
+ 2145  for i in $(ls) ;do echo $i ;mv $i sed -i '/abc/huma/p' ;done
+ 2146  for i in $(ls) ;do echo $i ;echo $(sed -i '/abc/huma/p') ;done
+ 2147  for i in $(ls) ;do echo $i ;done
+ 2148  for i in $(ls);do echo $i; name=sed 's/abc/huma/';  echo $name;done
+ 2149  for i in $(ls);do echo $i; name=sed 's/abc/huma/p'$i ;  echo $name;done
+ 2150  ls
+ 2151  for i in $(ls);do echo $i; name=$(sed's/abc/huma/p' $i) ;  echo $name;done
+ 2152  for i in $(ls);do echo $i; name=$(sed 's/abc/huma/p' $i) ;  echo $name;done
+ 2153* awk {
+ 2154* for i in $(ls);do echo $i; name=$(sed 's/abc/huma/' $i) ;
+ 2155  ls
+ 2156  for i in $(ls);do echo $i; name=$(sed 's/abc/huma/p') ;  echo $name;done
+ 2157  for i in $(ls);do echo $i; name=$(sed 's/abc/huma) ;  echo $name;done
+ 2158  for i in $(ls);do echo $i; name=$(sed 's/abc/huma/g) ;  echo $name;done
+ 2159  for i in $(ls);do echo $i; name=$(sed 's/abc/huma/g') ;  echo $name;done
+ 2160  for i in $(ls);do echo $i; name=$(sed 's/abc/huma/')  ;  echo $name;done
+ 2161  for i in $(ls);do echo $i; name=$(sed 's/abc/huma/') $i ;  echo $name;done
+ 2162  rename abc "humayun" .txt
+ 2163  rename abc "humayun" *.txt
+ 2164  for i in $(ls);do $i;mv $i (echo $|sed 's/abc/HUMA/')
+ 2165  for i in $(ls);do $i;mv $i (echo $|sed 's/abc/HUMA/');done
+ 2166  for i in $(ls);do $i;mv $i ./(echo $i|sed 's/abc/HUMA/');done
+ 2167  for i in $(ls);do $i;mv $i echo $i|sed 's/abc/HUMA/';done
+ 2168  for i in $(ls);do $i;mv $i $(echo $i|sed 's/abc/HUMA/');done
+ 2169  ls
+ 2170  cd ..
+ 2171  hello 
+ 2172  ls
+ 2173  cd def
+ 2174  ls
+ 2175  abc
+ 2176  ls
+ 2177  cd ..
+ 2178  cd ghi
+ 2179  ls
+ 2180  sed 's/ghi/Ghi/' * 
+ 2181  ls
+ 2182  name=$(sed 's/ghi/GHI/')
+ 2183  echo name=$(sed 's/ghi/GHI/') *
+ 2184  ls
+ 2185  echo ghi0.txt 
+ 2186  xargs ghi0.txt|sed 's/ghi/GHI0/'  
+ 2187  xargs ghi0.txt|sed 's/ghi/GHI0/'  |echo
+ 2188  echo ghi0.txt|sed 's/ghi/GHI0/'  |echo
+ 2189  echo ghi0.txt|sed 's/ghi/GHI0/'  >>result.txt
+ 2190  ls
+ 2191  cat result.txt 
+ 2192  sed '
+ 2193  sed 's/ghi/GHI/' >>resultx.txt
+ 2194  ls
+ 2195  cat resultx.txt 
+ 2196  ls
+ 2197  cd ..
+ 2198  ls
+ 2199  cd rm copied_files/
+ 2200  rm copied_files/
+ 2201  ls
+ 2202  rm -r copied_files/
+ 2203  ls
+ 2204  ./task2.sh 
+ 2205  ls
+ 2206  vim task4.sh
+ 2207  ls
+ 2208  cp ./task3.sh ./copied_files/
+ 2209  cd copied_files/
+ 2210  ls
+ 2211  cp ../task4.sh ./
+ 2212  ls
+ 2213  ./task4.sh 
+ 2214  ls
+ 2215  vim task4.sh 
+ 2216  ./task4.sh 
+ 2217  ls
+ 2218  cd Scripts/
+ 2219  ls
+ 2220  cd ..
+ 2221  ls
+ 2222  vim task4.sh 
+ 2223  ./task4.sh 
+ 2224  vim task4.sh 
+ 2225  ./task4.sh 
+ 2226  vim task4.sh 
+ 2227  ./task4.sh 
+ 2228  vim task4.sh 
+ 2229  ./task4.sh 
+ 2230  vim task4.sh 
+ 2231  ./task4.sh 
+ 2232  vim task4.sh 
+ 2233  ./task4.sh 
+ 2234  wq
+ 2235  vim task4.sh 
+ 2236  ./task4.sh 
+ 2237  cd abc
+ 2238  ls
+ 2239  cd ..
+ 2240  ls
+ 2241  ./task4.sh 
+ 2242  vim task4.sh 
+ 2243  ./task4.sh 
+ 2244  ls
+ 2245  vim task4.sh 
+ 2246  ./task4.sh 
+ 2247  vim task4.sh 
+ 2248  ./task4.sh 
+ 2249  vim task4.sh 
+ 2250  ./task4.sh 
+ 2251  vim task4.sh 
+ 2252  ./task4.sh 
+ 2253  vim task4.sh 
+ 2254  ./task4.sh 
+ 2255  vim task4.sh 
+ 2256  ./task4.sh 
+ 2257  vim task4.sh 
+ 2258  ./task4.sh 
+ 2259  vim task4.sh 
+ 2260  ./task4.sh 
+ 2261  vim task4.sh 
+ 2262  ./task4.sh 
+ 2263  vim task4.sh 
+ 2264  ./task4.sh 
+ 2265  ls
+ 2266  :cd
+ 2267  vim task4.sh 
+ 2268  ./task4.sh 
+ 2269  ls
+ 2270  cd abc
+ 2271  ls
+ 2272  cd ..
+ 2273  ls
+ 2274  cd ..
+ 2275  cd copied_files/
+ 2276  ls
+ 2277  ./task4.sh 
+ 2278  vim task4.sh 
+ 2279  ./task4.sh 
+ 2280  vim task4.sh 
+ 2281  ./task4.sh 
+ 2282  vim task4.sh 
+ 2283  ./task4.sh 
+ 2284  vim task4.sh 
+ 2285  ./task4.sh 
+ 2286  vim task4.sh 
+ 2287  ./task4.sh 
+ 2288  wq
+ 2289  vim task4.sh 
+ 2290  ./task4.sh 
+ 2291  ls
+ 2292  cd abc
+ 2293  ls
+ 2294  for i in $(ls)do
+ 2295  for i in $(ls);do echo $i ;done 
+ 2296  for i in $(ls);do echo $i|sed 's/abc/ABC/';done 
+ 2297  for i in $(ls);do mv $i ./echo $i|sed 's/abc/ABC/';done 
+ 2298  for i in $(ls);do mv $i echo $i|sed 's/abc/ABC/';done 
+ 2299  ls
+ 2300  for i in $(ls);do mv $i echo $i|$(sed 's/abc/ABC/');done 
+ 2301  history
+ 2302  for i in $(ls);do mv $i (echo $i|sed 's/abc/ABC/');done 
+ 2303  for i in $(ls);do mv $i $(echo $i|sed 's/abc/ABC/');done 
+ 2304  ls
+ 2305  for i in $(ls);do mv -f $i $(echo $i|sed 's/abc/ABC/');done 
+ 2306  ls
+ 2307  for i in $(ls);do mv -rf $i $(echo $i|sed 's/abc/ABC/');done 
+ 2308  for i in $(ls);do mv -r $i $(echo $i|sed 's/abc/ABC/');done 
+ 2309  for i in $(ls);do mv -p $i $(echo $i|sed 's/abc/ABC/');done 
+ 2310  history
+ 2311  for i in $(ls);do mv -p $i $(echo $i|sed 's/abc/ABC/');done
+ 2312  for i in $(ls);do mv $i $(echo $i|sed 's/abc/ABC/');done
+ 2313  ls
+ 2314  historycd ..
+ 2315  cd..
+ 2316  cd ..
+ 2317  ls
+ 2318  cd ghi
+ 2319  ls
+ 2320  for i in $(ls);do mv -p $i $(echo $i|sed 's/ghi/GHI/');done
+ 2321  for i in $(ls);do mv -f $i $(echo $i|sed 's/ghi/GHI/');done
+ 2322  ls
+ 2323  for i in $(ls);do $i;mv $i ./(echo $i|sed 's/ghi/GHI/');done
+ 2324  for i in $(ls);do $i;mv $i (echo $i|sed 's/ghi/GHI/');done
+ 2325  for i in $(ls);do $i;mv $i $(echo $i|sed 's/ghi/GHI/') ;done
+ 2326  ls
+ 2327  for i in $(ls);d0 mv $i $(echo $i|sed 's/ghi/GHI/') ;done
+ 2328  for i in $(ls);do mv $i $(echo $i|sed 's/ghi/GHI/') ;done
+ 2329  ls
+ 2330  for i in $(ls);do mv -f $i $(echo $i|sed 's/ghi/GHI/') ;done
+ 2331  ls
+ 2332  history
+ 2333  history cat>>day10.txt
+ 2334  history >>day10.txt
