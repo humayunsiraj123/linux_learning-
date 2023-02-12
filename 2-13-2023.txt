@@ -1,0 +1,983 @@
+    1  ls
+    2  cd
+    3  pwd
+    4  humayun
+    5  cd humayun
+    6  man sudo_root
+    7  sudo apt-get update
+    8  ls
+    9  ls -al
+   10  ls /mnt/
+   11  cd /mnt/c
+   12  ls
+   13  pwd
+   14  cd Users
+   15  ls
+   16  cd desktop.ini
+   17  cd humay
+   18  ls
+   19  touch hello.cpp
+   20  test hell.cpp
+   21  mkdir linux
+   22  cd linux
+   23  nano linux.txt
+   24  LS
+   25  ls
+   26  nano linux.txt
+   27  man sudo_root
+   28  sudo_root
+   29  man sudo_root
+   30  ls
+   31  cd..
+   32  cd ..
+   33  pwd
+   34  cd
+   35  pwd
+   36  cd humayun
+   37  cd home
+   38  cd /home
+   39  ls
+   40  cd humayun
+   41  ls
+   42  ls
+   43  pwd
+   44  cd ..
+   45  cd humayun
+   46  ls
+   47  dir
+   48  pwd
+   49  ls -a
+   50  bash
+   51  history
+   52  ls
+   53  history
+   54  ls
+   55  history
+   56  ls
+   57  cat da
+   58  cat day4.txt 
+   59  ls
+   60  cp /mnt/c/Users/humay/linux/    ./
+   61  ls
+   62  cd Test/
+   63  ls
+   64  cd ..
+   65  ls
+   66  pwd
+   67  ls
+   68  cd /mnt/c/linux_assignment/linux_assignment/linux/
+   69  ls
+   70  ./task1.sh 
+   71  ls
+   72  cat data1.txt 
+   73  ls
+   74  cd test
+   75  ls
+   76  ./task1.sh 
+   77  ls
+   78  cd abc/
+   79  ls
+   80  cat Readme.txt 
+   81  cd ..
+   82  ls
+   83  copied_files/
+   84  cd copied_files/
+   85  ls
+   86  cd ..
+   87  ./task2.sh 
+   88  ls
+   89  cd ..
+   90  ls
+   91  cp test ./copied_file/
+   92  cp -r ./test ./copied_file/
+   93  ls
+   94  cd copied_file/
+   95  ls
+   96  cd ..
+   97  ls
+   98  cd ..
+   99  cd..
+  100  ls
+  101  cd ..
+  102  ls
+  103  cd 
+  104  ls
+  105  cd /mnt/c
+  106  ls
+  107  mkdir practice 
+  108  gunzip ./Users/humay/Downloads/linux_assignment.zip ./practice
+  109  ls
+  110  cd practice/
+  111  ls
+  112  cp ../Users/humay/Downloads/linux_assignment.zip ./
+  113  ls
+  114  gunzip linux_assingment.zip
+  115  ls\
+  116  ls
+  117  gunzip *
+  118  ls
+  119  ls -ltr
+  120  gunzip --help
+  121  gunzip linux_assingment
+  122  ls
+  123  unzip linux_assignment.zip ./
+  124  unzip linux_assignment.zip 
+  125  sudo apt-get install unzip
+  126  unzip linux_assignment.zip 
+  127  ls
+  128  cd linux_assignment/
+  129  ls
+  130  cd linux
+  131  ls
+  132  cd test
+  133  ls
+  134  cd .
+  135  cd ..
+  136  ls
+  137  vim task1.sh
+  138  ./task1.sh 
+  139  vim task1.sh
+  140  ./task1.sh 
+  141  vim task1.sh
+  142  ./task1.sh 
+  143  vim task1.sh
+  144  ./task1.sh 
+  145  vim task1.sh
+  146  ./task1.sh 
+  147  vim task1.sh
+  148  ./task1.sh 
+  149  vim task1.sh
+  150  ./task1.sh 
+  151  ls
+  152  ./task1.sh 
+  153  vim task1.sh
+  154  ./task1.sh 
+  155  vim task1.sh
+  156  ./task1.sh 
+  157  vim task1.sh
+  158  ./task1.sh 
+  159  vim task1.sh
+  160  ./task1.sh 
+  161  vim task1.sh
+  162  ./task1.sh 
+  163  vim task1.sh
+  164  ./task1.sh 
+  165  vim task1.sh
+  166  ./task1.sh 
+  167  vim task1.sh
+  168  ./task1.sh 
+  169  vim task1.sh
+  170  ./task1.sh 
+  171  vim task1.sh
+  172  ./task1.sh 
+  173  ls
+  174  vim task1.sh
+  175  ./task1.sh 
+  176  vim task1.sh
+  177  ./task1.sh 
+  178  wq
+  179  vim task1.sh
+  180  ./task1.sh 
+  181  vim task1.sh
+  182  ./task1.sh 
+  183  vim task1.sh
+  184  ./task1.sh 
+  185  vim task1.sh
+  186  ./task1.sh 
+  187  vim task1.sh
+  188  ./task1.sh 
+  189  vim task1.sh
+  190  ./task1.sh 
+  191  ls
+  192  cd test
+  193  ls
+  194  cd abc
+  195  cat Readme.txt 
+  196  cd ..
+  197  ls
+  198  cd ..
+  199  vim task1.sh
+  200  ./task1.sh 
+  201  ls
+  202  cd..
+  203  cd ..
+  204  linux 
+  205  cd linux/
+  206  ls
+  207  vim task2.sh
+  208  ./task2.sh 
+  209  vim task2.sh
+  210  ./task2.sh 
+  211  wq
+  212  ls
+  213  vim task2.sh
+  214  ./task2.sh 
+  215  vim task2.sh
+  216  ./task2.sh 
+  217  vim task2.sh
+  218  ./task2.sh 
+  219  vim task2.sh
+  220  ./task2.sh 
+  221  vim task2.sh
+  222  ./task2.sh 
+  223  vim task2.sh
+  224  ./task2.sh 
+  225  vim task2.sh
+  226  ./task2.sh 
+  227  ls
+  228  ./task2.sh 
+  229  ls
+  230  vim task2.sh
+  231  ./task2.sh 
+  232  vim task2.sh
+  233  ./task2.sh 
+  234  vim task2.sh
+  235  ./task2.sh 
+  236  ls
+  237  cd test
+  238  ls
+  239  cd 
+  240  cd /mnt/c/practice/linux_assignment/linux/
+  241  ls
+  242  ./task2.sh 
+  243  ls
+  244  vim task2.sh 
+  245  ./task2.sh 
+  246  vim task2.sh 
+  247  ./task2.sh 
+  248  ls
+  249  vim task2.sh 
+  250  ./task2.sh 
+  251  ls
+  252  cd copied_files/
+  253  ls
+  254  cd ..
+  255  vim task2.sh 
+  256  ./task2.sh 
+  257  ls
+  258  cd copied_files/
+  259  ls
+  260  cd ..
+  261  ls
+  262  vim task2.sh 
+  263  ./task2.sh 
+  264  vim task2.sh 
+  265  ./task2.sh 
+  266  vim task2.sh 
+  267  ./task2.sh 
+  268  vim task2.sh cd
+  269  ./task2.sh 
+  270  vim task2.sh cd
+  271  ./task2.sh 
+  272  vim task2.sh cd
+  273  ./task2.sh 
+  274  cd
+  275  cd /mnt/c/practice/linux_assignment/l
+  276  cd /mnt/c/practice/linux_assignment/linux/
+  277  ls
+  278  cd copied_files/
+  279  ls
+  280  cd ..
+  281  ls
+  282  vim task2.sh 
+  283  ./task2.sh 
+  284  vim task2.sh cd
+  285  ./task2.sh 
+  286  ls
+  287  cd copied_files/
+  288  ls
+  289  cd
+  290  cd /mnt/c/practice/linux_assignment/linux/
+  291  ls
+  292  cd test/
+  293  ls
+  294  cd ..
+  295  ls
+  296  cd copied_files/
+  297  ls
+  298  cd ..
+  299  ls
+  300  vim task2.sh 
+  301  ./task2.sh 
+  302  mv --help
+  303  mkdir --help
+  304  :Wq
+  305  ls
+  306  vim task2.sh 
+  307  ./task2.sh 
+  308  ls
+  309  cd copied_files/
+  310  ls
+  311  cd ..
+  312  ls
+  313  vim task2.sh 
+  314  cd ..
+  315  ls
+  316  cd linux
+  317  ls
+  318  vim task2.sh 
+  319  ./task2.sh 
+  320  ls
+  321  cd copied_files/
+  322  ls
+  323  cd ..
+  324  vim task2.sh 
+  325  mkdir --help 
+  326  vim task2.sh 
+  327  cp --help
+  328  cp less
+  329  less cp
+  330  cp --help
+  331  vim task2.sh 
+  332  ./task2.sh 
+  333  vim task2.sh 
+  334  ./task2.sh 
+  335  vim task2.sh 
+  336  ./task2.sh 
+  337  vim task2.sh 
+  338  ./task2.sh 
+  339  vim task2.sh 
+  340  ./task2.sh 
+  341  vim task2.sh 
+  342  ./task2.sh 
+  343  ls
+  344  cd copied_files/
+  345  ls
+  346  cd abc
+  347  ls
+  348  cd abc
+  349  ls
+  350  cd ..
+  351  ls
+  352  cd..
+  353  cd ..
+  354  ls
+  355  rm copied_files/
+  356  rm -f copied_files/
+  357  rm -r copied_files/
+  358  ls
+  359  task3
+  360  vim task2.sh 
+  361  ./task2.sh 
+  362  ls
+  363  cd copied_files/
+  364  ls
+  365  cd ..
+  366  ls
+  367  rm copied_files/
+  368  rm -r copied_files/
+  369  ls
+  370  vim task2.sh 
+  371  ./task2.sh 
+  372  ls
+  373  cd copied_files/
+  374  ls
+  375  cd test
+  376  cdcd ..
+  377  cd ..
+  378  ls
+  379  cd copied_files/
+  380  ls
+  381  cd ..
+  382  ls
+  383  rm -r copied_files/
+  384  ls
+  385  vim task2.sh 
+  386  ./task2.sh 
+  387  ls
+  388  cd copied_files/
+  389  ls
+  390  cd abc
+  391  ls
+  392  cd ls
+  393  cd abc
+  394  ls
+  395  ccd ..
+  396  cd ..
+  397  ls
+  398  cd ..
+  399  ls
+  400  rm -r copied_files/
+  401  ls
+  402  vim task2.sh 
+  403  ./task2.sh 
+  404  ls 
+  405  cd copied_files/
+  406  ls
+  407  cd abc
+  408  ls
+  409  cd abc
+  410  ls
+  411  cd ..
+  412  ls
+  413  cd ..
+  414  ls
+  415  vim copied_files/
+  416  vim task2.sh 
+  417  rm copied_files/
+  418  rm -r copied_files/
+  419  ls
+  420  ./task2.sh 
+  421  ls
+  422  ./task2.sh 
+  423  rm -r copied_files/
+  424  ls
+  425  ./task2.sh 
+  426  LS
+  427  ls
+  428  cd copied_files/
+  429  ls
+  430  cd ..
+  431  ls
+  432  ./task2.sh 
+  433  ls
+  434  cd copied_files/
+  435  ls
+  436  cd ..
+  437  ls
+  438  rm -r
+  439  rm -r copied_files/
+  440  ls
+  441  vim task2.sh 
+  442  ./task2.sh 
+  443  vim task2.sh 
+  444  ls
+  445  cd copied_files/
+  446  ls
+  447  cd ..
+  448  ls
+  449  rm -r copied_files/
+  450  ls
+  451  vim task2.sh 
+  452  ./task2
+  453  ./task2.sh 
+  454  ls
+  455  ls 
+  456  cd copied_files/
+  457  ls
+  458  cd abc
+  459  ls
+  460  cd ..
+  461  cd..
+  462  cd ..
+  463  ls
+  464  rm -r copied_files/
+  465  ls
+  466  task2
+  467  vim task2.sh 
+  468  ls
+  469  ./task2.sh 
+  470  ls
+  471  cd copied_files/
+  472  ls
+  473  cd abc
+  474  ls
+  475  cd abc
+  476  ls
+  477  cd ..
+  478  ls
+  479  cd ..
+  480  ls
+  481  rm -r copied_files/
+  482  ls
+  483  vim task2.sh 
+  484  ./task2.sh 
+  485  ls
+  486  cd copied_files/
+  487  ls
+  488  cd abc
+  489  ls
+  490  cd ..
+  491  ls
+  492  cd..
+  493  cd ..
+  494  sl
+  495  ls
+  496  vim task2.sh 
+  497  ./task2.sh 
+  498  ls
+  499  cd copied_files/
+  500  ls
+  501  cd ..
+  502  rm -r copied_files/
+  503  ls
+  504  vim task2.sh 
+  505  ./task2.sh 
+  506  ls
+  507  cd copei
+  508  cd copied_files/
+  509  ls
+  510  rm -r copied_files/
+  511  vim task2.sh 
+  512  ./task2.sh 
+  513  ls
+  514  cd copied_files/
+  515  ls
+  516  cd ..
+  517  ls
+  518  rm -r copied_files/
+  519  ls
+  520  vim task2.sh 
+  521  ./task2.sh 
+  522  cd
+  523  cd /mnt/c/practice/linux_assignment/
+  524  ls
+  525  cd linux/
+  526  ls
+  527  cd copied_files/
+  528  ls
+  529  cd ..
+  530  rm -r co
+  531  rm -r copied_files/
+  532  ls
+  533  ./task2.sh 
+  534  rm -r copied_files/
+  535  ls
+  536  vim task2.sh 
+  537  ls
+  538  ./task2.sh 
+  539  cd
+  540  cd /mnt/c/practice/linux_assignment/linux/
+  541  ls
+  542  rm -r copied_files/
+  543  ls
+  544  vim task2.sh 
+  545  ./task2.sh 
+  546  ls
+  547  cd copied_files/
+  548  ls
+  549  cd
+  550  cd /mnt/c/practice/linux_assignment/linux/
+  551  rm -r copied_files/
+  552  ls
+  553  vim task2.sh 
+  554  ./task2.sh 
+  555  cd abc
+  556  ls
+  557  cd abc
+  558  ls 
+  559  cd ..
+  560  ls
+  561  rm -r copied_files/
+  562  vim task2.sh 
+  563  ls
+  564  ./task2.sh 
+  565  ls
+  566  cd copied_files/
+  567  ls
+  568  cd abc
+  569  ls
+  570  cd ..
+  571  ls
+  572  cd ..
+  573  rm -r copied_files/
+  574  ls
+  575  vim task2.sh 
+  576  ls
+  577  ./task2.sh 
+  578  vim task2.sh 
+  579  ./task2.sh 
+  580  ls
+  581  cd copied_files/
+  582  ls
+  583  cd abc
+  584  ls
+  585  cd abc
+  586  ls
+  587  cd ..
+  588  ls
+  589  cd ..
+  590  ls
+  591  rm 0r
+  592  rm -r copied_files/
+  593  ls
+  594  vim task2.sh 
+  595  ./task2.sh 
+  596  ls
+  597  cd copied_files/
+  598  ls
+  599  cd abc
+  600  ls
+  601  cd ..
+  602  ls
+  603  cd ..
+  604  ls
+  605  rm -r copied_files/
+  606  ls
+  607  vim task2.sh 
+  608  ./task2.sh 
+  609  vim task2.sh 
+  610  rm -r copied_files/
+  611  ls
+  612  ./task2.sh 
+  613  ls
+  614  cd copied_files/
+  615  ls
+  616  cd ..
+  617  ls
+  618  rm -r copied_files/
+  619  LS
+  620  ls
+  621  ./task2.sh 
+  622  ls
+  623  cd copied_files/
+  624  ls
+  625  cd ..
+  626  ls
+  627  vim task2.sh 
+  628  ./task2.sh 
+  629  cd copied_files/
+  630  ls
+  631  cd abc
+  632  ls
+  633  cd ..
+  634  cd..
+  635  cd ..
+  636  ls
+  637  rm -r
+  638  ls
+  639  rm -r copied_files/
+  640  ls
+  641  vim task2.sh 
+  642  ls
+  643  ./task2.sh 
+  644  ls
+  645  cd copied_files/
+  646  ls
+  647  cd abc
+  648  ls
+  649  cd abc
+  650  ls
+  651  cd ..
+  652  ls
+  653  cd ..
+  654  ls
+  655  vim task2.sh 
+  656  ls
+  657  rm -r
+  658  rm -r copied_files/
+  659  ls
+  660  vim 2.sh
+  661  . 2.sh 
+  662  ./2.sh 
+  663  vim 2.
+  664  ls
+  665  vim 2.sh 
+  666  ./2
+  667  ./2.sh 
+  668  vim 2.sh 
+  669  ./2.sh 
+  670  ls
+  671  vim 2.sh 
+  672  ./2.sh 
+  673  ls
+  674  vim 2.sh 
+  675  ./2.sh 
+  676  ls
+  677  amixer set Master 0%
+  678  pactl -- set-sink-volume 0 80%
+  679  ls
+  680  rm -r cop
+  681  rm -r copied_files/
+  682  ls
+  683  vim 2.sh 
+  684  ./2.sh 
+  685  ls
+  686  vim 2.sh 
+  687  ./2.sh 
+  688  ls
+  689  rm -r copied_files/
+  690  ls
+  691  vim 2
+  692  ls
+  693  vim 2.sh 
+  694  ./2.sh 
+  695  vim 2.sh
+  696  ./2.sh 
+  697  ls
+  698  cd copied_files/
+  699  ls
+  700  cd ..
+  701  ls
+  702  vim 2.sh 
+  703  ls
+  704  ./2.sh 
+  705  ls
+  706  rm -r copied_files/
+  707  ls
+  708  ./2.sh 
+  709  ls
+  710  vim 2.sh 
+  711  ./2.sh 
+  712  ls
+  713  cd copied_files/
+  714  ls
+  715  cd abc
+  716  ls
+  717  cd ..
+  718  ls
+  719  cd ..
+  720  ls
+  721  rm -r copied_files/
+  722  ls
+  723  vim 2.sh 
+  724  ls
+  725  ./2.sh
+  726  ls
+  727  cd copied_files/
+  728  ls
+  729  cd abc
+  730  ls
+  731  cd ..
+  732  ls
+  733  cd def/
+  734  ls
+  735  cd  ..
+  736  ls
+  737  cd def
+  738  ls
+  739  cd ..
+  740  ls
+  741  cd copied_files/
+  742  ls
+  743  cd ghi
+  744  ls
+  745  cd ..
+  746  ls
+  747  vim 2.sh 
+  748  ls
+  749  ./2.sh 
+  750  ls
+  751  cd copied_files/
+  752  ls
+  753  cd abc
+  754  ls
+  755  cd abs
+  756  cd abc
+  757  ls
+  758  cd ..
+  759  ls
+  760  cd def
+  761  ls
+  762  ls def
+  763  cd ..
+  764  ls
+  765  cd ..
+  766* rm -r copied_
+  767  vim 2.sh 
+  768  ./2.sh 
+  769  ls
+  770  cd copied_files/
+  771  ls
+  772  cd abc
+  773  ls
+  774  cd ..
+  775  ls
+  776  dir
+  777  cd
+  778  cd /mnt/c/practice/linux_assignment/linux/copied_files/
+  779  ls
+  780  cd def
+  781  ls
+  782  cd ..
+  783  ls
+  784  cd ..
+  785  vim 2.sh 
+  786  ls
+  787  rm -r copied_files/p
+  788  rm -r copied_files/
+  789  ls
+  790  vim 2.sh 
+  791  ./2.sh 
+  792  lsls
+  793  ls
+  794  cd abc
+  795  ls
+  796  cd abc
+  797  ls
+  798  cd ..
+  799  ls
+  800  cd def
+  801  ls
+  802  cd abc
+  803  cd..
+  804  cd ..
+  805  ls
+  806  cd abc
+  807  ls
+  808  cd ..
+  809  ls
+  810  vim 2.sh 
+  811  ls
+  812  rm -r copied_files/
+  813  ls
+  814  ./2.sh 
+  815  ls
+  816  copied_files/
+  817  ls
+  818  cd copied_files/
+  819  ls
+  820  cd abc/
+  821  cd ..
+  822  ls
+  823  cd ..
+  824  ls
+  825  vim 2.sh
+  826  ./2.sh 
+  827  ls
+  828  rm -r copied_files/
+  829  ls
+  830  vim 2.sh 
+  831  ./2.sh 
+  832  ls
+  833  cd copied_files/
+  834  ls
+  835  cd abc
+  836  ls
+  837  cd ..
+  838  ls
+  839  rm -r copied_files/
+  840  vim 2.sh 
+  841  ls
+  842  ./2.sh 
+  843  ls
+  844  cd copied_files/
+  845  ls
+  846  cd ..
+  847  cd def
+  848  ls
+  849  cd ..
+  850  ls
+  851  cd ..
+  852  ls
+  853  mkdir scripts1
+  854  cp *.sh script1/
+  855  cp *.sh scripts1/
+  856  ls
+  857  ls 
+  858  cd copied_files/
+  859  ls
+  860  for i in $abc;do echo $i ;done
+  861  ls
+  862  for i in $(ls $abc);do $echo $i ;done 
+  863  for i in $(ls abc/);do $echo $i ;done 
+  864  for i in $(ls abc);do $echo $i ;done 
+  865  for i in $(ls abc);do echo $i ;done 
+  866  for i in $(ls abc);do echo $i;for j in $(cat $i);do echo $j;done ;done 
+  867* for i in $(ls abc);do echo $i;for j in (cat ;do echo;done ;done 
+  868  for i in $(ls abc);do echo $i;for j in cat $i;do echo $j;done ;done 
+  869  IFS".."
+  870  IFS=".."
+  871  name="hello..world..name..kah..lai..vfd"
+  872  echo ${name}
+  873  ls
+  874  echo ${{name[2}}
+  875  echo ${name[2]}
+  876  echo ${name}
+  877  ls
+  878  cd abc
+  879  ls
+  880  IFS=$'\t'
+  881  echo ${abc0.txt}
+  882  echo ${cat abc0.txt}
+  883  cat abc0.txt
+  884  ls
+  885  cd ..
+  886  cp ./abc/abc0.txt ./
+  887  ls
+  888  while IFS=$'\t' read p;do echo ${p};done<abc0.txt 
+  889  while IFS=$'\t' read p;do echo ${$p};done<abc0.txt 
+  890  while IFS=$'\t' read p;do echo ${p};done<abc0.txt 
+  891  while IFS=$'\t' read p;do echo ${p[2]};done<abc0.txt 
+  892  while IFS=$'\t' read p;do echo ${p[1]};done<abc0.txt 
+  893  while IFS=$'\t' read p;do echo ${p};done<abc0.txt 
+  894  while IFS=$'\t' read p;do echo ${p};for i in "${!p[@]}"do echo $i;done ;done<abc0.txt 
+  895  while IFS=$'\t' read p;do echo ${p}; for i in "${!p[@]}";do echo $i; done ;done<abc0.txt 
+  896  cp ./abc/abc3.txt  ./
+  897  ls
+  898  while IFS=$'\t' read p;do echo ${p}; for i in "${!p[@]}";do echo $i; done ;done<abc3.txt 
+  899  while IFS=$'\t' read p;do echo ${p}; ; done ;done<abc3.txt 
+  900  while IFS=$'\t' read p;do echo ${p} ; done ;done<abc3.txt 
+  901  while IFS=$'\t' read p;do echo ${p};  ;done<abc3.txt 
+  902  while IFS=$'\t' read p;do echo ${p}  ;done<abc3.txt 
+  903  while IFS=$'\t' read p;do echo ${p}|cut -f2 | sed 's/'^[0-9a-f]{4}'/x '  ;done<abc3.txt 
+  904  while IFS=$'\t' read p;do echo ${p}|cut -d$"\t" -f 2  ;done<abc3.txt 
+  905  while IFS=$'\t' read p;do echo ${p}|cut -d$'\t' -f 2  ;done<abc3.txt 
+  906  while IFS=$'\t' read p;do echo ${p}| sed -i 's/${p:5:4}/$((16#${p:5:4}))/' ;done<abc3.txt 
+  907  while IFS=$'\t' read p;do echo $p| sed -i 's/${p:5:4}/$((16#${p:5:4}))/' ;done<abc3.txt 
+  908  while IFS=$'\t' read p;do echo $p sed -i 's/${p:5:4}/$((16#${p:5:4}))/' ;done<abc3.txt 
+  909* while IFS=$'\t' read p;do echo $p; echo ${BASH_ALIASES[
+${BASH_ARGC[
+${BASH_ARGV[
+${BASH_CMDS[
+${BASH_COMPLETION_VERSINFO[
+${BASH_LINENO[
+${BASH_REMATCH[
+${BASH_SOURCE[
+${BASH_VERSINFO[
+${COMPREPLY[
+${COMP_WORDS[
+${DIRSTACK[
+${FUNCNAME[
+${GROUPS[
+${PIPESTATUS[
+${_xspecs[
+${arrs[
+${vars[
+${words[P//$((16#${p:5:4}))/' ;done<abc3.txt 
+  910  while IFS=$'\t' read p;do echo ${$p/${p:5:4}/$((16#${p:5:4}))} ;done<abc3.txt 
+  911  while IFS=$'\t' read p;do echo ${p/${p:5:4}/$((16#${p:5:4}))} ;done<abc3.txt 
+  912  while IFS=$'\t' read p;do p= ${p/${p:5:4}/$((16#${p:5:4}))} ;done<abc3.txt 
+  913  while IFS=$'\t' read p;do ${p/${p:5:4}/$((16#${p:5:4}))}>>abcx.txt ;done<abc3.txt 
+  914  while IFS=$'\t' read p;do echo ${p/${p:5:4}/$((16#${p:5:4}))} >>abcx.txt ;done<abc3.txt 
+  915  cat abcx.txt 
+  916  while IFS=$'\t' read p;do echo $p |sed -i "s$'\t'/^[0-9a-f]/$'\t'/$((16#[0-9a-f]))/" ;done<abc3.txt 
+  917  while IFS=$'\t' read p;do echo $p |sed -i "s    /^[0-9a-f]/    /$((16#[0-9a-f]))/" ;done<abc3.txt 
+  918* while IFS=$'\t' read p;do echo $p |sed -i "s    /^l[0-9a-f]/    /$((16#^[0-9a-f]))/" ;done<abc3.txt 
+  919  ls
+  920  mkdir new 
+  921  cp -r  abc new
+  922  ls
+  923  cd new
+  924  ls
+  925  for i in $(ls); do echo $i ;done
+  926  for i in $(ls abc); do echo $i ;done
+  927  for i in $(ls abc); do echo $i ;;done
+  928  for i in $(ls abc); do echo $i |sed -i 's/^abc*/ABC/' ;done
+  929  for i in $(ls abc); do echo $i |$(sed -i 's/^abc*/ABC/') ;done
+  930* for i in $(ls abc); do echo $i|sed -i 's/^abc/ABC/') ;done
+  931  ls
+  932  cd abc
+  933  ls
+  934  sed -i 's/abc/HUMA/' ./*
+  935  ls
+  936  sed -i 's/abc/HUMA/' *
+  937  ls
+  938  sed -i 's/abc*/HUMA*/' *
+  939  ls
+  940  sed -i 's/abc/HUMA/' *
+  941  cd ..
+  942  sed -i 's/abc/HUMA/' abc
+  943  sed -i 's/abc/HUMA/' abc/
+  944  cd abc
+  945  sed -i 's/abc/HUMA/s'
+  946  sed -i 's/#abc/HUMA/s'
+  947  sed -i 's/abc/HUMA/g'
+  948*  sed -i 's/abc/HUMA/g' *.txt
+  949  ls
+  950  for i in $(ls);do $i;mv $i $(echo $i|sed 's/abc/HUMA/');done
+  951  ls
+  952  for i in $(ls);do $i;mv $i $(echo $i|sed 's/^abc/HUMA/');done
+  953  for i in $(ls);do $i;mv -r $i $(echo $i|sed 's/^abc/HUMA/');done
+  954  for i in $(ls);do $i;mv -p $i $(echo $i|sed 's/^abc/HUMA/');done
+  955  for i in $(ls);do mv $i $(echo $i|sed 's/abc/ABC/');done
+  956  ls
+  957  for i in $(ls);do mv -f $i $(echo $i|sed 's/abc/ABC/');done
+  958  ls
+  959  cd ..
+  960  ls
+  961  cd ..
+  962  ls
+  963  cd ..
+  964  ls
+  965  history>>2-13-2023.txt
