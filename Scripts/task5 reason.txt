@@ -1,0 +1,9 @@
+the linux files system is comprisess of memomry block with certain size when we hvae to save a file in memory soo allocatinon of spcae of disk wold
+be in a mmaner of assiging the memoryblock and subblock to file to base upon the size of file , when we check the byte of of file with wc -c or du
+-b  the returns the actual size of files i.e bytes of data occupied by the files while  but in actually when we check their disk usage with du -B1 
+it shows the blokc consumtion of the files whihc is way more than the size of files .lets understand the file system by example like suppose you have 100
+files each of 1kb and you have total 400kb of memory space and your each blokc size is of 4k so when we store the files in the system each blokc will store single file only
+that mean 400kb of memory have 100 block and each blokc is occupied by individual file but still you hvae 3k of vancany in the block but you cant not place file  in it 
+consecquently your 300kb or memory goes in vain . for large files system  phyiscal block usually be of size 4mb wiht sub-block size of 8kb
+so when we store file in a disk in linux  it occupies some block and subblocks that memory is equivalent ot acutual file size and remainig vacant blocks part that was designeted to the files
+   
