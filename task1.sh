@@ -3,18 +3,14 @@ path=$(pwd)
 echo $path
 pathf= $path$"/"
 ls $pathf 
-echo ".........."
+
 for i in $(ls $pathf)
 do	
-	#ls $i/ 
-	#echo "-----------" 
 	if [ -d $i ]; then	 	
-	   	#pathc=
+	   	
 		cd $i
-		#cat <<okx> Readme.txt 
-		#"This directory contains following files :"
-		#okx
-		echo "this directory contains follwing files " >Readme.txt
+	
+		echo "this directory contains following files " >Readme.txt
 		#ls -I Readme.txt ./ >> Readme.txt 
 		for x in $(ls -I Readme.txt)
 			do
