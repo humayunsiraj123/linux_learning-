@@ -35,3 +35,14 @@ if [ $1 -eq 2 ];then
 	ls
 fi
 
+
+path=$PWD;
+pathA=$path/abc;
+if [ $1 -eq 1 ]
+then
+cd $pathA;
+for i in $(ls );
+do 
+name=$(echo $i |sed 's/abc/humayun/');
+mv $i name;
+done
