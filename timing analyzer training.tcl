@@ -47,6 +47,46 @@ create_clock -name clk_100 -period 10.00Ns [get_ports {clk}]
 create_clock -name clk_66 -period 15 [get_ports clk] -add
 
 set_clock_group -physically_exculsive -group [get_clock clk_100] -group [get_clock clock_66]
+# io contraints 
+create_clock -name base_clk -period 10Ns [get_ports {clk}]
+create_clock -name virt_clk_in -period 10Ns 
+create_clock -name virt_clk_out -period 10Ns  
+
+#set_input_delay
+input_delay(max) using external timing param
+board_delay(max)-board_clk_skew(min)+tco(max)
+board_delay(max)=tdata_pcb(max)
+board_clk_skew=tclkfpga-tclk2vit
+using fpga req
+t-tsu
+t=tlatch-tlunch
+input_delay(min) using external timing param
+board_delay(min)-board_clk_skew(max)+tco(min)
+board_delay(min)=tdata_pcb(min)
+board_clk_skew=tclkfpga-tclk2vit
+using fpga req
+th 
+hold time//
+set_input_delay -clock {clk_in_vir } -max 4 [get_ports {din_a* }]
+
+crete_clock  -name clk  -period 10Ns [get_ports  clk]
+crete_clock  -name clk_vin -period 10Ns #virtual port form input reg
+crete_clock  -name clk_vout -period 10Ns #virtual port to output  reg
+#input side delay setting 
+                                                tpcb    tskewmin tcomax 
+setup_input_delay -clock {clk_vin} -max [ expr {1 -(-0.5) + 5 } [get_port data_in*] settup
+                                               tpb  tskewmax  tco_min
+setup_input_delay -clock {clk_vin} -min [ expr {1 -(0.5) + 3 }  [get_port data_in*] #hold timing
+
+#output site delay setting                                      tsu
+ setup_output_delay -clock {clk_vout } -max [ expr {1 - (-0.5) + 2  } ] -clock_fall [get_port data_out*] 
+ setup_output_delay -clock {clk_vout } -max [ expr {1 - (0.5) - 0.4  } ] -clock_fall [get_port data_out*] 
+
+
+
+
+
+
 
  
 
